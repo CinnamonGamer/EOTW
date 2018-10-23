@@ -31,6 +31,7 @@ focus_tree = {
 		cost = 10
 		completion_reward = {
 		    add_stability = 0.05
+		    add_war_support = 0.1
 		}
 	}
 	
@@ -44,6 +45,7 @@ focus_tree = {
 		cost = 10
 		completion_reward = {
 		    add_stability = 0.05
+		    add_war_support = 0.1
 		}
 	}
 	
@@ -416,6 +418,7 @@ focus_tree = {
 				country_event = sweden.14
 			}
 			add_stability = 0.05
+			add_war_support = 0.1
 			add_political_power = 100
 		}
 	}
@@ -936,6 +939,7 @@ focus_tree = {
 		cost = 10
 		completion_reward = {
 		    add_stability = 0.05
+		    add_war_support = 0.05
 		}
 	}
 	
@@ -970,6 +974,7 @@ focus_tree = {
 		cost = 10
 		completion_reward = {
 		    add_stability = 0.05
+		    add_war_support = 0.05
 			add_popularity = {
 				ideology = de_leonist
 				popularity = 0.05
@@ -1102,6 +1107,7 @@ focus_tree = {
 		completion_reward = {
 		    army_experience = 15
 			add_stability = 0.03
+			add_war_support = 0.02
 		}
 	}
 	

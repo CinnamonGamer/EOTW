@@ -61,6 +61,7 @@ focus_tree = {
 				add_opinion_modifier = { target = FRA modifier = french_ambitions }  
 			} 
 			add_stability = 0.05
+			add_war_support = 0.1
 		}
 		ai_will_do = {
 			factor = 12
@@ -593,6 +594,7 @@ focus_tree = {
 		cost = 10
 		completion_reward = {
 		    add_stability = 0.05
+		    add_war_support = 0.05
 			add_political_power = 50 
 			army_experience = 20 
 			air_experience = 20
@@ -1664,6 +1666,7 @@ focus_tree = {
 		cost = 10
 		completion_reward = {
 		    add_stability = 0.05
+		    add_war_support = 0.1
 			add_tech_bonus = {
 				name = support_bonus
 				bonus = 0.5

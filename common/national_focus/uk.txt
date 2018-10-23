@@ -583,6 +583,7 @@ focus_tree = {
 		cost = 10 
 		completion_reward = {  
 			add_stability = 0.05
+			add_war_support = 0.1
 			FRA = {
 				add_opinion_modifier = { target = ENG modifier = english_hatred } 
 			}
@@ -1207,6 +1208,7 @@ focus_tree = {
 		cost = 10 
 		completion_reward = {
 			add_stability = 0.02
+			add_war_support = 0.1
 			FRA = {
 				country_event = england.72
 			}
