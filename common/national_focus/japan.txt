@@ -390,28 +390,27 @@ completion_reward = {
 				type = annex_everything
 				target = AST
 				}
-				}
-				}
+			}
+		}
 				
-				focus = {
+		focus = {
 		id = JAP_ARMY_PRI
 		icon = GFX_goal_generic_army_doctrines
 		prerequisite = { focus = JAP_ASSASINATION }
 		mutually_exclusive = { focus = JAP_NAVY_PRI}
 		x = 7
 		y = 3
-				completion_reward = {
-				army_experience = 40
-				}
+		completion_reward = {
+		army_experience = 40
 				add_tech_bonus = {
 				bonus = 0.5
 				uses = 1
 				category = land_doctrine
 			}
-				}
+			}
+		}		
 				
-				
-				focus = {
+		focus = {
 		id = JAP_KOR
 		icon = GFX_goal_generic_army_doctrines
 		prerequisite = { focus = JAP_ARMY_PRI }
@@ -708,19 +707,17 @@ completion_reward = {
 				focus = {
 		id = JAP_AVIATION
 		icon = GFX_goal_generic_build_airforce
-		x = 14
+		x = 15
 		y = 10
 		cost = 10
-		complete_tooltip = {
+		completion_reward = {
 			air_experience = 25
-					completion_reward = {
 			add_tech_bonus = {
 				name = air_doc_bonus
 				bonus = 0.5
 				uses = 2
 				category = air_doctrine
 			}			
-		}
 				
 		}
 		}

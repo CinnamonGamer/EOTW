@@ -1639,7 +1639,7 @@ focus_tree = {
 		available = {
 	 		is_puppet = no
 	 		NOT = { has_war_with = PRS }
-	 		in_faction_with = PRS
+	 		is_in_faction_with  = PRS
 			PRS = {
 				is_puppet = no
 				exists = yes
@@ -1708,7 +1708,6 @@ focus_tree = {
 		id = POL_GAL_unification
 		icon = GFX_goal_generic_demand_territory
 		prerequisite = { focus = POL_GAL_Alliance }
-		has_army_manpower = { size > 499999 }
 		available = {
 	 		is_puppet = no
 	 		NOT = { has_war_with = GAL }
