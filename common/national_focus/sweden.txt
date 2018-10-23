@@ -13,7 +13,7 @@ focus_tree = {
 	focus = {
 	    id = SWE_politics_of_scandinavia
 		icon = GFX_goal_scandinavia_map
-		x = 14
+		x = 17
 		y = 0
 		cost = 10
 		completion_reward = {
@@ -27,7 +27,7 @@ focus_tree = {
 		prerequisite = { focus = SWE_politics_of_scandinavia }
 		mutually_exclusive = { focus = SWE_the_fight_for_freedom }
 		x = 13
-		y = 1
+		y = 2
 		cost = 10
 		completion_reward = {
 		    add_stability = 0.05
@@ -40,7 +40,7 @@ focus_tree = {
 		prerequisite = { focus = SWE_politics_of_scandinavia }
 		mutually_exclusive = { focus = SWE_uniting_the_nation }
 		x = 15
-		y = 1
+		y = 2
 		cost = 10
 		completion_reward = {
 		    add_stability = 0.05
@@ -54,7 +54,7 @@ focus_tree = {
 		mutually_exclusive = { focus = SWE_support_the_right }
 		mutually_exclusive = { focus = SWE_a_traditional_nation }
 		x = 11
-		y = 2
+		y = 3
 		cost = 10
 		completion_reward = {
 		    add_popularity = {
@@ -71,7 +71,7 @@ focus_tree = {
 		mutually_exclusive = { focus = SWE_support_the_left }
 		mutually_exclusive = { focus = SWE_a_traditional_nation }
 		x = 13
-		y = 2
+		y = 3
 		cost = 10
 		completion_reward = {
 		    add_popularity = {
@@ -92,7 +92,7 @@ focus_tree = {
 		mutually_exclusive = { focus = SWE_support_the_left }
 		mutually_exclusive = { focus = SWE_support_the_right }
 		x = 17
-		y = 2
+		y = 3
 		cost = 10
 		completion_reward = {
 		    add_popularity = {
@@ -107,7 +107,7 @@ focus_tree = {
 		icon = GFX_goal_tripartite_pact
 		prerequisite = { focus = SWE_support_the_left }
 		x = 11
-		y = 3
+		y = 4
 		cost = 10
 		completion_reward = {
 		    add_timed_idea = {
@@ -123,7 +123,7 @@ focus_tree = {
 		prerequisite = { focus = SWE_support_the_right }
 		mutually_exclusive = { focus = SWE_right_wing_unions }
 		x = 13
-		y = 3
+		y = 4
 		cost = 10
 		completion_reward = {
 		    add_timed_idea = {
@@ -139,7 +139,7 @@ focus_tree = {
 		prerequisite = { focus = SWE_support_the_right }
 		mutually_exclusive = { focus = SWE_expanding_royal_privileges }
 		x = 15
-		y = 3
+		y = 4
 		cost = 10
 		completion_reward = {
 		    add_timed_idea = {
@@ -154,7 +154,7 @@ focus_tree = {
 		icon = GFX_goal_swedish_church
 		prerequisite = { focus = SWE_a_traditional_nation }
 		x = 17
-		y = 3
+		y = 4
 		cost = 10
 		completion_reward = {
 		    add_timed_idea = {
@@ -169,7 +169,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_naval_dockyard
 		prerequisite = { focus = SWE_negotiate_with_illegal_parties }
 		x = 11
-		y = 4
+		y = 5
 		cost = 10
 		completion_reward = {
 		    add_popularity = {
@@ -184,7 +184,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civilian
 		prerequisite = { focus = SWE_expanding_royal_privileges }
 		x = 13
-		y = 4
+		y = 5
 		cost = 10
 		completion_reward = {
 		    add_popularity = {
@@ -199,7 +199,7 @@ focus_tree = {
 		icon = GFX_goal_generic_air_doctrine
 		prerequisite = { focus = SWE_right_wing_unions }
 		x = 15
-		y = 4
+		y = 5
 		cost = 10
 		completion_reward = {
 		    add_popularity = {
@@ -214,7 +214,7 @@ focus_tree = {
 		icon = GFX_goal_generic_production
 		prerequisite = { focus = SWE_links_with_the_church }
 		x = 17
-		y = 4
+		y = 5
 		cost = 10
 		completion_reward = {
 		    add_popularity = {
@@ -229,7 +229,7 @@ focus_tree = {
 		icon = GFX_goal_jazz
 		prerequisite = { focus = SWE_the_fight_for_freedom }
 		x = 19
-		y = 2
+		y = 3
 		cost = 10
 		completion_reward = {
 		    add_popularity = {
@@ -244,7 +244,7 @@ focus_tree = {
 		icon = GFX_goal_dropping_ballot
 		prerequisite = { focus = SWE_jazz_in_stockholm }
 		x = 19
-		y = 3
+		y = 4
 		cost = 10
 		completion_reward = {
 		    add_timed_idea = {
@@ -259,7 +259,7 @@ focus_tree = {
 		icon = GFX_goal_anti_comintern_pact
 		prerequisite = { focus = SWE_support_the_americanist_party }
 		x = 19
-		y = 4
+		y = 5
 		cost = 10
 		completion_reward = {
 		    add_popularity = {
@@ -283,7 +283,7 @@ focus_tree = {
 			}
 		}
 		x = 14
-		y = 5
+		y = 6
 		cost = 10
 		completion_reward = {
 		    remove_ideas = cultural_divide
@@ -295,7 +295,7 @@ focus_tree = {
 		icon = GFX_goal_anschluss
 		prerequisite = { focus = SWE_healing_the_divide }
 		x = 14
-		y = 6
+		y = 7
 		cost = 10
 		completion_reward = {
 		    army_experience = 20
@@ -310,7 +310,7 @@ focus_tree = {
 		prerequisite = { focus = SWE_the_path_of_scandinavia }
 		mutually_exclusive = { focus = SWE_friends_in_copenhagen }
 		x = 13
-		y = 7
+		y = 8
 		cost = 10
 		completion_reward = {
 		    SWE = {
@@ -325,7 +325,7 @@ focus_tree = {
 		prerequisite = { focus = SWE_the_path_of_scandinavia }
 		mutually_exclusive = { focus = SWE_ignore_the_skane_treaty }
 		x = 15
-		y = 7
+		y = 8
 		cost = 10
 		completion_reward = {
 		    DEN = {
@@ -342,7 +342,7 @@ focus_tree = {
 		    DEN = { has_government = ROOT }
 		}
 		x = 16
-		y = 8
+		y = 9
 		cost = 10
 		completion_reward = {
 		    DEN = {
@@ -362,7 +362,7 @@ focus_tree = {
 			}
 		}
 		x = 12
-		y = 8
+		y = 9
 		cost = 10
 		completion_reward = {
 		    DEN = {
@@ -376,7 +376,7 @@ focus_tree = {
 		icon = GFX_goal_generic_intelligence_exchange
 		prerequisite = { focus = SWE_atlantic_demands focus = SWE_alliance_with_denmark }
 		x = 12
-		y = 9
+		y = 10
 		cost = 10
 		completion_reward = {
 		    PRS = {
@@ -391,7 +391,7 @@ focus_tree = {
 		prerequisite = { focus = SWE_atlantic_demands focus = SWE_alliance_with_denmark }
 		mutually_exclusive = { focus = SWE_close_the_russian_banks }
 		x = 14
-		y = 9
+		y = 10
 		cost = 10
 		completion_reward = {
 		    SWE = {
@@ -409,7 +409,7 @@ focus_tree = {
 		prerequisite = { focus = SWE_atlantic_demands focus = SWE_alliance_with_denmark }
 		mutually_exclusive = { focus = SWE_open_a_russian_embassy }
 		x = 16
-		y = 9
+		y = 10
 		cost = 10
 		completion_reward = {
 		    SOV = {
@@ -425,7 +425,7 @@ focus_tree = {
 		icon = GFX_goal_generic_major_alliance
 		prerequisite = { focus = SWE_open_a_russian_embassy }
 		x = 14
-		y = 10
+		y = 11
 		cost = 10
 		completion_reward = {
 		    SOV = {
@@ -439,7 +439,7 @@ focus_tree = {
 		icon = GFX_goal_generic_attack_allies
 		prerequisite = { focus = SWE_close_the_russian_banks }
 		x = 16
-		y = 10
+		y = 11
 		cost = 10
 		completion_reward = {
 		    create_wargoal = {
@@ -455,7 +455,7 @@ focus_tree = {
 		prerequisite = { focus = SWE_unite_with_prussia }
 		prerequisite = { focus = SWE_the_final_stand focus = SWE_northern_alliance }
 		x = 14
-		y = 12
+		y = 13
 		cost = 10
 		completion_reward = {
 		    army_experience = 50
@@ -894,7 +894,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construction2
 		prerequisite = { focus = SWE_politics_of_scandinavia }
 		x = 22
-		y = 0
+		y = 2
 		cost = 10
 		completion_reward = {
 		    add_political_power = 50
@@ -907,7 +907,7 @@ focus_tree = {
 		prerequisite = { focus = SWE_agriculture_policy }
 		mutually_exclusive = { focus = SWE_liberal_ideas }
 		x = 21
-		y = 1
+		y = 3
 		cost = 10
 		completion_reward = {
 		    
@@ -920,7 +920,7 @@ focus_tree = {
 		prerequisite = { focus = SWE_agriculture_policy }
 		mutually_exclusive = { focus = SWE_authoritarian_ideas }
 		x = 23
-		y = 1
+		y = 3
 		cost = 10
 		completion_reward = {
 		    
@@ -932,7 +932,7 @@ focus_tree = {
 		icon = GFX_goal_strike_the_collective
 		prerequisite = { focus = SWE_authoritarian_ideas }
 		x = 21
-		y = 2
+		y = 4
 		cost = 10
 		completion_reward = {
 		    add_stability = 0.05
@@ -954,7 +954,7 @@ focus_tree = {
 			}
 		}
 		x = 21
-		y = 3
+		y = 5
 		cost = 10
 		completion_reward = {
 		    add_ideas = forced_peasant_conscription_idea
@@ -966,12 +966,12 @@ focus_tree = {
 		icon = GFX_goal_workers
 		prerequisite = { focus = SWE_liberal_ideas }
 		x = 23
-		y = 2
+		y = 4
 		cost = 10
 		completion_reward = {
 		    add_stability = 0.05
 			add_popularity = {
-				ideology = ROOT
+				ideology = de_leonist
 				popularity = 0.05
 			}
 		}
@@ -982,7 +982,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civ_factory
 		prerequisite = { focus = SWE_free_unions }
 		x = 23
-		y = 3
+		y = 5
 		cost = 10
 		completion_reward = {
 		    add_ideas = urbanisation
@@ -998,7 +998,7 @@ focus_tree = {
             surrender_progress > 0.8			
 		}
 		x = 22
-		y = 4
+		y = 6
 		cost = 10
 		completion_reward = {
 		    add_ideas = the_final_struggle_idea
@@ -1094,7 +1094,7 @@ focus_tree = {
 			focus = SWE_deadly_rain
 		}
 		available = {
-		    SWE = {	has_civil_war = not }
+		    SWE = {	has_civil_war = no }
 		}
 		cost = 10
 		x = 28
@@ -1120,7 +1120,7 @@ focus_tree = {
 	    id = SWE_search_for_experts
 		icon = GFX_goal_generic_build_airforce
 		prerequisite = { focus = SWE_national_air_force }
-		x = 36
+		x = 35
 		y = 1
 		cost = 10
 		completion_reward = {
@@ -1291,7 +1291,7 @@ focus_tree = {
 	focus = {
 	    id = SWE_warfare_reform
 		icon = GFX_goal_generic_air_doctrine
-		prerequisite = { focus = SWE_heavy_fighters focus = SWE_light_fighters focus = SWE_strategic_bombers = SWE_tactical_bombers }
+		prerequisite = { focus = SWE_heavy_fighters focus = SWE_light_fighters focus = SWE_strategic_bombers focus = SWE_tactical_bombers }
 		x = 33
 		y = 5
 		cost = 10
