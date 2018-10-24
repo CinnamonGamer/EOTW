@@ -577,7 +577,7 @@ country_event = {
 			ideology = georgist
 			popularity = -0.2
 		}
-		add_national_unity = -0.05
+		add_stability = -0.05
 	}
 	#form protests and strikes
 	option = {
@@ -697,7 +697,7 @@ country_event = {
 	
 	option = {
 		name = india.17.a
-		add_national_unity = -0.08
+		add_stability = -0.08
 		add_political_power = -100
 		add_manpower = -20000
 	}
@@ -1055,7 +1055,7 @@ country_event = {
 			ideology = georgist
 			popularity = -0.2
 		}
-		add_national_unity = -0.05
+		add_stability = -0.05
 	}
 	#form protests and strikes
 	option = {
@@ -1195,7 +1195,7 @@ country_event = {
 	
 	option = {
 		name = india.33.a
-		add_national_unity = -0.05
+		add_stability = -0.05
 		add_political_power = -120
 		429 = {
 			add_core_of = CHO
@@ -1386,7 +1386,7 @@ country_event = {
 		ai_chance = { factor = 85 }
 		effect_tooltip = {
 			MUG = {
-				add_national_unity = 0.02
+				add_stability = 0.02
 				country_event = { id = india.42 }
 			}
 		}
@@ -1418,7 +1418,7 @@ country_event = {
 	
 	option = {
 		name = india.42.a
-		add_national_unity = 0.02
+		add_stability = 0.02
 	}
 }
 

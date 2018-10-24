@@ -189,6 +189,8 @@ focus_tree = {
 		y = 2
 		completion_reward = {
 			add_ideas = MUG_Mahatma_Gandhi
+			add_stability = 0.10
+			add_war_support = -0.20
 		}
 	}
 
@@ -402,6 +404,7 @@ focus_tree = {
 		}		
 
 		completion_reward = {
+		    	add_war_support = 0.20
 			random_owned_state = {
 				limit = {
 					free_building_slots = {
@@ -971,7 +974,7 @@ focus_tree = {
 		x = 14
 		y = 4
 		completion_reward = {
-			add_stability = 0.03
+			add_stability = 0.05
 			add_political_power = 120
 			add_popularity = {
 				ideology = georgist
@@ -1061,7 +1064,8 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = MUG_pacifism_idea
 			add_research_slot = 1
-
+			add_stability = 0.10
+			add_war_support = -0.10
 		}
 	}
 	
@@ -1259,6 +1263,7 @@ focus_tree = {
 		x = 21
 		y = 7
 		completion_reward = {
+		    	add_war_support = 0.10
 			declare_war_on = {
 				target = SIA
 				type = annex_everything
@@ -1277,6 +1282,7 @@ focus_tree = {
 		x = 20
 		y = 8
 		completion_reward = {
+		    	add_war_support = 0.10
 			create_wargoal = {
 				type = annex_everything
 				target = FRA
@@ -1353,6 +1359,7 @@ focus_tree = {
 		y = 4
 		completion_reward = {
 			country_event = india.50
+		    	add_war_support = 0.05
 		}
 	}
 	
@@ -1369,7 +1376,7 @@ focus_tree = {
 		x = 24
 		y = 4
 		completion_reward = {
-		   
+		    	add_war_support = 0.10
 		}
 	}
 	focus = {
@@ -1998,6 +2005,7 @@ focus_tree = {
 		cost = 10
 		completion_reward = {
 		    add_political_power = 250
+		    add_war_support = 0.10
 		}
 	}
 	
