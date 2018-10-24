@@ -81,7 +81,6 @@ add_ideas = {
 	weak_advisory_council
 }
 
-set_national_unity = 0.50
 
 create_country_leader = {
 	name = "Rupprecht I"
