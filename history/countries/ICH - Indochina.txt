@@ -1,4 +1,4 @@
-capital = 670
+﻿capital = 670
 
 set_stability = 0.11
 set_war_support = 0.32
@@ -80,7 +80,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_ICH_Ho_Chi_Minh.dds"
 	expire = "1965.1.1"
-	ideology = qing_collectivist
+	ideology = qing_collectivism
 	traits = {
 		#
 	}

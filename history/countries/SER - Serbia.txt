@@ -1,4 +1,4 @@
-capital = 107
+﻿capital = 107
 
 set_stability = 0.42
 set_war_support = 0.78
@@ -76,7 +76,6 @@ add_ideas = {
 	civilian_economy
 }
 
-set_national_unity = 0.50
 
 create_country_leader = {
 	name = "Draza Mihailovic"

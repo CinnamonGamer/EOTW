@@ -9,8 +9,6 @@ set_war_support = 0.89
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
-	tech_support
-	tech_mountaineers = 1
 }
 
 set_convoys = 5

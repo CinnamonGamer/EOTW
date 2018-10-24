@@ -1,11 +1,9 @@
-capital = 282
+﻿capital = 282
 
 set_stability = 0.74
 set_war_support = 0.51
 
 oob = "JAP_1936"
-
-set_national_unity = 0.65
 
 set_research_slots = 4
 
@@ -45,103 +43,6 @@ create_import = {
 		resource = oil
 		factories = 2
 		exporter = MEX
-}
-
-1939.1.1 = {
-
-	add_political_power = 1198
-	
-
-	#adding ministers
-	add_ideas = {
-		JAP_mitsumasa_yonai
-		minoru_genda
-		hajime_sugiyama
-		soemu_toyoda
-		fushimi_hiroyasu
-		kawasaki
-
-		#laws
-		tot_economic_mobilisation
-		service_by_requirement
-		closed_economy
-	}
-
-	unlock_national_focus = test_the_chinese_focus
-	complete_national_focus = naval_expansion_focus
-	complete_national_focus = advanced_torpedoes_focus
-	complete_national_focus = spiritual_mobilization_focus
-	complete_national_focus = warrior_traditions_focus
-	complete_national_focus = student_movement_focus
-	complete_national_focus = extra_tech_focus
-	complete_national_focus = industrial_effort_focus
-	complete_national_focus = industrial_effort_focus2
-	declare_war_on = {
-		target = CHI
-		type = puppet_focus
-	}
-	#declare_war_on = {
-	#	target = GXC
-	#	type = puppet_focus
-	#}
-	#declare_war_on = {
-	#	target = YUN
-	#	type = puppet_focus
-	#}
-	#declare_war_on = {
-	#	target = PRC
-	#	type = annex_everything
-	#}
-	oob = "JAP_1939"
-	set_technology = {
-
-		#PLACEHOLDERS for vehicles
-		improved_submarine = 1
-		basic_destroyer = 1
-		improved_destroyer = 1
-		improved_heavy_cruiser = 1
-		improved_carrier = 1
-		heavy_battleship = 1
-		cv_fighter1 = 1
-		fighter1 = 1
-		tactical_bomber1 = 1
-	
-		#doctrines
-		#air
-		force_rotation = 1
-		fighter_baiting = 1
-		low_echelon_support = 1
-		dispersed_fighting = 1
-
-		grand_battle_plan = 1
-		prepared_defense = 1
-		grand_assault = 1
-		carrier_primacy = 1
-		carrier_task_forces = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
-		basic_encryption = 1
-		basic_decryption = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		oil_plant = 1
-		improved_oil_plant = 1
-		construction1 = 1
-		construction2 = 1
-		construction3 = 1
-		concentrated_industry = 1
-		concentrated_industry2 = 1
-		concentrated_industry3 = 1
-	}
 }
 
 set_convoys = 400
@@ -199,34 +100,6 @@ set_politics = {
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-
-
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 0
-			}
-
-			fascism = {
-				popularity = 100
-			}
-			
-			communism = {
-				popularity = 0
-				#banned = no #default is no
-			}
-		}
-		
-		ruling_party = fascism
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
 }
 
 create_country_leader = {
