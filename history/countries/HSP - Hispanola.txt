@@ -1,4 +1,4 @@
-capital = 318
+﻿capital = 318
 
 set_stability = 0.35
 set_war_support = 0.87
@@ -117,29 +117,5 @@ create_country_leader = {
 	ideology = national_bolshevik
 	traits = {
 		#
-	}
-}
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 100
-			}
-
-			fascism = {
-				popularity = 0
-			}
-			
-			communism = {
-				popularity = 0
-				#banned = no #default is no
-			}
-		}
-		
-		ruling_party = democratic
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
 	}
 }

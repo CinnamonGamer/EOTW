@@ -1,4 +1,4 @@
-capital = 16
+ï»¿capital = 16
 
 oob = "FRA_1936"
 
@@ -123,8 +123,6 @@ set_technology = {
 		improved_machine_tools = 1
 		advanced_machine_tools = 1
 		synth_oil_experiments = 1
-		oil_plant = 1
-		improved_oil_plant = 1
 		construction1 = 1
 		construction2 = 1
 		construction3 = 1
@@ -372,7 +370,7 @@ create_corps_commander = {
 }
 
 create_navy_leader = {
-	name = "François Darlan"
+	name = "FranÃ§ois Darlan"
 		picture = "Portrait_France_Francois_Darlan.dds"
 	traits = { superior_tactician }
 	skill = 3
@@ -393,7 +391,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "René-Émile Godfroy"
+	name = "RenÃ©-Ã‰mile Godfroy"
 		picture = "Portrait_France_Rene-Emile_Godfroy.dds"
 	traits = { old_guard_navy spotter }
 	skill = 2
