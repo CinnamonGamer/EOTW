@@ -1910,31 +1910,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_NOR_orkney_shetland.dds"
 	}
 	### Generals added through focus ###
-	spriteType = {
-		name = "GFX_NOR_Jonas_Lie"
-		texturefile = "gfx/leaders/NOR/Portrait_Norway_Jonas_Lie.tga"
-	}
-	spriteType = {
-		name = "GFX_NOR_Karl_Marthinsen"
-		texturefile = "gfx/leaders/NOR/Portrait_Norway_Karl_Marthinsen.tga"
-	}
-	spriteType = {
-		name = "GFX_NOR_Oliver_Moystad"
-		texturefile = "gfx/leaders/NOR/Portrait_Norway_Oliver_Moystad.tga"
-	}
-	spriteType = {
-		name = "GFX_NOR_Henrik_Rogstad"
-		texturefile = "gfx/leaders/NOR/Portrait_Norway_Henrik_Rogstad.tga"
-	}
-	spriteType = {
-		name = "GFX_NOR_Axel_Stang"
-		texturefile = "gfx/leaders/NOR/Portrait_Norway_Axel_Stang.tga"
-	}
-	spriteType = {
-		name = "GFX_NOR_Konrad_Sundlo"
-		texturefile = "gfx/leaders/NOR/Portrait_Norway_Konrad_Sundlo.tga"
-	}
-
 	### Sweden ###
 
 	SpriteType = {
