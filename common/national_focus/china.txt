@@ -252,6 +252,7 @@ focus_tree = {
 				category = land_doctrine
 			}
 			add_stability = 0.1
+			add_war_support = 0.1
 		}
 	}
 	
@@ -966,6 +967,7 @@ focus_tree = {
 		cost = 10
 		completion_reward = {
 		    add_stability = 0.05
+		    add_war_support = 0.05
 		}
 	}
 	
@@ -1055,6 +1057,7 @@ focus_tree = {
 		cost = 10
 		completion_reward = {
 		    add_stability = 0.1
+		    add_war_support = 0.1
 		}
 	}
 	
@@ -1133,6 +1136,7 @@ focus_tree = {
 		cost = 10
 		completion_reward = {
 		    add_stability = -0.05
+		    add_war_support = -0.05
 		}
 	}
 	
@@ -1213,6 +1217,7 @@ focus_tree = {
 		cost = 10
 		completion_reward = {
 		    add_stability = 0.1
+		    add_war_support = 0.1
 		}
 	}
 	
@@ -1260,6 +1265,7 @@ focus_tree = {
 			    popularity = 0.6
 		    }
 			add_stability = -0.05
+			add_war_support = -0.05
 			every_country = {
 				limit = { has_government = democratic_socialist }
 				add_opinion_modifier = { target = CHI modifier = socialist_china }
