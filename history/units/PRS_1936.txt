@@ -1,4 +1,4 @@
-##### Division Templates #####
+Ôªø##### Division Templates #####
 division_template = {
 	name = "Infanterie-Division"	
 	regiments = {
@@ -78,7 +78,7 @@ units = {
 	}
 	
 	division= {	
-		name = "1st Preuﬂische Armee"
+		name = "1st Preussische Armee"
 		location = 3522
 		division_template = "Infanterie-Division" 		
 		start_experience_factor = 0.2
@@ -92,7 +92,7 @@ units = {
 	}
 	
 	division= {	
-		name = "1st Preuﬂische Kavallerie"
+		name = "1st Preussische Kavallerie"
 		location = 11219
 		division_template = "Kavallerie-Division" 		
 		start_experience_factor = 0.2
@@ -146,11 +146,11 @@ units = {
 	
 	### KONIGSBERG PORT ###
 	navy = {				
-		name = "Flotte von Ostpreuﬂen"			
+		name = "Flotte von Ostpreussen"			
 		base = 6332
 		location = 6332 #Konigsberg			
-		ship = { name = "Stolz Preuﬂens" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = PRS } } }
-		ship = { name = "Der Preuﬂische Tod" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = PRS } } }
+		ship = { name = "Stolz Preussens" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = PRS } } }
+		ship = { name = "Der Preussische Tod" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = PRS } } }
 	}
 
 

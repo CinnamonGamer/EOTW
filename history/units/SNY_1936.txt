@@ -1,4 +1,4 @@
-##### Division Templates #####
+ï»¿##### Division Templates #####
 division_template = {
 	name = "Nationale Infanterie"		
 	regiments = {
@@ -38,7 +38,7 @@ division_template = {
 ##### OOB #####
 units = {
     division= {	
-		name = "Königliche Wache"
+		name = "Konigliche Wache"
 		location = 514
 		division_template = "Nationale Infanterie" 	
 		start_experience_factor = 0.3

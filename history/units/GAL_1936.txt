@@ -1,4 +1,4 @@
-##### Division Templates #####
+ï»¿##### Division Templates #####
 division_template = {
 	name = "Dywizja Piechoty"	
 	regiments = {
@@ -13,7 +13,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Alpy Bojowników"	
+	name = "Alpy Bojownikow"	
 
 	regiments = {
 		mountaineers = { x = 0 y = 0 }	
@@ -43,16 +43,16 @@ units = {
 	}
 	
 	division= {	
-		name = "1 Dywizja Strzelców Górskich"
+		name = "1 Dywizja Strzelcow Gorskich"
 		location = 11398 #Austrian Mountain Border
-		division_template = "Alpy Bojowników" 	
+		division_template = "Alpy Bojownikow" 	
 		start_experience_factor = 0.3
 	}
 	
 	division= {	
-		name = "2 Dywizja Strzelców Górskich"
+		name = "2 Dywizja Strzelcow Gorskich"
 		location = 9548 #Hungarian-Wallachian Border
-		division_template = "Alpy Bojowników" 	
+		division_template = "Alpy Bojownikow" 	
 		start_experience_factor = 0.2
 	}
 

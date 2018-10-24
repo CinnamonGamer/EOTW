@@ -17,7 +17,8 @@ focus_tree = {
 		x = 10
 		y = 0
 		available = {
-			TUR = {	has_civil_war = not }
+			country_exists = TUR
+			has_government = absolute_monarchist
 		}
 
 		completion_reward = {
@@ -33,7 +34,7 @@ focus_tree = {
 		x = 10
 		y = 1
 		available = {
-			TUR = {	has_civil_war = not }
+			has_government = absolute_monarchist
 		}
 		completion_reward = {
 			add_ideas = new_union
@@ -47,7 +48,7 @@ focus_tree = {
 		x = 7
 		y = 0
 		available = {
-		    TUR = { has_civil_war = not }
+			country_exists = TUR
 			has_government = absolute_monarchist
 		}
 		completion_reward = {
@@ -63,7 +64,8 @@ focus_tree = {
 		x = 6
 		y = 1
 		available = {
-			TUR = {	has_civil_war = not }
+			has_government = absolute_monarchist
+			country_exists = TUR
 		}
 		completion_reward = {
 			TUR = {
@@ -80,7 +82,8 @@ focus_tree = {
 		x = 8
 		y = 1
 		available = {
-			TUR = {	has_civil_war = not }
+			has_government = absolute_monarchist
+			country_exists = TUR
 		}
 		completion_reward = {
 			TUR = { country_event = { id = turkey.2  } }
@@ -390,7 +393,7 @@ focus_tree = {
 		}
 		completion_reward = {
 		    TUR = {
-				add_idea = ottoman_persian_unity
+				add_ideas = ottoman_persian_unity
 			}
 		}
 	}
@@ -607,7 +610,7 @@ focus_tree = {
 		x = 17
 		y = 1
 		available = {
-		
+			country_exists = TUR
 		}
 		completion_reward = {
 		    add_stability = 0.05
@@ -622,7 +625,7 @@ focus_tree = {
 		x = 21
 		y = 0
 		available = {
-		    TUR = {	has_civil_war = not }
+		    country_exists = TUR
 		}
 		completion_reward = {
 		    add_political_power = 80
@@ -638,7 +641,7 @@ focus_tree = {
 		x = 20
 		y = 1
 	    available = {
-		    TUR = {	has_civil_war = not }
+		    country_exists = TUR
 			owns_state = 339
 			owns_state = 341
 			owns_state = 340
@@ -688,7 +691,7 @@ focus_tree = {
 		x = 22
 		y = 1
 	    available = {
-		    TUR = {	has_civil_war = not }
+		    country_exists = TUR
 			owns_state = 677
 			owns_state = 446
 			owns_state = 656
@@ -737,9 +740,8 @@ focus_tree = {
 		x = 22
 		y = 2
 		available = {
-		    TUR = {	has_civil_war = not }
-			owns_state = 291
-			owns_state = 676
+		    country_exists = TUR
+			NOT { country_exists = IRQ }
 		}
 		completion_reward = {
 		    291 = {
@@ -769,7 +771,7 @@ focus_tree = {
 		x = 22
 		y = 3
 		available = {
-		    TUR = {	has_civil_war = not }
+		    country_exists = TUR
 			owns_state = 454
 			owns_state = 453
 		}
@@ -801,7 +803,7 @@ focus_tree = {
 		x = 20
 		y = 2
 		available = {
-		    TUR = {	has_civil_war = not }
+		    country_exists = TUR
 			owns_state = 341
 			owns_state = 347
 		}
@@ -833,7 +835,7 @@ focus_tree = {
 		x = 20
 		y = 3
 		available = {
-		    TUR = {	has_civil_war = not }
+		    country_exists = TUR
 			owns_state = 342
 			owns_state = 339
 		}
@@ -947,7 +949,7 @@ focus_tree = {
 			focus = TUR_shells_of_the_empire
 		}
 		available = {
-		    TUR = {	has_civil_war = not }
+		    country_exists = TUR
 		}
 		cost = 10
 		x = 27
@@ -960,7 +962,7 @@ focus_tree = {
 	
 	focus = {
 	    id = TUR_the_new_navy
-		icon = GFX_goal_generic_build_nay
+		icon = GFX_goal_generic_build_navy
 	    prerequisite = { focus = TUR_imperial_reforms }
 		cost = 10
 		x = 34
@@ -1266,7 +1268,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_great_bombers
-		icon = GFX_goal_generic_occypy_start_war
+		icon = GFX_goal_generic_occupy_start_war
 		prerequisite = {
 			focus = TUR_strategic_bombers
 			focus = TUR_tactical_bombers

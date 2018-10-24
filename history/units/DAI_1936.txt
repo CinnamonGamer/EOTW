@@ -1,4 +1,4 @@
-##### Division Templates #####
+ï»¿##### Division Templates #####
 division_template = {
 	name = "Bo Binh"	
 	regiments = {
@@ -13,14 +13,14 @@ division_template = {
 ##### OOB #####
 units = {
     division= {	
-		name = "1. Quân Doi"
+		name = "1. Quan Doi"
 		location = 4075 #Hanoi
 		division_template = "Bo Binh" 	
 		start_experience_factor = 0.2
 	}
 	
 	division= {	
-		name = "2. Quân Doi"
+		name = "2. Quan Doi"
 		location = 4075 #Hanoi
 		division_template = "Bo Binh" 	
 		start_experience_factor = 0.2

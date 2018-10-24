@@ -1,4 +1,4 @@
-division_template = {
+ï»¿division_template = {
 	name = "Division d'Infanterie"
 
 	regiments = {
@@ -21,7 +21,7 @@ division_template = {
 
 units = {
     division= {	
-		name = "1ère Armée Impériale"
+		name = "1ere Armee Imperiale"
 		location = 4641
 		division_template = "Division d'Infanterie"
 		start_experience_factor = 0.2
@@ -29,7 +29,7 @@ units = {
 	}
 	
 	division= {	
-		name = "2ère Armée Impériale"
+		name = "2eme Armee Imperiale"
 		location = 7660
 		division_template = "Division d'Infanterie"
 		start_experience_factor = 0.2
@@ -37,7 +37,7 @@ units = {
 	}
 	
 	division= {	
-		name = "Armée de Cavalerie Impériale"
+		name = "Armee de Cavalerie Imperiale"
 		location = 4641
 		division_template = "Division de Cavalerie"
 		start_experience_factor = 0.1

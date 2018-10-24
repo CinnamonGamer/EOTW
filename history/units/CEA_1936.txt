@@ -1,5 +1,5 @@
-division_template = {
-	name = "División de Infantería"		# Infantry Division
+ï»¿division_template = {
+	name = "Division de Infanteria"		# Infantry Division
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -13,33 +13,33 @@ division_template = {
 
 units = {
     division= {	
-		name = "Ejército de Honduras"
+		name = "Ejercito de Honduras"
 		location = 12865 #Capital
-		division_template = "División de Infantería"
+		division_template = "Division de Infanteria"
 		start_experience_factor = 0.3
 
 	}
 	
 	division= {	
-		name = "2º de Infantería"
+		name = "2ro de Infanteria"
 		location = 12823
-		division_template = "División de Infantería"
+		division_template = "Division de Infanteria"
 		start_experience_factor = 0.1
 
 	}
 	
 	division= {	
-		name = "Ejército Panamá"
+		name = "Ejercito Panama"
 		location = 7617
-		division_template = "División de Infantería"
+		division_template = "Division de Infanteria"
 		start_experience_factor = 0.3
 
 	}
 	
 	division= {	
-		name = "3ro Infantería"
+		name = "3ro Infanteria"
 		location = 13087
-		division_template = "División de Infantería"
+		division_template = "Division de Infanteria"
 		start_experience_factor = 0.1
 
 	}
