@@ -17,7 +17,7 @@ focus_tree = {
 		x = 10
 		y = 0
 		available = {
-			USA = {	has_civil_war = not }
+			USA = {	has_civil_war = no }
 		}
 
 		completion_reward = {
@@ -35,7 +35,7 @@ focus_tree = {
 		x = 10
 		y = 1
 		available = {
-			USA = {	has_civil_war = not }
+			USA = {	has_civil_war = no }
 			has_army_manpower = { size > 350000 }
 			LOU = {
 				NOT = { has_war_with = USA }
@@ -58,7 +58,7 @@ focus_tree = {
 		x = 8
 		y = 2
 		available = {
-			USA = {	has_civil_war = not }
+			USA = {	has_civil_war = no }
 			owns_state = 384
 		}
 		completion_reward = {
@@ -84,7 +84,7 @@ focus_tree = {
 		y = 3
 		available = {
 			is_in_faction = no
-			USA = {	has_civil_war = not }
+			USA = {	has_civil_war = no }
 			is_puppet = no
 			MEX = {
 				NOT = { has_war_with = USA }
@@ -326,7 +326,7 @@ focus_tree = {
 		x = 1
 		y = 0
 		available = {
-			USA = {	has_civil_war = not }
+			USA = {	has_civil_war = no }
 		}
 
 		completion_reward = {
@@ -589,7 +589,7 @@ focus_tree = {
 		x = 1
 		y = 2
 		available = {
-			USA = {	has_civil_war = not }
+			USA = {	has_civil_war = no }
 		}
 
 		completion_reward = {
@@ -606,7 +606,7 @@ focus_tree = {
 		x = 14
 		y = 1
 		available = {
-			USA = { has_civil_war = not }
+			USA = { has_civil_war = no }
 			threat > 0.25
 		}
 		completion_reward = {
@@ -755,7 +755,6 @@ focus_tree = {
 				uses = 2
 				category = air_doctrine
 			} # REVISIT May use modifier?
-			add_ideas = air_war_plans_division_focus
 		}
 	}
 
@@ -772,7 +771,6 @@ focus_tree = {
 		#}
 		completion_reward = {
 			air_experience = 25
-			add_ideas = air_support_focus
 		}
 	}
 
@@ -789,7 +787,6 @@ focus_tree = {
 		#}
 		completion_reward = {
 			air_experience = 25
-			add_ideas = strategic_bombing_focus
 		}
 	}
 
@@ -864,7 +861,6 @@ focus_tree = {
 				uses = 1
 				category = heavy_air
 			}
-			add_ideas = combined_bomber_offensive
 		}
 	}
 
@@ -879,7 +875,6 @@ focus_tree = {
 		#}
 		completion_reward = {
 			navy_experience = 50
-			add_ideas = bureau_of_ships_focus
 		}
 	}
 
@@ -972,7 +967,13 @@ focus_tree = {
 		#	factor = 1
 		#}
 		completion_reward = {
-			add_ideas = escort_effort_focus
+		add_tech_bonus = {
+				name = USA_escort
+				bonus = 0.5
+				uses = 1
+				technology = improved_destroyer
+				technology = advanced_destroyer
+			}	
 		}
 	}
 
@@ -1080,7 +1081,7 @@ focus_tree = {
 		x = 6
 		y = 6
 		available = {
-			USA = {	has_civil_war = not }
+			USA = {	has_civil_war = no }
 			has_army_manpower = { size > 500000 }
 			CEA = {
 				NOT = { has_war_with = USA }
@@ -1101,7 +1102,7 @@ focus_tree = {
 			IF = {
 				threat > 0.25
 			}
-			USA = {	has_civil_war = not }
+			USA = {	has_civil_war = no }
 			IRE = {
 				NOT = { has_war_with = USA }
 				is_puppet = no

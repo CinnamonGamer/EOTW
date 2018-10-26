@@ -1,4 +1,4 @@
-###########################
+﻿###########################
 # ALB Events
 ###########################
 
@@ -30,7 +30,7 @@ country_event = {
 	option = {
 	    name = albania.1.o2
 		ai_chance = { factor = 65 }
-		add_national_unity = 0.1
+		add_stability = 0.1
 		add_political_power = -10
 	}
 }

@@ -1,4 +1,4 @@
-###########################
+﻿###########################
 # AST Events
 ###########################
 
@@ -94,7 +94,6 @@ country_event = {
 		ai_chance = {
 			factor = 90
 		}
-		add_war_suppport = -0.02
 		add_political_power = 10
 	}
 }
