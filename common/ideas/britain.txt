@@ -119,6 +119,7 @@ ideas = {
 						
 			modifier = {
 				stability_factor = 0.1
+				war_support_factor = 0.1
 			}
 		}
 		
@@ -192,6 +193,7 @@ ideas = {
 			modifier = {
 				absolute_monarchist_drift = 0.02
 				stability_factor = -0.05
+				war_support_factor = -0.05
 			}
 		}
 		

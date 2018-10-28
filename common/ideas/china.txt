@@ -51,6 +51,7 @@ ideas = {
 			
 			modifier = {
 				stability_factor = -0.2
+				war_support_factor = -0.1
 			}
 			
 			picture = FRA_national_mobilization_focus
@@ -199,6 +200,7 @@ ideas = {
 			
 			modifier = {
 				stability_factor = 0.1
+				war_support_factor = 0.1
 			}
 			
 			picture = generic_victors_of_ww1

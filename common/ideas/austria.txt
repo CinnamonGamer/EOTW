@@ -218,6 +218,7 @@ ideas = {
 			
 			modifier = {
 				stability_factor = -0.2
+				war_support_factor = -0.1
 			}
 			
 			picture = FRA_scw_intervention_republicans_focus
@@ -239,6 +240,7 @@ ideas = {
 				army_morale_factor = 0.1
 				land_reinforce_rate = 0.1
 				stability_factor = 0.3
+				war_support_factor = 0.3
 			}
 			
 			picture = FRA_scw_intervention_republicans_focus
@@ -257,6 +259,7 @@ ideas = {
 			modifier = {
 				nationalist_drift = -0.05
 				stability_factor = 0.1
+				war_support_factor = 0.1
 			}
 			
 			picture = FRA_scw_intervention_republicans_focus
@@ -315,6 +318,7 @@ ideas = {
 				research_time_factor = -0.2
 				consumer_goods_factor = 0.3
 				stability_factor = -0.05
+				war_support_factor = 0.05
 				production_speed_industrial_complex_factor = 0.15
 				political_power_cost = 0.25
 				industrial_capacity_factory = 0.1

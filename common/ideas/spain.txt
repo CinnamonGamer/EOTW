@@ -17,6 +17,7 @@ ideas = {
 			modifier = {
 				drift_defence_factor = 0.2
 				stability_factor = 0.1
+				war_support_factor = 0.1
 				justify_war_goal_time = -0.2
 			}
 			rule = {
@@ -40,7 +41,8 @@ ideas = {
 			
 			modifier = {
 				de_leonist_drift = 0.1
-				stability_factor = 0.10
+				stability_factor = 0.1
+				war_support_factor = 0.1
 			}
 			rule = {
 				can_create_factions = yes
@@ -60,7 +62,8 @@ ideas = {
 			
 			modifier = {
 				collectivist_drift = 0.1
-				stability_factor = 0.10
+				stability_factor = 0.1
+				war_support_factor = 0.1
 				production_speed_buildings_factor = 0.1
 			}
 			rule = {
@@ -82,6 +85,7 @@ ideas = {
 			modifier = {
 				absolute_monarchist_drift = 0.1
 				stability_factor = 0.05
+				war_support_factor = 0.05
 			}
 			rule = {
 				can_create_factions = yes
@@ -101,7 +105,8 @@ ideas = {
 			
 			modifier = {
 				strasserist_drift = 0.1
-				stability_factor = 0.10
+				stability_factor = 0.1
+				war_support_factor = 0.1
 				production_speed_arms_factory_factor = 0.1
 				justify_war_goal_time = -0.10
 			}
@@ -124,6 +129,7 @@ ideas = {
 			modifier = {
 				theoconservative_drift = 0.1
 				stability_factor = 0.05
+				war_support_factor = 0.05
 				training_time_army_factor = -0.05
 			}
 			rule = {
