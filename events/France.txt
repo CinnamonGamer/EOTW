@@ -1533,8 +1533,8 @@ country_event = {
 		}
 		add_ideas = european_union_member
 		every_country = {
-		    NOT = { tag = FRA }
 			limit = { capital_scope = { is_on_continent = europe } }
+			NOT = { tag = FRA }
 			country_event = france.48
 		}
 		every_country = {

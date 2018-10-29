@@ -1,4 +1,4 @@
-add_namespace = japan
+﻿add_namespace = japan
 
 
 country_event = {
