@@ -1,4 +1,4 @@
-###########################
+﻿###########################
 # EAF Events
 ###########################
 
@@ -28,7 +28,7 @@ country_event = {
 			type = puppet_wargoal_focus
 			target = KON
 		}
-		add_national_unity = 0.08
+		add_stability = 0.08
 		add_named_threat = { threat = 1 name = kongo_under_threat }
 	
 	}
@@ -42,7 +42,7 @@ country_event = {
 			type = puppet_wargoal_focus
 			target = SUD
 		}
-		add_national_unity = 0.08
+		add_stability = 0.08
 		add_named_threat = { threat = 1 name = sudan_under_threat }
 	
 	}

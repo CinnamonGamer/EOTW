@@ -1055,15 +1055,15 @@ country_event = {
 
 #France accepts
 country_event = {
-	id = austria.38
-	title = austria.38.t
-	desc = austria.38.d
+	id = austria.49
+	title = austria.49.t
+	desc = austria.49.d
 	picture = GFX_report_event_vienna_award_hungary
 	
 	is_triggered_only = yes
 
 	option = {
-		name = austria.38.o1
+		name = austria.49.o1
 		ai_chance = {
 			factor = 100
 		}

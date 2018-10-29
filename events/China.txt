@@ -1,4 +1,4 @@
-###########################
+﻿###########################
 # CHI Events
 ###########################
 
@@ -54,7 +54,7 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-		add_national_unity = -0.02
+		add_stability = -0.02
 		add_political_power = -10
 	}
 }
@@ -77,7 +77,7 @@ country_event = {
 		    add_to_faction = JAP
 		}
 		add_political_power = 50
-		add_national_unity = 0.02
+		add_stability = 0.02
 	}
 	
 	option = { #Refuse
@@ -85,7 +85,7 @@ country_event = {
 		ai_chance = {
 			factor = 5
 		}
-		add_national_unity = -0.02
+		add_stability = -0.02
 		CHI = {
 			country_event = china.4
 		}
@@ -106,7 +106,7 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-		add_national_unity = -0.02
+		add_stability = -0.02
 		add_political_power = -10
 	}
 }
@@ -161,7 +161,7 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-		add_national_unity = -0.02
+		add_stability = -0.02
 		add_political_power = -10
 	}
 }
@@ -398,7 +398,7 @@ country_event = {
 		ai_chance = {
 			factor = 10
 		}
-		add_national_unity = -0.02
+		add_stability = -0.02
 	}
 	
 	option = {  #Continue with the occupation
@@ -485,7 +485,7 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-		add_national_unity = -0.01
+		add_stability = -0.01
 	}
 }
 
@@ -561,7 +561,7 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-		add_national_unity = -0.01
+		add_stability = -0.01
 	}
 }
 
@@ -637,7 +637,7 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-		add_national_unity = -0.01
+		add_stability = -0.01
 	}
 }
 

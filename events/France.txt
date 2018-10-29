@@ -1,4 +1,4 @@
-###########################
+﻿###########################
 # FRA Events
 ###########################
 
@@ -29,7 +29,7 @@ country_event = {
 		hidden_effect = {
 		    every_country = { news_event = { id = news_FRA.1 } }
 		}
-		add_national_unity = 0.1
+		add_stability = -0.1
 		add_named_threat = { threat = 1 name = arc_bombed }
 	}
 }
@@ -411,7 +411,7 @@ country_event = {
 		set_country_flag = france_1937_coup
 		set_country_flag = strasserist_rev_1937
 		clr_country_flag = military_friends
-		add_national_unity = -0.1
+		add_stability = -0.1
 		
 	}
 	
@@ -432,7 +432,7 @@ country_event = {
 		set_country_flag = france_1937_coup
 		set_country_flag = de_leonist_rev_1937
 		clr_country_flag = military_friends
-		add_national_unity = -0.1
+		add_stability = -0.1
 		
 	}
 	
@@ -453,7 +453,7 @@ country_event = {
 		set_country_flag = france_1937_coup
 		set_country_flag = retain_control_1937
 		clr_country_flag = military_friends
-		add_national_unity = -0.1
+		add_stability = -0.1
 		
 	}
 }
@@ -996,7 +996,7 @@ country_event = {
 		FRA = {
 			country_event = france.28
 		}
-		add_national_unity = 0.2
+		add_stability = 0.2
 	}
 }
 
@@ -1150,7 +1150,7 @@ country_event = {
 			factor = 100
 		}
 		add_political_power = -20
-		add_national_unity = -0.01
+		add_stability = -0.01
 	}
 }
 	
@@ -1572,7 +1572,7 @@ country_event = {
 			factor = 40
 		}
 		add_political_power = -40
-		add_national_unity = -0.05
+		add_stability = -0.05
 	}
 }
 
@@ -1781,7 +1781,7 @@ country_event = {
 		FRA = {
 			country_event = france.58
 		}
-		add_national_unity = 0.1
+		add_war_support = 0.1
 		
 	}
 }
@@ -2337,7 +2337,7 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-		add_national_unity = -0.02
+		add_stability = -0.02
 	}
 }
 
@@ -2440,7 +2440,7 @@ country_event = {
 			id = "FRA"
 			value = 100
 		}
-		add_national_unity = 0.15
+		add_war_support = 0.15
 		FRA = {
 			if = { limit = { is_in_faction_with = TUR }
 				remove_from_faction = TUR
@@ -2965,7 +2965,7 @@ country_event = {
 		ai_chance = {
 			factor = 0
 		}
-		add_national_unity = -0.1
+		add_war_support = -0.1
 	}
 }
 
@@ -3092,7 +3092,7 @@ country_event = {
 		}
 		add_political_power = -100
 		add_manpower = -5000
-		add_national_unity = -0.01
+		add_stability = -0.01
 		AUS = {
 		    country_event = { days = 7 id = france.99 } 
 		}
@@ -3161,7 +3161,7 @@ country_event = {
 		}
 		add_political_power = -300
 		add_manpower = -10000
-		add_national_unity = -0.02
+		add_stability = -0.02
 		AUS = {
 		    country_event = { days = 7 id = france.99 } 
 		}
@@ -3356,7 +3356,7 @@ country_event = {
 		}
 		add_political_power = -500
 		add_manpower = -20000
-		add_national_unity = -0.03
+		add_stability = -0.03
 		AUS = {
 		    country_event = { days = 7 id = france.99 } 
 		}
@@ -3675,7 +3675,7 @@ country_event = {
 		}
 		add_political_power = -800
 		add_manpower = -30000
-		add_national_unity = -0.05
+		add_stability = -0.05
 		AUS = {
 		    country_event = { days = 7 id = france.99 } 
 		}
@@ -3944,7 +3944,7 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-		add_national_unity = 0.1
+		add_stability = 0.1
 		hidden_effect = {
 		    every_country = { news_event = { id = news.61 } }
 		}
@@ -3991,7 +3991,8 @@ country_event = {
 		ai_chance = {
 			factor = 0
 		}
-		add_national_unity = -0.15
+		add_stability = -0.15
+		add_war_support = -0.15
 	}
 }
 
@@ -4203,7 +4204,7 @@ country_event = {
 		ai_chance = {
 			factor = 0
 		}
-		add_national_unity = -0.15
+		add_stability = -0.15
 	}
 }
 

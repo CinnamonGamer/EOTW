@@ -1,4 +1,4 @@
-###########################
+﻿###########################
 # CEA Events
 ###########################
 
@@ -82,7 +82,7 @@ country_event = {
 		CEA = {
 				annex_country = { target = YCT }				
 		}
-		add_national_unity = 0.1
+		add_stability = 0.1
 		set_country_flag = yucatan_annexed
 	}
 }
@@ -108,7 +108,7 @@ country_event = {
 			type = annex_everything
 			target = YCT
 		}
-		add_national_unity = 0.1
+		add_war_support = 0.1
 	}
 	
 }

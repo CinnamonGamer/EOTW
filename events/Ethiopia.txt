@@ -1,4 +1,4 @@
-###########################
+﻿###########################
 # ETH Events
 ###########################
 
@@ -33,7 +33,7 @@ country_event = {
 		ai_chance = {
 			factor = 40
 		}
-		add_national_unity = 0.05
+		add_stability = 0.05
 	}
 	
 }
@@ -120,7 +120,7 @@ country_event = {
 		ai_chance = {
 		    factor = 100
 	    }
-	    add_national_unity = -0.02
+	    add_stability = -0.02
 		clr_global_flag = france_refuses_somaliland_purchase
 	}
 }
@@ -173,7 +173,7 @@ country_event = {
 		ai_chance = {
 		    factor = 100
 	    }
-	    add_national_unity = -0.02
+	    add_stability = -0.02
 		clr_global_flag = england_refuses_somaliland_purchase
 	}
 }

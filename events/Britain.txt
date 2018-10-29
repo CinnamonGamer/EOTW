@@ -1,4 +1,4 @@
-###########################
+﻿###########################
 # ENG Events
 ###########################
 
@@ -93,7 +93,7 @@ country_event = {
 			ideology = absolute_monarchist
 			popularity = 0.01
 		}
-		add_national_unity = -0.01
+		add_stability = -0.01
 		clr_country_flag = edward_popular_support
 		set_country_flag = royal_gazette_operational
 	}
@@ -115,7 +115,7 @@ country_event = {
 			ideology = strasserist
 			popularity = 0.01
 		}
-		add_national_unity = -0.01
+		add_stability = -0.01
 		clr_country_flag = edward_popular_support
 		set_country_flag = royal_gazette_banned
 	}
@@ -252,7 +252,7 @@ country_event = {
 		ai_chance = {
 		    factor = 100
 	    }
-		add_national_unity = -0.05
+		add_stability = -0.05
 		add_political_power = -60
 		clr_country_flag = elizabeth_11th_birthday_disapprove
 		set_country_flag = edward_imprisoned
@@ -281,7 +281,7 @@ country_event = {
 		ai_chance = {
 		    factor = 40
 	    }
-		add_national_unity = -0.05
+		add_stability = -0.05
 		add_manpower = -200
 		add_popularity = {
 			ideology = national_conservative
@@ -296,7 +296,7 @@ country_event = {
 		ai_chance = {
 		    factor = 60
 	    }
-		add_national_unity = -0.03
+		add_stability = -0.03
 		add_popularity = {
 			ideology = national_conservative
 			popularity = -0.01
@@ -405,7 +405,7 @@ country_event = {
 			ideology = absolute_monarchist
 			popularity = 0.30
 		}
-		add_national_unity = -0.08
+		add_stability = -0.08
 		clr_country_flag = royal_army_grows
 		set_country_flag = royals_take_control
 		add_named_threat = { threat = 0.5 name = english_royal_coup }
@@ -424,7 +424,7 @@ country_event = {
 			ideology = national_conservative
 			popularity = 0.09
 		}
-		add_national_unity = 0.04
+		add_stability = 0.04
 		clr_country_flag = royal_army_grows
 	}
 }
@@ -532,7 +532,7 @@ country_event = {
 			ideology = de_leonist
 			popularity = 0.48
 		}
-		add_national_unity = -0.09
+		add_stability = -0.09
 		clr_country_flag = royals_take_control
 		set_country_flag = english_de_leonist_revolution
 		add_named_threat = { threat = 1 name = english_de_leonist_revolution_threat }
@@ -551,7 +551,7 @@ country_event = {
 			ideology = americanist
 			popularity = 0.48
 		}
-		add_national_unity = -0.09
+		add_stability = -0.09
 		clr_country_flag = royals_take_control
 		set_country_flag = english_americanist_revolution
 		add_named_threat = { threat = 0.5 name = english_americanist_revolution_threat }
@@ -590,7 +590,7 @@ country_event = {
 		ai_chance = {
 		    factor = 100
 	    }
-		add_national_unity = 0.4
+		add_stability = 0.4
 		add_political_power = 30
 		add_manpower = 20000
 		clr_country_flag = english_de_leonist_revolution
@@ -619,7 +619,7 @@ country_event = {
 		ai_chance = {
 		    factor = 100
 	    }
-		add_national_unity = 0.4
+		add_stability = 0.4
 		add_political_power = 30
 		add_manpower = 20000
 		clr_country_flag = english_americanist_revolution
@@ -648,7 +648,7 @@ country_event = {
 		ai_chance = {
 		    factor = 100
 	    }
-		add_national_unity = 0.4
+		add_stability = 0.4
 		add_political_power = 30
 		add_manpower = 20000
 		clr_country_flag = royals_hold_on
@@ -719,7 +719,7 @@ country_event = {
 	
 	option = {
 		name = england.19.a
-		add_national_unity = 0.05
+		add_stability = 0.05
 	}
 }
 
@@ -775,7 +775,7 @@ country_event = {
 	#We cannot give promises we cant keep
 	option = {
 		name = england.21.b
-		add_national_unity = -0.02
+		add_stability = -0.02
 		SCD = {
 			country_event = { days = 1 id = england.23 }
 			add_opinion_modifier = { target = ENG modifier = england_wants_our_lands } 
@@ -817,7 +817,7 @@ country_event = {
 	option = {
 		name = england.23.a
 		add_political_power = 100
-		add_national_unity = 0.1
+		add_war_support = 0.1
 	}
 }
 
@@ -872,7 +872,7 @@ country_event = {
 		ai_chance = {
 			base = 25
 		}
-		add_national_unity = -0.05
+		add_stability = -0.05
 		ENG = {
 			country_event = { days = 1 id = england.26 }
 		}
@@ -883,7 +883,7 @@ country_event = {
 		ai_chance = {
 			base = 75
 		}
-		add_national_unity = 0.05
+		add_war_support = 0.05
 		ENG = {
 			country_event = { days = 1 id = england.27 }
 		}
@@ -2310,7 +2310,7 @@ country_event = {
 		ai_chance = {
 			base = 25
 		}
-		add_national_unity = 0.05
+		add_war_support = 0.05
 		ENG = {
 			country_event = { days = 1 id = england.74 }
 		}
@@ -2326,7 +2326,7 @@ country_event = {
 		ai_chance = {
 			base = 75
 		}
-		add_national_unity = -0.05
+		add_stability = -0.05
 		ENG = {
 			country_event = { days = 1 id = england.75 }
 		}
@@ -2615,7 +2615,6 @@ country_event = {
 	option = {
 		name = england.80.b
 		ai_chance = { factor = 40 }
-		}
 		ENG = {
 			country_event = england.81
 			effect_tooltip = {
@@ -2954,7 +2953,6 @@ country_event = {
 					instant_build = yes
 				}
 		 	}
-		}
 	}
 }
 

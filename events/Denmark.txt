@@ -1,4 +1,4 @@
-###########################
+﻿###########################
 # DEN Events
 ###########################
 
@@ -25,7 +25,7 @@ country_event = {
 			factor = 50
 		}
 		add_political_power = -20
-		add_national_unity = 0.01
+		add_stability = 0.01
 		hidden_effect = {
 		    every_country = { news_event = { id = news.6 } }
 		}

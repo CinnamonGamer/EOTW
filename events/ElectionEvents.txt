@@ -74,7 +74,7 @@ country_event = {
 					americanist < 0.2
 					national_liberal < 0.2
 					theoconservative < 0.2
-					absolute_monarchisty < 0.2
+					absolute_monarchists < 0.2
 					national_conservative < 0.2
 					nationalist < 0.2
 					strasserist < 0.2
