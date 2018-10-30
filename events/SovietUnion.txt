@@ -1,4 +1,4 @@
-###########################
+﻿###########################
 # SOV Events
 ###########################
 
@@ -19,7 +19,7 @@ country_event = {
 			factor = 25
 		}
 		add_manpower = -250000
-		add_national_unity = -0.08
+		add_stability = -0.08
 	}
 	
 	option = {
@@ -75,7 +75,7 @@ country_event = {
 			ideology = de_leonist
 			popularity = -0.02
 		}
-		add_national_unity = -0.1
+		add_stability = -0.1
 		set_country_flag = leftism_slowing_down
 		clr_country_flag = growing_religious_tensions
 	}
@@ -188,7 +188,7 @@ country_event = {
 			ideology = collectivist
 			popularity = 0.04
 		}
-		add_national_unity = -0.01
+		add_stability = -0.05
 		clr_country_flag = farmers_union_crushed
 		set_country_flag = moscow_rebellion
 		hidden_effect = {
@@ -234,7 +234,7 @@ country_event = {
 			ideology = nationalist
 			popularity = 0.01
 		}
-		add_national_unity = 0.05
+		add_stability = 0.05
 		clr_country_flag = islamic_farmers_union
 		set_country_flag = first_duma_formed
 		hidden_effect = {
@@ -263,7 +263,7 @@ country_event = {
 			ideology = theoconservative
 			popularity = -0.01
 		}
-		add_national_unity = -0.02
+		add_stability = -0.02
 		clr_country_flag = islamic_farmers_union
 		set_country_flag = first_duma_refused
 		hidden_effect = {
@@ -301,7 +301,7 @@ country_event = {
 			ideology = theoconservative
 			popularity = -0.01
 		}
-		add_national_unity = -0.01
+		add_stability = -0.01
 		clr_country_flag = first_duma_refused
 		set_country_flag = winter_palace_massacre
 		hidden_effect = {
@@ -352,7 +352,7 @@ country_event = {
 			ideology = strasserist
 			popularity = 0.48
 		}
-		add_national_unity = -0.01
+		add_stability = -0.01
 		clr_country_flag = winter_palace_massacre
 		set_country_flag = generals_take_control
 		hidden_effect = {
@@ -390,7 +390,7 @@ country_event = {
 			ideology = de_leonist
 			popularity = 0.40
 		}
-		add_national_unity = -0.01
+		add_stability = -0.01
 		clr_country_flag = lenin_soviet
 		add_named_threat = { threat = 4 name = russian_de_leonist_revolution }
 		AUS = {
@@ -507,7 +507,7 @@ country_event = {
 			ideology = collectivist
 			popularity = 0.49
 		}
-		add_national_unity = -0.01
+		add_stability = -0.01
 		clr_country_flag = moscow_rebellion
 		add_named_threat = { threat = 3 name = russian_collectivist_revolution }
 		hidden_effect = {
@@ -533,7 +533,7 @@ country_event = {
 		AUS = {
 			add_to_faction = SOV	
 		}
-		add_national_unity = 0.02
+		add_stability = 0.02
 	}
 	
 	option = {
@@ -541,7 +541,7 @@ country_event = {
 		ai_chance = {
 			factor = 15
 		}
-		add_national_unity = -0.01
+		add_stability = -0.01
 	}
 
 
@@ -739,7 +739,7 @@ country_event = {
 		ai_chance = {
 			factor = 80
 		}
-		add_national_unity = -0.05
+		add_stability = -0.05
 	}
 	
 	option = { #Alexy
@@ -1825,7 +1825,7 @@ country_event = {
 			factor = 100
 		}
 		add_political_power = 50
-		add_national_unity = 0.1
+		add_stability = 0.1
 	}
 }
 
@@ -1977,7 +1977,7 @@ country_event = {
 			factor = 100
 		}
 		add_political_power = -50
-		add_national_unity = -0.05
+		add_stability = -0.05
 	}
 }
 

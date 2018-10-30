@@ -111,7 +111,7 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-		add_national_unity = -0.05
+		add_stability = -0.05
 	}
 }
 
@@ -137,7 +137,7 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-		add_national_unity = 0.02
+		add_stability = 0.02
 		kill_country_leader = yes
 		create_country_leader = {
 			name = "Norman Thomas"
@@ -176,7 +176,7 @@ country_event = {
 		ai_chance = {
 			factor = 70
 		}
-		add_national_unity = 0.01
+		add_stability = 0.01
 		create_country_leader = {
 			name = "Norman Thomas"
 			desc = ""
@@ -230,7 +230,7 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-		add_national_unity = 0.02
+		add_stability = 0.02
 		kill_country_leader = yes
 		create_country_leader = {
 			name = "Robert La Follette Jr."
@@ -269,7 +269,7 @@ country_event = {
 		ai_chance = {
 			factor = 70
 		}
-		add_national_unity = 0.01
+		add_stability = 0.01
 		create_country_leader = {
 			name = "Robert La Follette Jr."
 			desc = ""
@@ -315,7 +315,7 @@ country_event = {
 		tag = USA
 		date > 1940.10.1
 		date < 1940.10.17
-		elections_allowed = yes
+		has_elections = yes
 		has_country_flag = smith_1936_re_election
 		
 	}
@@ -373,7 +373,7 @@ country_event = {
 		tag = USA
 		date > 1940.10.1
 		date < 1940.10.17
-		elections_allowed = yes
+		has_elections = yes
 		has_country_flag = debs_1936_victory
 		
 	}
@@ -463,7 +463,7 @@ country_event = {
 			factor = 95
 		}
 		add_political_power = -10
-		add_national_unity = -0.02
+		add_stability = -0.02
 		set_country_flag = crackdown_election_changes_1937
 	}
 	
@@ -472,7 +472,7 @@ country_event = {
 		ai_chance = {
 			factor = 5
 		}
-		set_country_flag = 1937_uproar_no_intervention
+		set_country_flag = uproar_no_intervention_1937
 	}
 }
 
@@ -521,7 +521,7 @@ country_event = {
 			factor = 95
 		}
 		add_political_power = -10
-		add_national_unity = -0.03
+		add_stability = -0.03
 		set_country_flag = christmas_raids_executed
 	}
 	
@@ -568,7 +568,7 @@ country_event = {
 			popularity = 0.02
 		}
 		add_political_power = -10
-		add_national_unity = -0.01
+		add_stability = -0.01
 		clr_country_flag = christmas_raids_executed
 		set_country_flag = dixie_rally
 	}
@@ -638,7 +638,7 @@ country_event = {
 					has_government = americanist
 				}
 				set_equipment_fraction = 0.3
-				set_national_unity = 0.6
+				set_stability = 0.6
 				add_popularity = {
 					ideology = americanist
 					popularity = 0.10
@@ -646,7 +646,7 @@ country_event = {
 			}
 			load_oob = "CSA_Civil_War"
 			set_equipment_fraction = 0.3
-			set_national_unity = 0.9
+			set_stability = 0.9
 			
 			add_popularity = {
 				ideology = nationalist
@@ -672,7 +672,7 @@ country_event = {
 					has_government = nationalist
 				}
 				set_equipment_fraction = 0.3
-				set_national_unity = 0.9
+				set_stability = 0.9
 			}
 			
 			add_popularity = {
@@ -684,7 +684,7 @@ country_event = {
 				popularity = -1
 			}	
 			set_equipment_fraction = 0.3
-			set_national_unity = 0.6
+			set_stability = 0.6
 			
 		}
 		clr_country_flag = alabama_crisis
@@ -706,7 +706,7 @@ country_event = {
 		tag = USA
 		date > 1944.1.1
 		date < 1944.1.17
-		elections_allowed = yes
+		has_elections = yes
 		
 	}
 	
@@ -754,7 +754,7 @@ country_event = {
 		tag = USA
 		date > 1944.4.1
 		date < 1944.4.17
-		elections_allowed = yes
+		has_elections = yes
 	}
 	
 	option = {
@@ -1098,7 +1098,7 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-		add_national_unity = -0.05
+		add_stability = -0.05
 	}
 }
 
@@ -1116,7 +1116,7 @@ country_event = {
 		tag = USA
 		date > 1944.10.1
 		date < 1944.10.17
-		elections_allowed = yes
+		has_elections = yes
 		
 	}
 	

@@ -1,4 +1,4 @@
-###########################
+﻿###########################
 # TUR Events
 ###########################
 
@@ -154,7 +154,7 @@ country_event = {
 		transfer_state = 76
 		transfer_state = 83
 		transfer_state = 82
-		add_national_unity = 0.05
+		add_stability = 0.05
 		add_named_threat = { threat = -2 name = transylvania_crisis_averted }
 	}
 }
@@ -183,13 +183,13 @@ country_event = {
 			}
 		}
 		
-		add_national_unity = 0.05
+		add_war_support = 0.05
 	}
 	
 	option = { #Back down
 	    name = turkey.10.o2
 		ai_chance = { factor = 15 }
-		add_national_unity = -0.05
+		add_stability = -0.05
 		add_political_power = -60
 		add_named_threat = { threat = -2 name = transylvania_crisis_averted }
 	}
@@ -339,7 +339,7 @@ country_event = {
 			factor = 10
 		}
 		add_political_power = -100
-		add_national_unity = -0.1
+		add_stability = -0.1
 		hidden_effect = {
 		    TUR = {
 		        country_event = { days = 60 id = turkey.17 } 

@@ -1,4 +1,4 @@
-add_namespace = poland
+﻿add_namespace = poland
 
 # France: Polish defensive alliance proposal
 country_event = {

@@ -1,4 +1,4 @@
-###########################
+﻿###########################
 # SWE Events
 ###########################
 
@@ -233,7 +233,7 @@ country_event = {
 		}
 		transfer_state = 100
 		transfer_state = 101
-		add_national_unity = 0.05
+		add_stability = 0.05
 	}
 }
 
@@ -255,7 +255,7 @@ country_event = {
 			type = annex_everything
 			target = DEN
 		}
-		add_national_unity = 0.1
+		add_stability = 0.1
 		add_political_power = -10
 	}
 }
@@ -288,7 +288,7 @@ country_event = {
 			factor = 20
 		}
         add_political_power = -50
-		add_national_unity = 0.02
+		add_stability = 0.02
 		SWE = {
 			country_event = sweden.12
 		}
@@ -406,7 +406,7 @@ country_event = {
 		ai_chance = {
 			factor = 50
 		}
-		add_national_unity = -0.02
+		add_stability = -0.02
 		SWE = {
 			country_event = sweden.17
 		}

@@ -1,4 +1,4 @@
-add_namespace = political
+﻿add_namespace = political
 
 #Strasserist Coup
 country_event = {
@@ -20,10 +20,10 @@ country_event = {
 		modifier = {
 			factor = 0.5
 			strasserist
+		}	
 		modifier = {
 			factor = 0.5
 			strasserist > 0.55
-		}
 	    }
 	}
 	
@@ -37,11 +37,11 @@ country_event = {
 			elections_allowed = no
 		}
 		if = {
-		    limit = { has_ideas = weak_advisory_council }
+		    limit = { has_idea = weak_advisory_council }
 			remove_ideas = weak_advisory_council
 		}
 		if = {
-		    limit = { has_ideas = strong_advisory_council }
+		    limit = { has_idea = strong_advisory_council }
 			remove_ideas = strong_advisory_council
 		}
 	}
@@ -97,11 +97,11 @@ country_event = {
 			elections_allowed = no
 		}
 		if = {
-		    limit = { has_ideas = weak_advisory_council }
+		    limit = { has_idea = weak_advisory_council }
 			remove_ideas = weak_advisory_council
 		}
 		if = {
-		    limit = { has_ideas = strong_advisory_council }
+		    limit = { has_idea = strong_advisory_council }
 			remove_ideas = strong_advisory_council
 		}
 	}
@@ -164,11 +164,11 @@ country_event = {
 			elections_allowed = no
 		}
 		if = {
-		    limit = { has_ideas = weak_advisory_council }
+		    limit = { has_idea = weak_advisory_council }
 			remove_ideas = weak_advisory_council
 		}
 		if = {
-		    limit = { has_ideas = strong_advisory_council }
+		    limit = { has_idea = strong_advisory_council }
 			remove_ideas = strong_advisory_council
 		}
 	}
@@ -279,11 +279,11 @@ country_event = {
 			elections_allowed = no
 		}
 		if = {
-		    limit = { has_ideas = weak_advisory_council }
+		    limit = { has_idea = weak_advisory_council }
 			remove_ideas = weak_advisory_council
 		}
 		if = {
-		    limit = { has_ideas = strong_advisory_council }
+		    limit = { has_idea = strong_advisory_council }
 			remove_ideas = strong_advisory_council
 		}
 	}
@@ -349,11 +349,11 @@ country_event = {
 			elections_allowed = yes
 		}
 		if = {
-		    limit = { has_ideas = weak_advisory_council }
+		    limit = { has_idea = weak_advisory_council }
 			remove_ideas = weak_advisory_council
 		}
 		if = {
-		    limit = { has_ideas = strong_advisory_council }
+		    limit = { has_idea = strong_advisory_council }
 			remove_ideas = strong_advisory_council
 		}
 	}
@@ -417,11 +417,11 @@ country_event = {
 			elections_allowed = yes
 		}
 		if = {
-		    limit = { has_ideas = weak_advisory_council }
+		    limit = { has_idea = weak_advisory_council }
 			remove_ideas = weak_advisory_council
 		}
 		if = {
-		    limit = { has_ideas = strong_advisory_council }
+		    limit = { has_idea = strong_advisory_council }
 			remove_ideas = strong_advisory_council
 		}
 	}
@@ -483,11 +483,11 @@ country_event = {
 			elections_allowed = yes
 		}
 		if = {
-		    limit = { has_ideas = weak_advisory_council }
+		    limit = { has_idea = weak_advisory_council }
 			remove_ideas = weak_advisory_council
 		}
 		if = {
-		    limit = { has_ideas = strong_advisory_council }
+		    limit = { has_idea = strong_advisory_council }
 			remove_ideas = strong_advisory_council
 		}
 	}
@@ -549,11 +549,11 @@ country_event = {
 			elections_allowed = yes
 		}
 		if = {
-		    limit = { has_ideas = weak_advisory_council }
+		    limit = { has_idea = weak_advisory_council }
 			remove_ideas = weak_advisory_council
 		}
 		if = {
-		    limit = { has_ideas = strong_advisory_council }
+		    limit = { has_idea = strong_advisory_council }
 			remove_ideas = strong_advisory_council
 		}
 	}
@@ -616,11 +616,11 @@ country_event = {
 			elections_allowed = yes
 		}
 		if = {
-		    limit = { has_ideas = weak_advisory_council }
+		    limit = { has_idea = weak_advisory_council }
 			remove_ideas = weak_advisory_council
 		}
 		if = {
-		    limit = { has_ideas = strong_advisory_council }
+		    limit = { has_idea = strong_advisory_council }
 			remove_ideas = strong_advisory_council
 		}
 	}
@@ -635,11 +635,11 @@ country_event = {
 			elections_allowed = no
 		}
 		if = {
-		    limit = { has_ideas = weak_advisory_council }
+		    limit = { has_idea = weak_advisory_council }
 			remove_ideas = weak_advisory_council
 		}
 		if = {
-		    limit = { has_ideas = strong_advisory_council }
+		    limit = { has_idea = strong_advisory_council }
 			remove_ideas = strong_advisory_council
 		}
 	}
@@ -702,11 +702,11 @@ country_event = {
 			elections_allowed = no
 		}
 		if = {
-		    limit = { has_ideas = weak_advisory_council }
+		    limit = { has_idea = weak_advisory_council }
 			remove_ideas = weak_advisory_council
 		}
 		if = {
-		    limit = { has_ideas = strong_advisory_council }
+		    limit = { has_idea = strong_advisory_council }
 			remove_ideas = strong_advisory_council
 		}
 	}
@@ -721,11 +721,11 @@ country_event = {
 			elections_allowed = yes
 		}
 		if = {
-		    limit = { has_ideas = weak_advisory_council }
+		    limit = { has_idea = weak_advisory_council }
 			remove_ideas = weak_advisory_council
 		}
 		if = {
-		    limit = { has_ideas = strong_advisory_council }
+		    limit = { has_idea = strong_advisory_council }
 			remove_ideas = strong_advisory_council
 		}
 	}

@@ -1,4 +1,4 @@
-###########################
+﻿###########################
 # SPR Events
 ###########################
 
@@ -51,7 +51,7 @@ country_event = {
 	    name = spain.2.o1
 		ai_chance = { factor = 100 }
 		annex_country = { target = POR transfer_troops = yes }
-		add_national_unity = 0.05
+		add_stability = 0.05
 	}
 }
 
@@ -147,7 +147,7 @@ country_event = {
     option = {
 	    name = spain.6.o1
 		ai_chance = { factor = 100 }
-		add_national_unity = -0.02
+		add_stability = -0.08
 		add_political_power = -20
 	}	
 }
@@ -184,7 +184,7 @@ country_event = {
 	option = {
 	    name = spain.7.o2
 		ai_chance = { factor = 40 }
-        add_national_unity = 0.05
+        add_stability = 0.05
 		add_political_power = -20
 		SPR = {
 			country_event = spain.9
@@ -247,7 +247,7 @@ country_event = {
 	    name = spain.9.o2
 		ai_chance = { factor = 90 }
 		add_political_power = 40
-		add_national_unity = 0.02
+		add_stability = 0.02
 	}
 }
 
@@ -275,7 +275,7 @@ country_event = {
 	option = {
 	    name = spain.10.o2
 		ai_chance = { factor = 70 }
-		add_national_unity = 0.05
+		add_war_support= 0.05
 	}
 }
 
@@ -489,7 +489,7 @@ country_event = {
 	    name = spain.18.o2
 		ai_chance = { factor = 30 }
 		add_political_power = 20
-		add_national_unity = -0.05
+		add_stability = -0.05
 		SPR = {
 			country_event = spain.19
 		}
@@ -628,7 +628,7 @@ country_event = {
     option = {
 	    name = spain.22.o1
 		ai_chance = { factor = 100 }
-		add_national_unity = -0.02
+		add_stability = -0.02
 		add_political_power = -30
 	}
 }	

@@ -1,4 +1,4 @@
-###########################
+﻿###########################
 # PRS Events
 ###########################
 
@@ -177,7 +177,7 @@ country_event = {
 	
 	option = {
 	    name = prussia.2.o2
-		add_national_unity = -0.05
+		add_stability = -0.05
 	}
 }
 

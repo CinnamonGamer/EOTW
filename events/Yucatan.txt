@@ -1,4 +1,4 @@
-###########################
+﻿###########################
 # YCT Events
 ###########################
 
@@ -33,7 +33,7 @@ country_event = {
 			factor = 90
 		}
 		add_political_power = 20
-		add_national_unity = 0.15
+		add_stability = 0.15
 		set_global_flag = yucatan_refuses_proposal
 		clr_global_flag = yucatan_contacted
 	}

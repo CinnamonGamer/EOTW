@@ -1,4 +1,4 @@
-###########################
+﻿###########################
 # SER Events
 ###########################
 
@@ -30,7 +30,7 @@ country_event = {
 	option = {
 	    name = serbia.1.o2
 		ai_chance = { factor = 75 }
-		add_national_unity = 0.1
+		add_stability = 0.1
 		add_political_power = -10
 	}
 	

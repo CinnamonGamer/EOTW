@@ -777,39 +777,19 @@ country_event = {
 	
 	option = {
 		name = war_justification.301.a
-		trigger = { has_government = democratic }
 		add_political_power = -30
-		add_national_unity = -0.03
-		add_popularity = {
-			ideology = democratic
-			popularity = -0.05
-		}
+		add_stability = -0.03
 	}
 
 	option = {
 		name = war_justification.301.b
-		trigger = { has_government = communism }
 		add_political_power = -30
-		add_national_unity = -0.03
-		add_popularity = {
-			ideology = communism
-			popularity = -0.05
-		}
+		add_stability = -0.03
 	}
 
 	option = {
 		name = war_justification.301.c
-		trigger = {
-			OR = {
-				has_government = fascism
-				has_government = neutrality
-			}
-		}
 		add_political_power = -30
-		add_national_unity = -0.03
-		add_popularity = {
-			ideology = fascism
-			popularity = -0.05
-		}
+		add_stability = -0.03
 	}
 }
