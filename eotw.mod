@@ -1,5 +1,5 @@
-﻿name="Emperor of the world: Fan Fork"
-path="mod/Eotw-dev/"
+﻿name="Emperor of the World: Fan Fork"
+path="mod/EOTW/"
 tags={
 	"Alternative History"
 }
