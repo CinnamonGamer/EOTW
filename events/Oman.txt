@@ -1,4 +1,4 @@
-﻿###########################
+###########################
 # OMA Events
 ###########################
 
@@ -57,7 +57,7 @@ country_event = {
 			elections_allowed = no
 		}
 		add_political_power = -60
-		add_stability = -0.05
+		add_national_unity = -0.05
 	}
 	
 	option = {
@@ -69,7 +69,7 @@ country_event = {
 			type = annex_everything
 			target = SAU
 		}
-		add_stability = 0.05
+		add_national_unity = 0.05
 	
 	}
 }

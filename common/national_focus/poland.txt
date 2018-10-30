@@ -323,7 +323,7 @@ focus_tree = {
 	focus = {
 		id = POL_aviation_effort_2
 		icon = GFX_goal_generic_air_doctrine
-		prerequisite = { focus = POL_bomber_focus focus = POL_fighter_focus }
+		prerequisite = { focus = POL_bomber_focus focus = fighter_focus }
 		x = 5
 		y = 2
 		cost = 10
@@ -658,7 +658,7 @@ focus_tree = {
 	focus = {
 		id = POL_submarine_effort
 		icon = GFX_goal_generic_navy_submarine
-		prerequisite = { focus = POL_flexible_navy focus = POL_large_navy }
+		prerequisite = { focus = POL_flexible_navy focus = large_navy }
 		x = 8
 		y = 2
 		cost = 10
@@ -693,7 +693,7 @@ focus_tree = {
 	focus = {
 		id = POL_cruiser_effort
 		icon = GFX_goal_generic_navy_cruiser
-		prerequisite = { focus = POL_large_navy focus = POL_flexible_navy }
+		prerequisite = { focus = POL_large_navy focus = flexible_navy }
 		x = 10
 		y = 2
 		cost = 10

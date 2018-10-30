@@ -653,7 +653,7 @@ focus_tree = {
 	focus = {
 		id = e_submarine_effort
 		icon = GFX_goal_generic_navy_submarine
-		prerequisite = { focus = e_flexible_navy focus = e_large_navy }
+		prerequisite = { focus = e_flexible_navy focus = large_navy }
 		x = 8
 		y = 2
 		cost = 10
@@ -688,7 +688,7 @@ focus_tree = {
 	focus = {
 		id = e_cruiser_effort
 		icon = GFX_goal_generic_navy_cruiser
-		prerequisite = { focus = e_large_navy focus = e_flexible_navy }
+		prerequisite = { focus = e_large_navy focus = flexible_navy }
 		x = 10
 		y = 2
 		cost = 10

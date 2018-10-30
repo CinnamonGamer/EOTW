@@ -1,4 +1,4 @@
-﻿###########################
+###########################
 # MAO Events
 ###########################
 
@@ -98,7 +98,7 @@ country_event = {
 		}
 		transfer_state = 723
 		transfer_state = 745
-		add_stability = 0.1
+		add_national_unity = 0.1
 		ENG = {
 			country_event = { hours = 9 id = maori.3 }
 		}

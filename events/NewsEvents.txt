@@ -212,7 +212,7 @@ news_event = {
 	option = {
 		name = news.5.o1
 		trigger = { tag = TUR }
-		add_stability = 0.01
+		add_national_unity = 0.02
 	}
 	
 	option = {
@@ -254,7 +254,7 @@ news_event = {
 	option = {
 		name = news.6.o1
 		trigger = { tag = DEN }
-		add_stability = 0.02
+		add_national_unity = 0.02
 	}
 	
 	option = {
@@ -277,7 +277,7 @@ news_event = {
 	option = {
 		name = news.6.o4
 		trigger = { tag = FRA }
-		add_stability = 0.02
+		add_national_unity = 0.02
 	}
 	
 	option = {

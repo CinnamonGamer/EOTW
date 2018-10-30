@@ -77,13 +77,14 @@ country_event = {
 					is_in_faction_with = HUN
 				}
 			}
-		}	
 			TUR = {
 		        country_event = turkey.10
 		    }
 		}		
 	}	
-	
+}
+}
+
 #Turkish Focus - Form Alliance
 country_event = {
     id = hungary.3

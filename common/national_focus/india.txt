@@ -1030,7 +1030,7 @@ focus_tree = {
 	focus = {
 	    id = MUG_unarmed_liberation
 		icon =  GFX_goal_generic_air_doctrine
-	    prerequisite = { focus = MUG_go_green2 }
+	    prerequisite = { focus = MUG_go_green21 }
 		available = {
 			has_government = georgist
 			MUG = {
@@ -1412,7 +1412,7 @@ focus_tree = {
 	    id = MUG_arsenal_of_freedom
 		icon =  GFX_goal_generic_construct_mil_factory
 	    prerequisite = { focus = MUG_liberate_india }
-		mutually_exclusive = { focus = MUG_construction_boost }
+		mutually_exclusive = { focus = MUG_production_boost }
 		available = {
 			has_government = americanist
 		}
@@ -1912,7 +1912,7 @@ focus_tree = {
 	    id = MUG_reclaim_what_is_lost
 		icon =  GFX_goal_generic_major_war
 		prerequisite = { focus = MUG_strike_persia focus = MUG_death_of_siam }
-		mutually_exclusive = { focus = MUG_alliance_for_territory }
+		mutually_exclusive = { focus = MUG_the_continental_system }
 		x = 34
 		y = 7
 		cost = 10
