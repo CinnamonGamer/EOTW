@@ -1,4 +1,4 @@
-###########################
+﻿###########################
 # PER Events
 ###########################
 
@@ -34,7 +34,7 @@ country_event = {
 				type = puppet_wargoal_focus 
 			}
 		}
-		add_national_unity = 0.05
+		add_stability = 0.05
 	}
 	
 }

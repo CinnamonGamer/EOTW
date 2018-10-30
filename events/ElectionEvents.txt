@@ -74,7 +74,7 @@ country_event = {
 					americanist < 0.2
 					national_liberal < 0.2
 					theoconservative < 0.2
-					absolute_monarchists < 0.2
+					absolute_monarchist < 0.2
 					national_conservative < 0.2
 					nationalist < 0.2
 					strasserist < 0.2
@@ -94,14 +94,18 @@ country_event = {
 			NOT = { has_government = de_leonist }
 			de_leonist > 0.35
 		}
-		
 		set_politics = {
+		parties = {
+
+		            de_leonist = { 
+
+			         popularity = 15
+
+		           }
+		    }    
+
 			ruling_party = de_leonist
 			elections_allowed = no
-			add_popularity = {
-			    ideology = de_leonist
-			    popularity = 0.15
-		    }
 		}
 	}
 	
@@ -116,19 +120,24 @@ country_event = {
 		}
 		
 		set_politics = {
+		parties = {
+
+		            collectivist = { 
+
+			         popularity = 15
+
+		           }
+		    }    
+
 			ruling_party = collectivist
 			elections_allowed = no
-			add_popularity = {
-			    ideology = collectivist
-			    popularity = 0.15
-		    }
 		}
 	}
 	
 	option = {	#Democratic Socialism
 		name = election.1.o3
 		ai_chance = {
-			factor = 6
+			factor = 6 
 		}
 		trigger = {
 			NOT = { has_government = democratic_socialist }
@@ -136,12 +145,17 @@ country_event = {
 		}
 		
 		set_politics = {
+		parties = {
+
+		            democratic_socialist = { 
+
+			         popularity = 18
+
+		           }
+		    }    
+
 			ruling_party = democratic_socialist
 			elections_allowed = yes
-			add_popularity = {
-			    ideology = democratic_socialist
-			    popularity = 0.18
-		    }
 		}
 	}
 	
@@ -156,12 +170,17 @@ country_event = {
 		}
 		
 		set_politics = {
+		parties = {
+
+		            georgist = { 
+
+			         popularity = 18
+
+		           }
+		    }    
+
 			ruling_party = georgist
 			elections_allowed = yes
-			add_popularity = {
-			    ideology = georgist
-			    popularity = 0.18
-		    }
 		}
 	}
 	
@@ -176,12 +195,17 @@ country_event = {
 		}
 		
 		set_politics = {
+		parties = {
+
+		            americanist = { 
+
+			         popularity = 18
+
+		           }
+		    }    
+
 			ruling_party = americanist
 			elections_allowed = yes
-			add_popularity = {
-			    ideology = americanist
-			    popularity = 0.18
-		    }
 		}
 	}
 	
@@ -196,12 +220,17 @@ country_event = {
 		}
 		
 		set_politics = {
+		parties = {
+
+		            national_liberal = { 
+
+			         popularity = 18
+
+		           }
+		    }    
+
 			ruling_party = national_liberal
 			elections_allowed = yes
-			add_popularity = {
-			    ideology = national_liberal
-			    popularity = 0.18
-		    }
 		}
 	}
 	
@@ -216,12 +245,17 @@ country_event = {
 		}
 		
 		set_politics = {
+		parties = {
+
+		            theoconservative = { 
+
+			         popularity = 15
+
+		           }
+		    }    
+
 			ruling_party = theoconservative
 			elections_allowed = no
-			add_popularity = {
-			    ideology = theoconservative
-			    popularity = 0.15
-		    }
 		}
 	}
 	
@@ -236,12 +270,17 @@ country_event = {
 		}
 		
 		set_politics = {
+		parties = {
+
+		            absolute_monarchist = { 
+
+			         popularity = 15
+
+		           }
+		    }    
+
 			ruling_party = absolute_monarchist
 			elections_allowed = no
-			add_popularity = {
-			    ideology = absolute_monarchist
-			    popularity = 0.15
-		    }
 		}
 	}
 	
@@ -256,12 +295,17 @@ country_event = {
 		}
 		
 		set_politics = {
+		parties = {
+
+		            national_conservative = { 
+
+			         popularity = 20
+
+		           }
+		    }    
+
 			ruling_party = national_conservative
 			elections_allowed = no
-			add_popularity = {
-			    ideology = national_conservative
-			    popularity = 0.2
-		    }
 		}
 	}
 	
@@ -276,12 +320,17 @@ country_event = {
 		}
 		
 		set_politics = {
+		parties = {
+
+		            nationalist = { 
+
+			         popularity = 15
+
+		           }
+		    }    
+
 			ruling_party = nationalist
 			elections_allowed = no
-			add_popularity = {
-			    ideology = nationalist
-			    popularity = 0.15
-		    }
 		}
 	}
 	
@@ -296,12 +345,17 @@ country_event = {
 		}
 		
 		set_politics = {
+		parties = {
+
+		            strasserist = { 
+
+			         popularity = 10
+
+		           }
+		    }    
+
 			ruling_party = strasserist
 			elections_allowed = no
-			add_popularity = {
-			    ideology = strasserist
-			    popularity = 0.1
-		    }
 		}
 	}
 }

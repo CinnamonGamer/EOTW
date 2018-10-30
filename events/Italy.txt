@@ -1,4 +1,4 @@
-###########################
+﻿###########################
 # ITA Events
 ###########################
 
@@ -72,7 +72,7 @@ country_event = {
 			add_opinion_modifier = { target = ITA modifier = venice_incident }
 		}
 		add_political_power = -40
-		add_national_unity = -0.02
+		add_stability = -0.02
 		hidden_effect = {
 		    every_country = { news_event = { id = news.11 } }
 		}
@@ -254,7 +254,7 @@ country_event = {
 		}
 		add_manpower = -80000
 		add_political_power = -15
-		add_national_unity = 0.05
+		add_stability = 0.05
 		hidden_effect = {
 		    every_country = { news_event = { id = news.17 } }
 		}
@@ -364,7 +364,7 @@ country_event = {
 			ideology = strasserist
 			popularity = 0.03
 		}
-		add_national_unity = 0.1
+		add_stability = 0.1
 		FRA = {
 			if = { limit = { is_in_faction_with = ITA }
 				remove_from_faction = ITA
@@ -386,7 +386,7 @@ country_event = {
 		}
 		set_country_flag = new_year_coup_fails
 		add_political_power = -10
-		add_national_unity = -0.1
+		add_stability = -0.1
 		hidden_effect = {
 		    every_country = { news_event = { id = news.21 } }
 		}
@@ -436,7 +436,7 @@ country_event = {
 			ideology = de_leonist
 			popularity = 0.8
 		}
-		add_national_unity = 0.1
+		add_stability = 0.1
 		FRA = {
 			if = { limit = { is_in_faction_with = ITA }
 				remove_from_faction = ITA
@@ -488,7 +488,7 @@ country_event = {
 		115 = {
 			add_core_of = ITA
 		}
-		add_national_unity = 0.05
+		add_stability = 0.05
 	}
 }
 
@@ -523,7 +523,7 @@ country_event = {
 			factor = 2
 		}
 		add_manpower = -50000
-		add_national_unity = -0.2
+		add_stability = -0.2
 		add_political_power = -25
 		set_country_flag = central_italian_revolt
 	}
@@ -659,7 +659,7 @@ country_event = {
 				target = PAP
 			}
 		}
-		add_national_unity = 0.1
+		add_stability = 0.1
 	}
 }
 
@@ -768,7 +768,7 @@ country_event = {
 		ITA = {
 			country_event = { hours = 2 id = italy.23 }
 		}
-		add_national_unity = -0.05
+		add_stability = -0.05
 	}
 }
 
@@ -1256,7 +1256,7 @@ country_event = {
 			factor = 0
 		}
 		add_political_power = -50
-		add_national_unity = -0.02
+		add_stability = -0.02
 	}
 }
 

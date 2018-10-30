@@ -1,4 +1,4 @@
-###########################
+﻿###########################
 # HOL Events
 ###########################
 
@@ -42,7 +42,7 @@ country_event = {
 		ai_chance = {
 			factor = 0
 		}
-		add_national_unity = -0.1
+		add_stability = -0.1
 	}
 }
 

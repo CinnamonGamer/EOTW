@@ -1,4 +1,4 @@
-###########################
+﻿###########################
 # KOR Events
 ###########################
 
@@ -75,7 +75,7 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-		add_national_unity = -0.1
+		add_stability = -0.1
 		add_political_power = -60
 	}
 }
@@ -114,7 +114,7 @@ country_event = {
 		ai_chance = {
 			factor = 30
 		}
-		add_national_unity = -0.2
+		add_stability = -0.2
 		add_political_power = -60
 		add_popularity = {
 			ideology = national_conservative

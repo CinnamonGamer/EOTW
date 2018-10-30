@@ -1,4 +1,4 @@
-###########################
+﻿###########################
 # France News Events
 ###########################
 
@@ -61,7 +61,7 @@ news_event = {
 	option = {
 		name = news_FRA.2.o1
 		trigger = {
-		    { tag = FRA }
+		    tag = FRA 
 			has_government = absolute_monarchist
 		
 	    }
@@ -71,7 +71,7 @@ news_event = {
 	option = {
 		name = news_FRA.2.o2
 		trigger = {
-		    { tag = FRA }
+		    tag = FRA 
 			has_government = strasserist
 		
 	    }
@@ -81,7 +81,7 @@ news_event = {
 	option = {
 		name = news_FRA.2.o3
 		trigger = {
-		    { tag = FRA }
+		    tag = FRA 
 			has_government = de_leonist
 		
 	    }
