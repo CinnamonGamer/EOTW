@@ -90,8 +90,9 @@ news_event = {
 	option = {
 		name = news.2.o5
 		trigger = {
-		    { tag = AUS }
+		AUS = {
 			has_government = de_leonist
+			}
 		}
 	}
 }
@@ -194,8 +195,9 @@ news_event = {
 	option = {
 		name = news.4.o5
 		trigger = {
-		   { tag = FRA }
+		FRA = {
 			has_government = absolute_monarchist
+			}
 		}
 	}
 }
@@ -284,7 +286,6 @@ news_event = {
 		name = news.6.o5
 		trigger = { tag = AUS }
 	}
-	}
 }
 
 #Himmler Plane Crash
@@ -294,7 +295,7 @@ news_event = {
 	desc = news.7.d
 	picture = GFX_news_event_journalists_speech
 	
-	is_triggered_only
+	is_triggered_only = yes
 	
 	option = {
 	    name = news.7.o1

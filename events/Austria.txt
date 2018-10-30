@@ -1603,10 +1603,14 @@ country_event = {
 		}
 		add_ideas = de_leonist_union_member
 		every_country = {
-			limit = { capital_scope = { is_on_continent = europe } }
-			NOT = { tag = AUS }
+			limit = { 
+			capital_scope = { is_on_continent = europe } 
+			AND = {
+            NOT = { tag = AUS }
 			NOT = { tag = FRA }
 			NOT = { has_idea = european_union_member }
+            }   
+            }        
 			country_event = austria.43
 		}
 		add_named_threat = { threat = -25 name = de_leonist_union }
