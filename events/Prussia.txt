@@ -140,14 +140,7 @@ country_event = {
 	
 	option = {
 	    name = prussia.2.o1
-		GMY = {
-		    annex_country = { target = PRS transfer_troops = yes }
-			
-			
-			transfer_faction_from_PRS_to_GMY = yes
-			transfer_casus_bellis_from_PRS_to_GMY = yes
-			transfer_research_from_PRS_to_GMY = yes
-		}
+		set_cosmetic_tag = GMY
 		
 		hidden_effect = {
 		    GMY = {
@@ -163,10 +156,6 @@ country_event = {
                 }
 			}
 		}
-		
-		GMY = {
-            change_tag_from = PRS 
-        }
 		GMY = {
 			country_event = { id = germ.1 days = 1 }
 		}
