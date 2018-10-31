@@ -156,7 +156,6 @@ country_event = {
 		set_country_flag = farmers_union_crushed
 		
 	}
-	}
 }
 
 #Moscow Rebellion

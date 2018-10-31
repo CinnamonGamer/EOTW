@@ -19,12 +19,8 @@ country_event = {
 		days = 50
 		modifier = {
 			factor = 0.5
-			strasserist
-		}	
-		modifier = {
-			factor = 0.5
 			strasserist > 0.55
-	    }
+		}	
 	}
 	
 	option = {
