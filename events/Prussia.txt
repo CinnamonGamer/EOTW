@@ -156,12 +156,6 @@ country_event = {
                 }
 			}
 		}
-		GMY = {
-			country_event = { id = germ.1 days = 1 }
-		}
-		GMY = {
-			country_event = { id = germ.2 days = 3 }
-		}
 	}
 	
 	option = {
