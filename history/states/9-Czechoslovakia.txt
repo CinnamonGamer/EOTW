@@ -6,7 +6,7 @@ state={
 	state_category = large_city
 	
 	history={
-		owner = AUS
+		owner = BOH
 		victory_points = { 11542 20 }
 		victory_points = { 6418 5 }
 		buildings = {
@@ -16,7 +16,6 @@ state={
 			anti_air_building = 5
 			air_base = 5
 		}
-		add_core_of = AUS
 		add_core_of = BOH
 
 		1939.3.14 = {
