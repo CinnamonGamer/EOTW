@@ -156,7 +156,6 @@ country_event = {
 		set_country_flag = farmers_union_crushed
 		
 	}
-	}
 }
 
 #Moscow Rebellion
@@ -799,6 +798,17 @@ country_event = {
 			ideology = absolute_monarchist
 			popularity = 0.4
 		}
+
+                create_country_leader = {
+	                   name = "Mikhail II"
+	                   desc = ""
+	                   picture = "Portrait_SOV_Michael_Second.dds"
+	                   expire = "1953.3.1"
+	                   ideology = imperial
+	                                traits = {
+		
+	                    }
+                   }
 	}
 }
 

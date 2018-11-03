@@ -1,0 +1,27 @@
+
+state={
+	id=773
+	name="STATE_773" # Cologne
+	manpower = 745320
+	resources={
+		steel=47
+	}
+	
+	state_category = city
+
+	history={
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+		}
+		victory_points = {
+			587 5
+		}
+
+	}
+
+	provinces={
+		11562 3444 9522 3547 587
+}

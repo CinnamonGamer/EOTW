@@ -51,28 +51,6 @@ ideas = {
 				#has_manpower_for_recruit_change_to =  { value = 0.025 group = mobilization_laws }
 				NOT = { has_idea = undisturbed_isolation }
 				NOT = { has_idea = isolation }
-				if = {
-					limit = {
-						original_tag = AST
-						has_dlc = "Together for Victory"
-					}
-					has_completed_focus = AST_citizen_military_forces
-				}
-				if = {
-					limit = {
-						original_tag = CAN
-						has_dlc = "Together for Victory"
-					}
-					has_completed_focus = CAN_commit_to_the_war
-				}
-				if = {
-					limit = {
-						original_tag = RAJ
-						has_dlc = "Together for Victory"
-					}
-					is_subject = no
-				}
-
 			}
 
 			modifier = {
@@ -87,8 +65,8 @@ ideas = {
 			available = {
 				#has_manpower_for_recruit_change_to = { value = 0.05 group = mobilization_laws }
 				OR = {
-					has_government = fascism
-					has_government = communism
+					has_government = strasserist
+					has_government = de_leonist
 					AND = {
 						has_war = yes
 						enemies_strength_ratio > 0.5
@@ -100,31 +78,6 @@ ideas = {
 						#}
 					}					
 				}
-				#Special rules AST in TFV
-				if = {
-					limit = {
-						original_tag = AST
-						has_dlc = "Together for Victory"
-					}
-					has_completed_focus = AST_citizen_military_forces
-					has_completed_focus = AST_fight_work_or_perish
-				}				
-				if = {
-					limit = {
-						original_tag = CAN
-						has_dlc = "Together for Victory"
-					}
-					has_completed_focus = CAN_commit_to_the_war
-					has_completed_focus = CAN_if_day
-				}
-				if = {
-					limit = {
-						original_tag = RAJ
-						has_dlc = "Together for Victory"
-					}
-					is_subject = no
-				}
-
 			}
 			
 			cost = 150
@@ -135,7 +88,7 @@ ideas = {
 				conscription = 0.05
 				#industrial_capacity_factory = -0.1
 				#production_speed_buildings_factor = -0.1
-				training_time_factor = 0.1
+				training_time_factor = 0.05
 			}
 			
 			cancel_if_invalid = no
@@ -147,8 +100,8 @@ ideas = {
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.1 group = mobilization_laws }
 				OR = {
-					has_government = fascism
-					has_government = communism
+					has_government = strasserist
+					has_government = de_leonist
 					AND = {
 						has_war = yes
 						enemies_strength_ratio > 0.6
@@ -161,33 +114,6 @@ ideas = {
 					}
 				}
 
-				if = {
-					limit = {
-						original_tag = AST
-						has_dlc = "Together for Victory"
-					}
-					has_completed_focus = AST_citizen_military_forces
-					has_completed_focus = AST_fight_work_or_perish
-				}
-
-				if = {
-					limit = {
-						original_tag = CAN
-						has_dlc = "Together for Victory"
-					}
-					OR = {
-						has_completed_focus = CAN_compromise_with_quebec
-						has_completed_focus = CAN_forced_quebec_conscription
-					}
-				}
-				if = {
-					limit = {
-						original_tag = RAJ
-						has_dlc = "Together for Victory"
-					}
-					is_subject = no
-				}
-
 			}
 			
 			cost = 150
@@ -198,7 +124,7 @@ ideas = {
 				conscription = 0.1
 				industrial_capacity_factory = -0.1
 				production_speed_buildings_factor = -0.1
-				training_time_factor = 0.2
+				training_time_factor = 0.15
 			}
 			
 			cancel_if_invalid = no
@@ -210,40 +136,13 @@ ideas = {
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.2 group = mobilization_laws }
 				has_war = yes
-				enemies_strength_ratio > 0.75
+				enemies_strength_ratio > 0.50
 				#any_enemy_country = {
 				#	strength_ratio = {
 				#		tag = ROOT 
 				#		ratio > 0.75
 				#	}
 				#}
-
-				if = {
-					limit = {
-						original_tag = AST
-						has_dlc = "Together for Victory"
-					}
-					has_completed_focus = AST_citizen_military_forces
-					has_completed_focus = AST_fight_work_or_perish
-				}
-
-				if = {
-					limit = {
-						original_tag = CAN
-						has_dlc = "Together for Victory"
-					}
-					OR = {
-						has_completed_focus = CAN_compromise_with_quebec
-						has_completed_focus = CAN_forced_quebec_conscription
-					}					
-				}
-				if = {
-					limit = {
-						original_tag = RAJ
-						has_dlc = "Together for Victory"
-					}
-					is_subject = no
-				}
 
 			}
 		
@@ -253,8 +152,8 @@ ideas = {
 			
 			modifier = {
 				conscription = 0.2
-				industrial_capacity_factory = -0.3
-				production_speed_buildings_factor = -0.3
+				industrial_capacity_factory = -0.35
+				production_speed_buildings_factor = -0.35
 				#XP from reinforcement penalty (small)
 				training_time_factor = 0.3
 			}
@@ -276,33 +175,6 @@ ideas = {
 				#		ratio > 1
 				#	}
 				#}
-				if = {
-					limit = {
-						original_tag = AST
-						has_dlc = "Together for Victory"
-					}
-					has_completed_focus = AST_citizen_military_forces
-					has_completed_focus = AST_fight_work_or_perish
-				}
-
-				if = {
-					limit = {
-						original_tag = CAN
-						has_dlc = "Together for Victory"
-					}
-					OR = {
-						has_completed_focus = CAN_compromise_with_quebec
-						has_completed_focus = CAN_forced_quebec_conscription
-					}
-				}
-				if = {
-					limit = {
-						original_tag = RAJ
-						has_dlc = "Together for Victory"
-					}
-					is_subject = no
-				}
-
 			}
 			
 			cost = 150
@@ -310,9 +182,9 @@ ideas = {
 			level = 1
 
 			modifier = {
-				conscription = 0.25
-				industrial_capacity_factory = -0.4
-				production_speed_buildings_factor = -0.4
+				conscription = 0.30
+				industrial_capacity_factory = -0.5
+				production_speed_buildings_factor = -0.5
 				training_time_factor = 0.5
 			}
 			
