@@ -34,7 +34,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 3314  # Amsterdam
+		location = 3314  # Alkmaar
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -58,7 +58,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 9498  # Rotterdam
+		location = 391  # Amsterdam
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -69,7 +69,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 9498  # Rotterdam
+		location = 391  # Amsterdam
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -82,26 +82,26 @@ units = {
 			is_name_ordered = yes
 			name_order = 5
 		}
-		location = 6500  # Venlo
+		location = 6241  # Utrecht
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
 	}
-	division= {	# "6e Divisie"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 6
-		}
-		location = 11562  # Maastricht
-		division_template = "Infanterie Divisie"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
-
-	}
+	#division= {	# "6e Divisie"
+	#	division_name = {
+	#		is_name_ordered = yes
+	#		name_order = 6
+	#	}
+	#	location = 6241  # Utrecht
+	#	division_template = "Infanterie Divisie"
+	#	start_experience_factor = 0.1
+	#	start_equipment_factor = 0.5
+	#
+	#}
 
 	# 4e Legerkorps
-	division= {	# "7e Divisie"
+	division= {	# "6e Divisie"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 7
@@ -112,98 +112,71 @@ units = {
 		start_equipment_factor = 0.5
 
 	}
-	division= {	# "8e Divisie"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 8
-		}
-		location = 9335  # Gronigen
+	#division= {	# "8e Divisie"
+	#	division_name = {
+	#		is_name_ordered = yes
+	#		name_order = 8
+	#	}
+	#	location = 9335  # Gronigen
+	#	division_template = "Infanterie Divisie"
+	#	start_experience_factor = 0.1
+	#	start_equipment_factor = 0.5
+	#
+	#}
+
+	##### OLZ Indië #####
+	### Koninklijk Nederlands-Indisch Leger ### 
+	division= {	
+		name = "Ie Divisie 'Java'"
+		location = 7381  # Batavia
 		division_template = "Infanterie Divisie"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
+		force_equipment_variants = { infantry_equipment_0 = { owner = "HOL" } }
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "IIe Divisie 'Java'"
+		location = 4608  # Soerjabaja
+		division_template = "Infanterie Divisie"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "HOL" } }
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "Ie Territoriaal Commando 'Sumatra'"
+		location = 4652  # Medan
+		division_template = "Koloniale Garnizoen"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "HOL" } }
+		start_equipment_factor = 0.3
 
 	}
 
-	##### OLZ Indië #####
-	### Koninklijk Nederlands-Indisch Leger ### ###transfered to INS control as of 1.3
-#	division= {	
-#		name = "Ie Divisie 'Java'"
-#		location = 7381  # Batavia
-#		division_template = "Infanterie Divisie"
-#		force_equipment_variants = { infantry_equipment_0 = { owner = "HOL" } }
-#		start_equipment_factor = 0.3
-#
-#	}
-#	division= {	
-#		name = "IIe Divisie 'Java'"
-#		location = 4608  # Soerjabaja
-#		division_template = "Infanterie Divisie"
-#		force_equipment_variants = { infantry_equipment_0 = { owner = "HOL" } }
-#		start_equipment_factor = 0.3
-#
-#	}
-#	division= {	
-#		name = "IIIe Divisie 'Java'"
-#		location = 7642  # Malang
-#		division_template = "Infanterie Divisie"
-#		force_equipment_variants = { infantry_equipment_0 = { owner = "HOL" } }
-#		start_equipment_factor = 0.3
-#
-#	}
-#
-#	division= {	
-#		name = "Ie Territoriaal Commando 'Sumatra'"
-#		location = 4652  # Medan
-#		division_template = "Koloniale Garnizoen"
-#		force_equipment_variants = { infantry_equipment_0 = { owner = "HOL" } }
-#		start_equipment_factor = 0.3
-#
-#	}
-#	division= {	
-#		name = "IIe Territoriaal Commando 'Sumatra'"
-#		location = 4446 # Padang
-#		division_template = "Koloniale Garnizoen"
-#		force_equipment_variants = { infantry_equipment_0 = { owner = "HOL" } }
-#		start_equipment_factor = 0.3
-#
-#	}
-#	division= {	
-#		name = "IIIe Territoriaal Commando 'Sumatra'"
-#		location = 12268  # Palembang
-#		division_template = "Koloniale Garnizoen"
-#		force_equipment_variants = { infantry_equipment_0 = { owner = "HOL" } }
-#		start_equipment_factor = 0.3
-#
-#	}
-#
-#	##### OLZ Borneo #####
-#	division= {	
-#		name = "Ie Territoriaal Commando 'Borneo'"
-#		location = 10237  # Balikpapan
-#		division_template = "Koloniale Garnizoen"
-#		force_equipment_variants = { infantry_equipment_0 = { owner = "HOL" } }
-#		start_equipment_factor = 0.3
-#
-#	}
-#	division= {	
-#		name = "IIe Territoriaal Commando 'Borneo'"
-#		location = 1316  # Pontianak
-#		division_template = "Koloniale Garnizoen"
-#		force_equipment_variants = { infantry_equipment_0 = { owner = "HOL" } }
-#		start_equipment_factor = 0.3
-#
-#	}
-#
-#	##### OLZ Celebes en Nieuw-Guinea #####
-#	division= {	
-#		name = "Territoriaal Commando 'Celebes'"
-#		location = 10153  # Manado
-#		division_template = "Koloniale Garnizoen"
-#		force_equipment_variants = { infantry_equipment_0 = { owner = "HOL" } }
-#		start_equipment_factor = 0.3
-#
-#	}
-#
+	##### Boer Garrison #####
+	division= {	
+		name = "Boer Koninklijk Divisie 'Kaap'"
+		location = 12589  # Cape Town
+		division_template = "Koloniale Garnizoen"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "HOL" } }
+		start_equipment_factor = 0.4
+
+	}
+	division= {	
+		name = "Boer Koninklijk Divisie 'Litenhaag'"
+		location = 4696  # Cape Town
+		division_template = "Koloniale Garnizoen"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "HOL" } }
+		start_equipment_factor = 0.4
+
+	}
+	division= {	
+		name = "Boer Koninklijk Divisie 'Durban'"
+		location = 1468  # Cape Town
+		division_template = "Koloniale Garnizoen"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "HOL" } }
+		start_equipment_factor = 0.4
+
+	}
+
 
 	##### NAVAL UNITS #####
 	### ROYAL NAVY ###
