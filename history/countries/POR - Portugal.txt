@@ -95,17 +95,6 @@ add_ideas = {
 
 
 create_country_leader = {
-	name = "Afonso Costa"
-	desc = ""
-	picture = "Portrait_POR_afonso.dds"
-	expire = "1965.1.1"
-	ideology = representative_democrat
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
 	name = "Manuel II"
 	desc = ""
 	picture = "Portrait_POR_Manuel_Second.dds"
@@ -115,6 +104,7 @@ create_country_leader = {
 		#
 	}
 }
+
 create_country_leader = {
 	name = "Bento Gonçalves"
 	desc = ""

@@ -63,6 +63,19 @@ country_event = {
 				add_to_faction = PER
 			}
 		}
+		if = {
+		    NOT = 
+			{random_country = {
+				limit = {
+					is_in_faction_with = TUR
+				}
+				add_to_faction = PER
+			}
+			}
+			create_faction = central_front
+			add_to_faction = TUR
+		   
+		}
 		TUR = {
 				country_event = turkey.12
 		}

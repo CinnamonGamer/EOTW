@@ -97,7 +97,7 @@ country_event = {
 			factor = 100
 		}
 		transfer_state = 723
-		transfer_state = 765
+		transfer_state = 745
 		add_stability = 0.1
 		ENG = {
 			country_event = { hours = 9 id = maori.3 }

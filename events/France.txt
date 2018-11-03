@@ -1208,7 +1208,7 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-		transfer_state = 766
+		transfer_state = 746
 		hidden_effect = {
 		    every_country = { news_event = { id = news.38 } }
 		}
@@ -1229,7 +1229,7 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-		transfer_state = 766
+		transfer_state = 746
 		hidden_effect = {
 		    every_country = { news_event = { id = news.39 } }
 		}
@@ -1533,11 +1533,8 @@ country_event = {
 		}
 		add_ideas = european_union_member
 		every_country = {
-			limit = { capital_scope = { is_on_continent = europe } 
-			AND = {
+			limit = { capital_scope = { is_on_continent = europe } }
 			NOT = { tag = FRA }
-			}
-			}
 			country_event = france.48
 		}
 		every_country = {
@@ -1803,7 +1800,7 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-		transfer_state = 767
+		transfer_state = 747
 		hidden_effect = {
 		    every_country = { news_event = { id = news.46 } }
 		}

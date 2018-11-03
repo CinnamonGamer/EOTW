@@ -641,7 +641,7 @@ country_event = {
 		}
 		IF = {
 			limit = { 
-				original_tag = BTC
+				country_tag = BTC
 			}	
 			clr_global_flag = POL_DEMAND_WEST_BTC
 		}		

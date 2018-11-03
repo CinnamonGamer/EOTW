@@ -122,18 +122,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Italo Balbo"
 	desc = ""
-	picture = "Portrait_ITA_balbo.dds"
-	expire = "1965.1.1"
-	ideology = traditional_nationalist
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Edmondo Rossoni"
-	desc = ""
-	picture = "Portrait_ITA_rossoni.dds"
+	picture = ""
 	expire = "1965.1.1"
 	ideology = fascist
 	traits = {

@@ -85,7 +85,14 @@ ideas = {
 		low_economic_mobilisation = {
 			
 			available = {
-					has_war_support > 0.15	
+					has_war_support > 0.15
+				if = {
+					limit = {
+						original_tag = HUN
+						has_dlc = "Death or Dishonor"
+					}
+					NOT = { has_idea = HUN_treaty_of_triannon }
+				}	
 			}
 			
 			cost = 150
@@ -114,6 +121,17 @@ ideas = {
 			
 			available = {
 				has_war_support > 0.25
+
+				if = {
+					limit = {
+						original_tag = HUN
+						has_dlc = "Death or Dishonor"
+					}
+					OR = {
+						has_completed_focus = HUN_secret_rearmament
+						NOT = { has_idea = HUN_treaty_of_triannon }
+					}
+				}
 			}
 
 			cost = 150
@@ -145,13 +163,27 @@ ideas = {
 			available = {
 				has_war_support > 0.5
 				OR = {
-					has_government = strasserist
-					has_government = de_leonist
+					has_government = fascism
+					has_government = communism
 					custom_trigger_tooltip = { tooltip = or_clarification_tooltip always = no }
 					AND = {
 						has_war = yes
+						any_enemy_country = {
+							ic_ratio = { 
+								tag = ROOT 
+								ratio > 0.4
+							}
+						}
 					}
-				}	
+				}
+
+				if = {
+					limit = {
+						original_tag = HUN
+						has_dlc = "Death or Dishonor"
+					}
+					NOT = { has_idea = HUN_treaty_of_triannon }
+				}		
 			}
 		
 			cost = 150
@@ -182,12 +214,20 @@ ideas = {
 			
 			available = {
 				has_war = yes
-				has_war_support > 0.9
+				has_war_support > 0.8
 				any_enemy_country = {
 					ic_ratio = { 
 						tag = ROOT 
-						ratio > 0.25
+						ratio > 0.5
 					}
+				}
+
+				if = {
+					limit = {
+						original_tag = HUN
+						has_dlc = "Death or Dishonor"
+					}
+					NOT = { has_idea = HUN_treaty_of_triannon }
 				}
 			}
 
@@ -255,6 +295,14 @@ ideas = {
 		export_focus = {
 			
 			available = {
+
+				if = {
+					limit = {
+						original_tag = CHI
+						has_dlc = "Waking the Tiger"
+					}
+					NOT = { has_idea = CHI_nine_power_treaty }
+				}
 			}
 			
 			
@@ -315,6 +363,15 @@ ideas = {
 						}
 					}
 				}
+
+
+				if = {
+					limit = {
+						original_tag = CHI
+						has_dlc = "Waking the Tiger"
+					}
+					NOT = { has_idea = CHI_nine_power_treaty }
+				}
 			}
 		
 			cost = 150
@@ -357,12 +414,24 @@ ideas = {
 			available = {
 				has_war = yes
 				OR = { 
-					has_government = strasserist
-					has_government = de_leonist
+					has_government = fascism
+					has_government = communism
 				}
 				OR = {
 					has_idea = war_economy
 					has_idea = tot_economic_mobilisation
+				}
+				OR = {
+					NOT = {	tag = SOV }
+					NOT = { has_opinion_modifier = MR_pact }
+				}
+
+				if = {
+					limit = {
+						original_tag = CHI
+						has_dlc = "Waking the Tiger"
+					}
+					NOT = { has_idea = CHI_nine_power_treaty }
 				}
 			}
 			

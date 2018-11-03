@@ -54,7 +54,7 @@ set_technology = {
 		renault_fra
 
 		#laws
-		civilian_economy
+		partial_economic_mobilisation
 	}
 
 	complete_national_focus = FRA_metropolitan_france

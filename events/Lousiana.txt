@@ -121,7 +121,7 @@ country_event = {
 		FRA = { white_peace = USA }
 		TUR = { white_peace = USA }
 		MEX = { white_peace = USA }
-
+		}
 		add_named_threat = { threat = -7 name = atlantic_peace }
 	}
 	#Never! Peace is bad!

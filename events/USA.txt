@@ -41,6 +41,7 @@ country_event = {
 		name = usa.51.b
 		ai_chance = { factor = 60 }
 		MEX = {
+			remove_ideas = USA_Influence_focus_eotw
 			remove_opinion_modifier = { target = USA modifier = American_influence_eotw }
 		}
 		USA = {
@@ -302,7 +303,7 @@ country_event = {
 		}
 	}
 }
-# Mexico accepts 
+Mexico accepts 
 country_event = {
 	id = usa.100
 	title = usa.100.t
@@ -526,12 +527,14 @@ country_event = {
 				type = take_state
 				target = USA
 				generator = { 685 }
+			}
 		}
 	}
 	option = {
 		name = usa.751.b
 		ai_chance = { factor = 5 }
 		add_war_support = -0.05
+		}
 		add_named_threat = { threat = -0.2 name = panama_war_averted }
 	}
 }

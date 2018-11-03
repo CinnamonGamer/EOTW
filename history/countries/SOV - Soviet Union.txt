@@ -161,7 +161,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Grand Duke Mikhail of Russia"
+	name = "Michael II"
 	desc = ""
 	picture = "Portrait_SOV_Michael_Second.dds"
 	expire = "1953.3.1"

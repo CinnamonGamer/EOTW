@@ -11,11 +11,11 @@ state={
 	state_category = city
 
 	history={
-		owner = GAL
+		owner = PRS
 		buildings = {
 			infrastructure = 6
 		}
-		add_core_of = GAL
+		add_core_of = PRS
 	}
 
 	provinces={

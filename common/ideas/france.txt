@@ -274,6 +274,9 @@ ideas = {
 			allowed = {
 				original_tag = FRA
 			}
+			available = {
+				has_completed_focus = FRA_aggressive_focus
+			}
 
 			cost = 50
 			
@@ -289,6 +292,9 @@ ideas = {
 			
 			allowed = {
 				original_tag = FRA
+			}
+			available = {
+				has_completed_focus = FRA_defensive_focus
 			}
 
 			cost = 50
@@ -307,6 +313,8 @@ ideas = {
 			allowed = {
 				original_tag = FRA
 			}
+			
+
 			
 			traits = { army_chief_offensive_1 }
 			
