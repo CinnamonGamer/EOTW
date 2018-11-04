@@ -7,6 +7,7 @@ division_template = {
 		infantry = { x = 0 y = 2 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
 	}
 	support = {
 		artillery = { x = 0 y = 0 } 	
@@ -17,18 +18,36 @@ division_template = {
 ##### OOB #####
 units = {
     division= {	
-		name = "1. Rheinverteidigungskraft"
+		name = "1. Rheinische Division"
 		location = 6488
 		division_template = "Nationale Infanterie" 	
 		start_experience_factor = 0.3
 	}
 	
 	division= {	
-		name = "2. Rheinverteidigungskraft"
+		name = "2. Rheinische Division"
 		location = 241
 		division_template = "Nationale Infanterie" 	
 		start_experience_factor = 0.3
 	}
 
-
+navy = {
+		name = "Bundesmarine"
+		base = 241
+		location = 241
+		ship = { name = "Emden" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RHN } } }
+		ship = { name = "Bremen" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RHN } } }
+		ship = { name = "Stade" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RHN } } }
+		ship = { name = "Bremerhaven" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RHN } } }
+		ship = { name = "Hannover" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RHN } } }
+		ship = { name = "Kassel" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RHN } } }
+		ship = { name = "Frankfurt" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RHN } } }
+		ship = { name = "Stuttgart" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RHN } } }
+		ship = { name = "Freiburg" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RHN } } }
+		ship = { name = "Paderborn" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RHN } } }
+		ship = { name = "Elberfeld" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RHN } } }
+		ship = { name = "Westfalen" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RHN } } }
+		
+		
+	}
 }
