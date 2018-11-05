@@ -28,54 +28,57 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		strasserist = { 
-			popularity = 7
+		cromwellism = { 
+			popularity = 55
 		}
 
-		nationalist = {
-			popularity = 0
+		fundamentalism = {
+			popularity = 6
 		}
 		
-		absolute_monarchist = {
-			popularity = 19
-			#banned = no #default is no
+		paternal_conservatism = {
+			popularity = 3
 		}
 		
-		national_conservative = { 
-			popularity = 0
-		}
-
-                theoconservative = { 
-			popularity = 0
-		}
-
-                national_liberal = { 
-			popularity = 0
-		}
-
-                americanist = { 
-			popularity = 8
-		}
-
-                georgist = { 
-			popularity = 0
-		}
-
-                democratic_socialist = { 
+		bonapartism = { 
 			popularity = 5
 		}
 
-                collectivist = { 
+                conservative_liberalism = { 
+			popularity = 2
+		}
+
+                liberal_conservatism = { 
+			popularity = 4
+		}
+
+                classical_liberalism = { 
+			popularity = 2
+		}
+
+                liberal_radicalism = { 
 			popularity = 0
 		}
 
-                de_leonist = { 
-			popularity = 61
+                democratic_socialism = { 
+			popularity = 8
+		}
+
+                enragism = { 
+			popularity = 0
+		}
+
+                engelism = { 
+			popularity = 7
+		}
+		
+		reasonism = {
+			popularity = 11
 		}
 	}
 	
-	ruling_party = de_leonist
-	last_election = "1933.4.26"
+	ruling_party = cromwellism
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -93,7 +96,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_HOL_Henk_Sneevliet.dds"
 	expire = "1965.1.1"
-	ideology = international_de_leonist
+	ideology = reasonism_ideology
 	traits = {
 	}
 }
@@ -113,7 +116,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_HOL_Wilhelmina.dds"
 	expire = "1965.1.1"
-	ideology = oligarchist
+	ideology = paternal_conservatism_ideology
 	traits = {
 	}
 }
@@ -133,7 +136,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_HOL_geer.dds"
 	expire = "1965.1.1"
-	ideology = constitutional_christian
+	ideology = conservative_liberalism_ideology
 	traits = {
 	}
 }
