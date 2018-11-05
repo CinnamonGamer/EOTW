@@ -1,33 +1,24 @@
 ideologies = {
 
-	strasserist = {
+	cromwellism = {
 		
 		types = {
 		
-			militant_strasserist = {	
-			}
-			
-			social_strasserist = {	
-			}
-			
-			fascist = {			
-			}
-			
-			national_bolshevik = {				
+			cromwellism_ideology = {				
 			}
 			
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_STRASSERIST_1"
-			"FACTION_NAME_STRASSERIST_2"
-			"FACTION_NAME_STRASSERIST_3"
-			"FACTION_NAME_STRASSERIST_4"
-			"FACTION_NAME_STRASSERIST_5"
-			"FACTION_NAME_STRASSERIST_6"
+			"FACTION_NAME_CROMWELLISM_1"
+			"FACTION_NAME_CROMWELLISM_2"
+			"FACTION_NAME_CROMWELLISM_3"
+			"FACTION_NAME_CROMWELLISM_4"
+			"FACTION_NAME_CROMWELLISM_5"
+			"FACTION_NAME_CROMWELLISM_6"
 		}
 		
-		color = { 140 80 0 }
+		color = { 163 79 34 }
 		
 		war_impact_on_world_tension = 3
 		faction_impact_on_world_tension = 3

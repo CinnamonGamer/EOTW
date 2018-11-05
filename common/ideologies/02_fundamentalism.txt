@@ -1,27 +1,25 @@
 ideologies = {
 
-	theoconservative = {
+	fundamentalism = {
 		
 		types = {
 		
-			religious_cultism = {
+			fundamentalism_ideology = {
 			}
                         
-                        liberal_theocracy = {
-			}
 			
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_THEOCONSERVATIVE_1"
-			"FACTION_NAME_THEOCONSERVATIVE_2"
-			"FACTION_NAME_THEOCONSERVATIVE_3"
-			"FACTION_NAME_THEOCONSERVATIVE_4"
-			"FACTION_NAME_THEOCONSERVATIVE_5"
-			"FACTION_NAME_THEOCONSERVATIVE_6"
+			"FACTION_NAME_FUNDAMENTALISM_1"
+			"FACTION_NAME_FUNDAMENTALISM_2"
+			"FACTION_NAME_FUNDAMENTALISM_3"
+			"FACTION_NAME_FUNDAMENTALISM_4"
+			"FACTION_NAME_FUNDAMENTALISM_5"
+			"FACTION_NAME_FUNDAMENTALISM_6"
 		}
 		
-		color = { 250 142 0 }
+		color = { 163 144 34 }
 		
 		war_impact_on_world_tension = 2
 		faction_impact_on_world_tension = 2

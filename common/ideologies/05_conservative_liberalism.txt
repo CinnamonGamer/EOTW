@@ -1,33 +1,24 @@
 ideologies = {
 
-	national_conservative = {
+	conservative_liberalism = {
 		
 		types = {
 		
-			constitutional_christian = {
-			}
-			
-			secular_conservative = {
-			}
-			
-			fiscal_conservative = {
-			}
-			
-			prussianist = {
+			conservative_liberalism_ideology = {
 			}
 			
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_NATIONAL_CONSERVATIVE_1"
-			"FACTION_NAME_NATIONAL_CONSERVATIVE_2"
-			"FACTION_NAME_NATIONAL_CONSERVATIVE_3"
-			"FACTION_NAME_NATIONAL_CONSERVATIVE_4"
-			"FACTION_NAME_NATIONAL_CONSERVATIVE_5"
-			"FACTION_NAME_NATIONAL_CONSERVATIVE_6"
+			"FACTION_NAME_CONSERVATIVE_LIBERALISM_1"
+			"FACTION_NAME_CONSERVATIVE_LIBERALISM_2"
+			"FACTION_NAME_CONSERVATIVE_LIBERALISM_3"
+			"FACTION_NAME_CONSERVATIVE_LIBERALISM_4"
+			"FACTION_NAME_CONSERVATIVE_LIBERALISM_5"
+			"FACTION_NAME_CONSERVATIVE_LIBERALISM_6"
 		}
 		
-		color = { 97 105 220 }
+		color = { 46 46 255 }
 		
 		war_impact_on_world_tension = 2
 		faction_impact_on_world_tension = 2

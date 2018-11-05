@@ -16,56 +16,59 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		strasserist = { 
-			popularity = 0
+		cromwellism = { 
+			popularity = 10
 		}
 
-		nationalist = {
+		fundamentalism = {
 			popularity = 0
 		}
 		
-		absolute_monarchist = {
+		paternal_conservatism = {
+			popularity = 10
+		}
+		
+		bonapartism = { 
 			popularity = 5
-			#banned = no #default is no
+		}
+
+                conservative_liberalism = { 
+			popularity = 15
+		}
+
+                liberal_conservatism = { 
+			popularity = 20
+		}
+
+                classical_liberalism = { 
+			popularity = 15
+		}
+
+                liberal_radicalism = { 
+			popularity = 5
+		}
+
+                democratic_socialism = { 
+			popularity = 15
+		}
+
+                enragism = { 
+			popularity = 0
+		}
+
+                engelism = { 
+			popularity = 5
 		}
 		
-		national_conservative = { 
-			popularity = 0
-		}
-
-                theoconservative = { 
-			popularity = 0
-		}
-
-                national_liberal = { 
-			popularity = 0
-		}
-
-                americanist = { 
-			popularity = 0
-		}
-
-                georgist = { 
-			popularity = 95
-		}
-
-                democratic_socialist = { 
-			popularity = 0
-		}
-
-                collectivist = { 
-			popularity = 0
-		}
-
-                de_leonist = { 
+		reasonism = {
 			popularity = 0
 		}
 	}
 	
-	ruling_party = georgist
+	ruling_party = liberal_conservatism
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 add_ideas = {
@@ -73,13 +76,23 @@ add_ideas = {
 	disarmed_nation
 	civilian_economy
 }
+create_country_leader = {
+	name = "Langalibalele Dube"
+	desc = ""
+	picture = "Portrait_ZAM_Langalibalele_Dube.tga"
+	expire = "1965.1.1"
+	ideology = liberal_conservatism_ideology
+	traits = {
+		#
+	}
+}
 
 create_country_leader = {
-	name = "Jabari Akiwanir"
+	name = "Pixley ka Isaka Seme"
 	desc = ""
-	picture = ""
+	picture = "Portrait_ZAM_Pixley_ka_Isaka_Seme.tga"
 	expire = "1965.1.1"
-	ideology = environmental_georgist
+	ideology = liberal_radicalism_ideology
 	traits = {
 		#
 	}
@@ -88,9 +101,9 @@ create_country_leader = {
 create_country_leader = {
 	name = "Solomon kaDinuzulu"
 	desc = ""
-	picture = ""
+	picture = "Portrait_ZAM_Solomon_kaDinuzulu.tga"
 	expire = "1965.1.1"
-	ideology = military_monarchy
+	ideology = paternal_conservatism_ideology
 	traits = {
 		#
 	}

@@ -1,33 +1,24 @@
 ideologies = {
 
-	absolute_monarchist = {
+	paternal_conservatism = {
 		
 		types = {
 		
-			military_monarchy = {
-			}
-			
-			oligarchist = {
-			}
-			
-			imperial = {
-			}
-			
-			religious = {
+			paternal_conservatism_ideology = {
 			}
 			
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_ABSOLUTE_MONARCHIST_1"
-			"FACTION_NAME_ABSOLUTE_MONARCHIST_2"
-			"FACTION_NAME_ABSOLUTE_MONARCHIST_3"
-			"FACTION_NAME_ABSOLUTE_MONARCHIST_4"
-			"FACTION_NAME_ABSOLUTE_MONARCHIST_5"
-			"FACTION_NAME_ABSOLUTE_MONARCHIST_6"
+			"FACTION_NAME_PATERNAL_CONSERVATISM_1"
+			"FACTION_NAME_PATERNAL_CONSERVATISM_2"
+			"FACTION_NAME_PATERNAL_CONSERVATISM_3"
+			"FACTION_NAME_PATERNAL_CONSERVATISM_4"
+			"FACTION_NAME_PATERNAL_CONSERVATISM_5"
+			"FACTION_NAME_PATERNAL_CONSERVATISM_6"
 		}
 		
-		color = { 200 200 200 }
+		color = { 24 6 31 }
 		
 		war_impact_on_world_tension = 2
 		faction_impact_on_world_tension = 2

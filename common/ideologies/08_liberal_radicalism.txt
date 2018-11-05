@@ -1,33 +1,24 @@
 ideologies = {
 
-	georgist = {
+	liberal_radicalism = {
 		
 		types = {
 		
-			environmental_georgist = {
-			}
-			
-			conservative_georgist = {
-			}
-
-                        liberal_collectivist = {
-			}
-
-                        socio_capitalist = {
+			liberal_radicalism_ideology = {
 			}
 			
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_GEORGIST_1"
-			"FACTION_NAME_GEORGIST_2"
-			"FACTION_NAME_GEORGIST_3"
-			"FACTION_NAME_GEORGIST_4"
-			"FACTION_NAME_GEORGIST_5"
-			"FACTION_NAME_GEORGIST_6"
+			"FACTION_NAME_LIBERAL_RADICALISM_1"
+			"FACTION_NAME_LIBERAL_RADICALISM_2"
+			"FACTION_NAME_LIBERAL_RADICALISM_3"
+			"FACTION_NAME_LIBERAL_RADICALISM_4"
+			"FACTION_NAME_LIBERAL_RADICALISM_5"
+			"FACTION_NAME_LIBERAL_RADICALISM_6"
 		}
 		
-		color = { 100 236 104 }
+		color = { 255 58 3 }
 		
 		war_impact_on_world_tension = 1.95
 		faction_impact_on_world_tension = 1.95

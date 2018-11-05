@@ -1,36 +1,24 @@
 ideologies = {
 
-	collectivist = {
+	enragism = {
 		
 		types = {
 		
-			international_collectivist = {
-			}
-		
-			national_collectivist = {
-			}
-			
-			bolshevik = {
-			}
-			
-			qing_collectivism = {
-			}
-			
-			radical_collectivism = {
+			enragism_ideology = {
 			}
 			
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_COLLECTIVIST_1"
-			"FACTION_NAME_COLLECTIVIST_2"
-			"FACTION_NAME_COLLECTIVIST_3"
-			"FACTION_NAME_COLLECTIVIST_4"
-			"FACTION_NAME_COLLECTIVIST_5"
-			"FACTION_NAME_COLLECTIVIST_6"
+			"FACTION_NAME_ENRAGISM_1"
+			"FACTION_NAME_ENRAGISM_2"
+			"FACTION_NAME_ENRAGISM_3"
+			"FACTION_NAME_ENRAGISM_4"
+			"FACTION_NAME_ENRAGISM_5"
+			"FACTION_NAME_ENRAGISM_6"
 		}
 		
-		color = { 230 255 0 }
+		color = { 209 32 23 }
 		
 		war_impact_on_world_tension = 3
 		faction_impact_on_world_tension = 3

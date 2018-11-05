@@ -1,27 +1,24 @@
 ideologies = {
 
-	de_leonist = {
+	engelism = {
 		
 		types = {
 		
-			radical_de_leonist = {
-			}
-			
-			international_de_leonist = {
+			engelism_ideology = {
 			}
 			
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_DE_LEONIST_1"
-			"FACTION_NAME_DE_LEONIST_2"
-			"FACTION_NAME_DE_LEONIST_3"
-			"FACTION_NAME_DE_LEONIST_4"
-			"FACTION_NAME_DE_LEONIST_5"
-			"FACTION_NAME_DE_LEONIST_6"
+			"FACTION_NAME_ENGELISM_1"
+			"FACTION_NAME_ENGELISM_2"
+			"FACTION_NAME_ENGELISM_3"
+			"FACTION_NAME_ENGELISM_4"
+			"FACTION_NAME_ENGELISM_5"
+			"FACTION_NAME_ENGELISM_6"
 		}
 		
-		color = { 191 5 5 }
+		color = { 140 25 17 }
 		
 		war_impact_on_world_tension = 3
 		faction_impact_on_world_tension = 3

@@ -1,30 +1,24 @@
 ideologies = {
 
-	americanist = {
+	classical_liberalism = {
 		
 		types = {
 		
-			representative_democrat = {
-			}
- 
-            direct_democrat = {
-			}
-              
-            constitutional_monarchist = {
+			classical_liberalism_ideology = {
 			}
 			
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_AMERICANIST_1"
-			"FACTION_NAME_AMERICANIST_2"
-			"FACTION_NAME_AMERICANIST_3"
-			"FACTION_NAME_AMERICANIST_4"
-			"FACTION_NAME_AMERICANIST_5"
-			"FACTION_NAME_AMERICANIST_6"
+			"FACTION_NAME_CLASSICAL_LIBERALISM_1"
+			"FACTION_NAME_CLASSICAL_LIBERALISM_2"
+			"FACTION_NAME_CLASSICAL_LIBERALISM_3"
+			"FACTION_NAME_CLASSICAL_LIBERALISM_4"
+			"FACTION_NAME_CLASSICAL_LIBERALISM_5"
+			"FACTION_NAME_CLASSICAL_LIBERALISM_6"
 		}
 		
-		color = { 22 210 230 }
+		color = { 235 204 94 }
 		
 		war_impact_on_world_tension = 2
 		faction_impact_on_world_tension = 2

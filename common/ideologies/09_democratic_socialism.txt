@@ -1,27 +1,24 @@
 ideologies = {
 
-	democratic_socialist = {
+	democratic_socialism = {
 		
 		types = {
 		
-			democratic_socialist_ideology = {
-			}
-
-                        liberal_leninist = {
+			democratic_socialism_ideology = {
 			}
 			
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_DEMOCRATIC_SOCIALIST_1"
-			"FACTION_NAME_DEMOCRATIC_SOCIALIST_2"
-			"FACTION_NAME_DEMOCRATIC_SOCIALIST_3"
-			"FACTION_NAME_DEMOCRATIC_SOCIALIST_4"
-			"FACTION_NAME_DEMOCRATIC_SOCIALIST_5"
-			"FACTION_NAME_DEMOCRATIC_SOCIALIST_6"
+			"FACTION_NAME_DEMOCRATIC_SOCIALISM_1"
+			"FACTION_NAME_DEMOCRATIC_SOCIALISM_2"
+			"FACTION_NAME_DEMOCRATIC_SOCIALISM_3"
+			"FACTION_NAME_DEMOCRATIC_SOCIALISM_4"
+			"FACTION_NAME_DEMOCRATIC_SOCIALISM_5"
+			"FACTION_NAME_DEMOCRATIC_SOCIALISM_6"
 		}
 		
-		color = { 236 100 100 }
+		color = { 255 21 21 }
 		
 		war_impact_on_world_tension = 2
 		faction_impact_on_world_tension = 2

@@ -140,54 +140,57 @@ set_war_support = 0.50
 set_politics = {
 
 	parties = {
-		strasserist = { 
-			popularity = 4
+		cromwellism = { 
+			popularity = 0
 		}
 
-		nationalist = {
+		fundamentalism = {
 			popularity = 0
 		}
 		
-		absolute_monarchist = {
-			popularity = 81
-			#banned = no #default is no
+		paternal_conservatism = {
+			popularity = 0
 		}
 		
-		national_conservative = { 
-			popularity = 0
+		bonapartism = { 
+			popularity = 40
 		}
 
-                theoconservative = { 
-			popularity = 0
+                conservative_liberalism = { 
+			popularity = 10
 		}
 
-                national_liberal = { 
-			popularity = 0
-		}
-
-                americanist = { 
+                liberal_conservatism = { 
 			popularity = 5
 		}
 
-                georgist = { 
+                classical_liberalism = { 
+			popularity = 7
+		}
+
+                liberal_radicalism = { 
+			popularity = 8
+		}
+
+                democratic_socialism = { 
 			popularity = 0
 		}
 
-                democratic_socialist = { 
+                enragism = { 
 			popularity = 0
 		}
 
-                collectivist = { 
+                engelism = { 
 			popularity = 0
 		}
-
-                de_leonist = { 
-			popularity = 10
+		
+		reasonism = {
+			popularity = 30
 		}
 	}
 	
-	ruling_party = absolute_monarchist
-	last_election = "1932.5.1"
+	ruling_party = bonapartism
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -222,7 +225,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_FRA_Napoleon_Sixth.dds"
 	expire = "1965.1.1"
-	ideology = imperial
+	ideology = bonapartism_ideology
 	traits = {
 		
 	}
