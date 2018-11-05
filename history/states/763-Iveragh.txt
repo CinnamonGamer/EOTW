@@ -1,6 +1,6 @@
 state={
 	id=763
-	name="Iveragh"
+	name="STATE_763"
 	manpower = 244
 
 	state_category = small_island
