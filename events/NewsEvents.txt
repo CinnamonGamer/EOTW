@@ -2536,12 +2536,315 @@ news_event = {
 }
 
 
-
-
-
-
-
-
-
-
+# The Fall of Amsterdam (France)
+news_event = {
+	id = news.100
+	title = news.100.t
+	desc = news.100.d
+	picture = GFX_news_event_romanian_soldiers
 	
+	major = yes
+	
+	trigger = {
+		7 = { is_controlled_by = FRA }
+		7 = { is_owned_by = HOL }
+		FRA = { has_war_with = HOL }
+		NOT = { has_global_flag = fall_of_amsterdam_fra }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_amsterdam_fra
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.100.a
+		trigger = {
+			NOT = {
+				TAG = FRA
+				TAG = HOL
+				is_in_faction_with = HOL
+			}
+		}
+	}
+	option = {
+		name = news.100.b
+		trigger = { TAG = FRA }
+	}
+	option = {
+		name = news.100.c
+		trigger = { 
+			OR = {
+				TAG = HOL
+				is_in_faction_with = HOL
+			}
+		}
+	}
+}
+
+# The Fall of Madrid (France)
+news_event = {
+	id = news.101
+	title = news.101.t
+	desc = news.101.d
+	picture = GFX_news_event_saf_civil_war
+	
+	major = yes
+	
+	trigger = {
+		41 = { is_controlled_by = FRA }
+		41 = { is_owned_by = SPR }
+		FRA = { has_war_with = SPR }
+		NOT = { has_global_flag = fall_of_madrid_fra }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_madrid_fra
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.101.a
+		trigger = {
+			NOT = {
+				TAG = FRA
+				TAG = SPR
+				is_in_faction_with = SPR
+			}
+		}
+	}
+	option = {
+		name = news.100.b
+		trigger = { TAG = FRA }
+	}
+	option = {
+		name = news.101.c
+		trigger = { 
+			OR = {
+				TAG = SPR
+				is_in_faction_with = SPR
+			}
+		}
+	}
+}
+
+# The Fall of Berlin (France)
+news_event = {
+	id = news.102
+	title = news.102.t
+	desc = news.102.d
+	picture = GFX_news_event_german_reichstag_ruins
+	
+	major = yes
+	
+	trigger = {
+		64 = { is_controlled_by = FRA }
+		64 = { is_owned_by = PRS }
+		FRA = { has_war_with = PRS }
+		NOT = { has_global_flag = fall_of_berlin_fra }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_berlin_fra
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.102.a
+		trigger = {
+			NOT = {
+				TAG = FRA
+				TAG = PRS
+			}
+		}
+	}
+	option = {
+		name = news.100.b
+		trigger = { TAG = FRA }
+	}
+	option = {
+		name = news.102.c
+		trigger = { TAG = PRS }
+	}
+}
+
+# The Fall of Moscow (France)
+news_event = {
+	id = news.103
+	title = news.103.t
+	desc = news.103.d
+	picture = GFX_news_event_soviet_soldiers_ruins
+	
+	major = yes
+	
+	trigger = {
+		219 = { is_controlled_by = FRA }
+		219 = { is_owned_by = SOV }
+		FRA = { has_war_with = SOV }
+		NOT = { has_global_flag = fall_of_moscow_fra }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_moscow_fra
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.103.a
+		trigger = {
+			NOT = {
+				TAG = FRA
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = news.100.b
+		trigger = { TAG = FRA }
+	}
+	option = {
+		name = news.103.c
+		trigger = { TAG = SOV }
+	}
+}
+
+# The Fall of St Petersburg (France)
+news_event = {
+	id = news.104
+	title = news.104.t
+	desc = news.104.d
+	picture = GFX_news_event_soviet_soldiers_ruins
+	
+	major = yes
+	
+	trigger = {
+		195 = { is_controlled_by = FRA }
+		195 = { is_owned_by = SOV }
+		FRA = { has_war_with = SOV }
+		NOT = { has_global_flag = fall_of_petrograd_fra }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_petrograd_fra
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.103.a
+		trigger = {
+			NOT = {
+				TAG = FRA
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = news.104.b
+		trigger = { TAG = FRA }
+	}
+	option = {
+		name = news.103.c
+		trigger = { TAG = SOV }
+	}
+}
+
+# The Fall of New York (France)
+news_event = {
+	id = news.105
+	title = news.105.t
+	desc = news.105.d
+	picture = GFX_news_event_generic_usa_treaty
+	
+	major = yes
+	
+	trigger = {
+		358 = { is_controlled_by = FRA }
+		358 = { is_owned_by = USA }
+		FRA = { has_war_with = USA }
+		NOT = { has_global_flag = fall_of_new_york_fra }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_new_york_fra
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.105.a
+		trigger = {
+			NOT = {
+				TAG = FRA
+				TAG = USA
+			}
+		}
+	}
+	option = {
+		name = news.100.b
+		trigger = { TAG = FRA }
+	}
+	option = {
+		name = news.100.c
+		trigger = { TAG = USA }
+	}
+}
+
+# The Fall of London (France)
+news_event = {
+	id = news.106
+	title = news.106.t
+	desc = news.106.d
+	picture = GFX_news_event_churchill_ruins
+	
+	major = yes
+	
+	trigger = {
+		126 = { is_controlled_by = FRA }
+		126 = { is_owned_by = ENG }
+		FRA = { has_war_with = ENG }
+		NOT = { has_global_flag = fall_of_london_fra }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_london_fra
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.106.a
+		trigger = {
+			NOT = {
+				TAG = FRA
+				TAG = ENG
+			}
+		}
+	}
+	option = {
+		name = news.106.b
+		trigger = { TAG = FRA }
+	}
+	option = {
+		name = news.100.c
+		trigger = { TAG = ENG }
+	}
+}

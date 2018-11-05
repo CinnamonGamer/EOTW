@@ -89,23 +89,6 @@ units = {
 		start_equipment_factor = 0.3
 
 	}
-	# Division 1 Command
-	division = {
-		name = "Division 1"
-		location = 6666
-		division_template = "Grenzbrigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
-
-	}
-	division = {
-		name = "Grenzbrigade 1"
-		location = 6666
-		division_template = "Grenzbrigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
-
-	}
 	# Division 2 Command
 	division = {
 		name = "Division 2"
