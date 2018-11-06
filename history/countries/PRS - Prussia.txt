@@ -29,76 +29,91 @@ set_convoys = 50
 set_politics = {
 
 	parties = {
-		strasserist = { 
-			popularity = 5
+		cromwellism = { 
+			popularity = 31
 		}
 
-		nationalist = {
-			popularity = 75
+		fundamentalism = {
+			popularity = 4
 		}
 		
-		absolute_monarchist = {
-			popularity = 15
+		paternal_conservatism = {
+			popularity = 14
+		}
+
+        bonapartism = {
+			popularity = 1
+		}
+
+        conservative_liberalism = {
+			popularity = 7
+		}
+
+        liberal_conservatism = {
+			popularity = 3
 			#banned = no #default is no
 		}
 
-                national_conservative = {
-			popularity = 0
+        classical_liberalism = {
+			popularity = 3
 			#banned = no #default is no
 		}
 
-                theoconservative = {
-			popularity = 0
+        liberal_radicalism = {
+			popularity = 3
 			#banned = no #default is no
 		}
 
-                national_liberal = {
-			popularity = 0
-			#banned = no #default is no
-		}
-
-                americanist = {
+       democratic_socialism = {
 			popularity = 2
 			#banned = no #default is no
 		}
 
-                georgist = {
-			popularity = 0
+       engelism = {
+			popularity = 26
 			#banned = no #default is no
 		}
 
-                democratic_socialist = {
-			popularity = 0
-			#banned = no #default is no
-		}
-
-                collectivist = {
-			popularity = 0
-			#banned = no #default is no
-		}
-
-                de_leonist = {
-			popularity = 3
+        reasonism = {
+			popularity = 6
 			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = nationalist
+	ruling_party = paternal_conservatism 
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-create_faction = axis
-add_to_faction = PRS
-
 add_ideas = {
-	revenge_for_austerlitz
 	export_focus
 	extensive_conscription
 	partial_economic_mobilisation
 }
 
+
+create_country_leader = {
+	name = "Alfred Hugenberg"
+	desc = ""
+	picture = "Portrait_PRS_Alfred_Hugenberg.dds"
+	expire = "1965.1.1"
+	ideology = paternal_conservatism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ernst Thalmann"
+	desc = ""
+	picture = "Portrait_PRS_Ernst_Thalmanng.dds"
+	expire = "1965.1.1"
+	ideology = engelism_ideology
+	traits = {
+		#
+	}
+}
 
 create_country_leader = {
 	name = "Gustav Stresemann"
