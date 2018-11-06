@@ -21,7 +21,7 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		strasserist = { 
+		cromwellism = { 
 			popularity = 96
 		}
 
@@ -29,7 +29,7 @@ set_politics = {
 			popularity = 0
 		}
 		
-		absolute_monarchist = {
+		bonapartism = {
 			popularity = 4
 			#banned = no #default is no
 		}
@@ -75,7 +75,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = strasserist
+	ruling_party = cromwellism
 	last_election = "1935.9.8"
 	election_frequency = 36
 	elections_allowed = no
@@ -86,7 +86,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_POL_Niewiadomski.dds"
 	expire = "1965.1.1"
-	ideology = social_strasserist
+	ideology = cromwellism
 	traits = {
 		#
 	}
