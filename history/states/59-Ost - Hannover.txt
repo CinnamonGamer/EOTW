@@ -10,7 +10,7 @@ state={
 	state_category = large_city
 
 	history={
-		owner = SNY
+		owner = RHN
 		victory_points = {
 			3326 5 
 		}
@@ -27,7 +27,6 @@ state={
 			}
 
 		}
-		add_core_of = SNY
 		add_core_of = PRS
 		add_core_of = BAV
 		add_core_of = RHN
@@ -43,6 +42,6 @@ state={
 	}
 
 	provinces={
-		374 526 3271 3326 3395 6218 6263 6298 6325 6349 6377 6513 9238 9264 9375 11402 11468 11493 
+		374 526 3271 3326 3395 6218 6263 6298 6325 6349 6377 6513 9238 9264 9375 11402 11468 11493 3522 11359 6487
 	}
 }
