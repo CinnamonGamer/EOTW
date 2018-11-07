@@ -21,73 +21,77 @@ set_technology = {
 
 set_convoys = 50
 set_politics = {
-
 	parties = {
-		strasserist = { 
-			popularity = 0
+		cromwellism = { 
+			popularity = 5
 		}
 
-		nationalist = {
-			popularity = 0
+		fundamentalism = {
+			popularity = 5
 		}
 		
-		absolute_monarchist = {
-			popularity = 100
-			#banned = no #default is no
+		paternal_conservatism = {
+			popularity = 5
+		}
+		
+		bonapartism = { 
+			popularity = 50
 		}
 
-                national_conservative = {
-			popularity = 0
-			#banned = no #default is no
+                conservative_liberalism = { 
+			popularity = 5
 		}
 
-                theoconservative = {
-			popularity = 0
-			#banned = no #default is no
+                liberal_conservatism = { 
+			popularity = 5
 		}
 
-                national_liberal = {
-			popularity = 0
-			#banned = no #default is no
+                classical_liberalism = { 
+			popularity = 5
 		}
 
-                americanist = {
-			popularity = 0
-			#banned = no #default is no
+                liberal_radicalism = { 
+			popularity = 5
 		}
 
-                georgist = {
-			popularity = 0
-			#banned = no #default is no
+                democratic_socialism = { 
+			popularity = 5
 		}
 
-                democratic_socialist = {
+                enragism = { 
 			popularity = 0
-			#banned = no #default is no
 		}
 
-                collectivist = {
-			popularity = 0
-			#banned = no #default is no
+                engelism = { 
+			popularity = 5
 		}
-
-                de_leonist = {
-			popularity = 0
-			#banned = no #default is no
+		
+				reasonism = {
+			popularity = 5
 		}
 	}
 	
-	ruling_party = absolute_monarchist
-	last_election = "1933.3.5"
+	ruling_party = bonapartism
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
+
+	
+	
+
 
 add_ideas = {
 	limited_exports
 	disarmed_nation
 	civilian_economy	
 	strong_advisory_council
+	rhn_rote_ruhr
+	rhn_drittes_deutschland
+	rhn_fading_bonapartism
+	rhn_freiwirtschaftsbewegung
+	rhn_oversized
+	rhn_enforced_demilitarization
 }
 
 create_country_leader = {
@@ -95,40 +99,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_RHN_Confederate_Council.dds"
 	expire = "1965.1.1"
-	ideology = imperial
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Joseph Goebbels"
-	desc = ""
-	picture = "Portrait_RHN_goebbels.dds"
-	expire = "1965.1.1"
-	ideology = fascist
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Konrad Adenauer"
-	desc = ""
-	picture = "Portrait_RHN_adenauer.dds"
-	expire = "1965.1.1"
-	ideology = representative_democrat
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Arthur Crispien"
-	desc = ""
-	picture = "Portrait_RHN_arthur.dds"
-	expire = "1965.1.1"
-	ideology = democratic_socialist_ideology
+	ideology = bonapartism_ideology
 	traits = {
 		#
 	}
@@ -137,9 +108,42 @@ create_country_leader = {
 create_country_leader = {
 	name = "Hermann Ehrhardt"
 	desc = ""
-	picture = "Portrait_RHN_erhardt.dds"
+	picture = ""
 	expire = "1965.1.1"
-	ideology = traditional_nationalist
+	ideology = cromwellism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ludwig Müller"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = fundamentalism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Hugo Stinnes"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = paternal_conservatism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Rheinischer Bundestag"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = bonapartism_ideology
 	traits = {
 		#
 	}
@@ -147,68 +151,89 @@ create_country_leader = {
 
 
 create_country_leader = {
-	name = "Ludwig Mueller"
+	name = "Clemens August Graf von Galen"
 	desc = ""
-	picture = "Portrait_RHN_mueller.dds"
+	picture = ""
 	expire = "1965.1.1"
-	ideology = liberal_theocracy		
+	ideology = conservative_liberalism_ideology	
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Wilhelm Marx"
+	name = "Eugen Gerstenmaier"
 	desc = ""
-	picture = "Portrait_RHN_marx.dds"
+	picture = ""
 	expire = "1965.1.1"
-	ideology = centrist		
+	ideology = liberal_conservatism_ideology
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Heinrich Bruening"
+	name = "Wilhelm Külz"
 	desc = ""
-	picture = "Portrait_RHN_bruening.dds"
+	picture = ""
 	expire = "1965.1.1"
-	ideology = secular_conservative		
+	ideology = classical_liberalism_ideology
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Rudolf Rocker"
+	name = "Georg-August Zinn"
 	desc = ""
-	picture = "Portrait_RHN_rocker.dds"
+	picture = ""
 	expire = "1965.1.1"
-	ideology = international_de_leonist 			
+	ideology = 	liberal_radicalism_ideology
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Erich Honecker"
+	name = "Silvio Gesell"
 	desc = ""
-	picture = "Portrait_RHN_honecker.dds"
+	picture = ""
 	expire = "1965.1.1"
-	ideology = national_collectivist			
+	ideology = 	democratic_socialism_ideology		
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Julius Curtius"
+	name = "Georg Ledebour"
 	desc = ""
-	picture = "Portrait_RHN_curtius.dds"
+	picture = ""
 	expire = "1965.1.1"
-	ideology = conservative_georgist			
+	ideology = engelism_ideology		
 	traits = {
 		#
 	}
+}
+create_country_leader = {
+	name = "Markus Johannes Wolf"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = reasonism_ideology		
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Markus Johannes Wolf"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = enragism_ideology		
+	traits = {
+		#
+	}	
+	
 }
 

@@ -1,0 +1,127 @@
+ideas = {
+	country = { 
+		rhn_rote_ruhr = { 
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				engelism_drift = 0.07
+			}
+		
+		}
+
+		rhn_drittes_deutschland = { 
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				cromwellism_drift = 0.02
+				fundamentalism_drift = 0.02
+				paternal_conservatism_drift = 0.03
+			}
+		
+		}
+		
+		rhn_fading_bonapartism = { 
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				bonapartism_drift = -0.10
+			}
+		
+		}
+		
+		rhn_freiwirtschaftsbewegung = { 
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				classical_liberalism_drift = 0.03
+				radical_liberalism_drift = 0.01
+				democratic_socialism_drift = 0.03
+			}
+		
+		}
+	
+		rhn_oversized = { 
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				consumer_goods_factor = 0.10
+				production_speed_buildings_factor = -0.10
+			}
+		
+		}
+		
+		rhn_enforced_demilitarization = { 
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				conscription = -0.0035
+				conscription_factor = -0.35
+	
+	}
+}
