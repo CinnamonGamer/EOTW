@@ -4,3 +4,21 @@
 
 add_namespace = portugal
 
+country_event = { #intro event
+	id = portugal.1
+	title = portugal.1.t
+	desc = portugal.1.d
+	picture = GFX_unknown
+
+	trigger = {
+        tag = POR
+    }
+    mean_time_to_happen = { days = 5 }
+   
+    fire_only_once = yes
+	
+	 
+	option = {
+		name = portugal.1.a
+	}
+}
