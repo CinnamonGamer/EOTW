@@ -52,10 +52,6 @@ set_politics = {
 			popularity = 15
 		}
 
-                enragism = { 
-			popularity = 0
-		}
-
                 engelism = { 
 			popularity = 5
 		}
