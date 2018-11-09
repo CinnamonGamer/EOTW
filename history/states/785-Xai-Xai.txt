@@ -1,0 +1,23 @@
+state={
+	id=785
+	name="STATE_785"
+	state_category = pastoral
+	history = {
+		owner = GAZ
+		add_core_of = GAZ
+		victory_points = { 13226 3 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			13226 = {
+				naval_base = 1
+
+			}
+		}
+	}
+	provinces={
+		13226 13228 13230 
+	}
+	manpower=50310
+	buildings_max_level_factor=1.000
+}

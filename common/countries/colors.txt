@@ -531,3 +531,7 @@ QUE = {
 	color = rgb { 224 224 224 }
 	color_ui = rgb { 252 182 112 }
 }
+GAZ = {
+	color = rgb { 55 210 240 }
+	color_ui = rgb { 55 210 240 }
+}

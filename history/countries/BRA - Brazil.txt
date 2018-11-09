@@ -20,7 +20,16 @@ set_technology = {
 	early_battleship = 1
 	transport = 1
 }
-
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = GAZ
+		autonomous_state = autonomy_dominion
+		freedom_level 0.13
+	}	
+}
 set_politics = {
 
 	parties = {

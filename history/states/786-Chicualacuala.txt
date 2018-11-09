@@ -1,0 +1,17 @@
+state={
+	id=786
+	name="STATE_786"
+	state_category = pastoral
+	history = {
+		owner = GAZ
+		add_core_of = GAZ
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		13233 13235 
+	}
+	manpower=25121
+	buildings_max_level_factor=1.000
+}

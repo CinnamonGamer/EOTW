@@ -4,3 +4,7 @@ GMY = {
     color_ui = rgb { 255 73 121 }
 }
 
+GAZ_Brazilian = {	
+    color = rgb { 56 139 67 }
+    color_ui = rgb { 70 217 203 }
+}

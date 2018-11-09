@@ -95,7 +95,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Solomon kaDinuzulu"
+	name = "Solomão kaDinuzulu"
 	desc = ""
 	picture = "Portrait_ZAM_Solomon_kaDinuzulu.tga"
 	expire = "1965.1.1"
