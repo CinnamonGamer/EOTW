@@ -1,0 +1,34 @@
+
+state={
+	id=796
+	name="STATE_796" # Java
+	manpower = 12818200
+	
+	state_category = city
+	
+	resources={
+		rubber=11
+		oil=3
+	}
+
+	history={
+		owner = HOL
+		add_core_of = IDS
+		victory_points = {
+			7381 10
+		}
+
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			dockyard = 1
+			7381 = {
+				naval_base = 6
+			}
+		}
+	}
+
+	provinces={
+		1398 4406 7381 10279 12249 
+	}
+}

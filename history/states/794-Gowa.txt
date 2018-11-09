@@ -1,0 +1,30 @@
+state={
+	id=794
+	name="STATE_794"
+	manpower = 467000
+	resources={
+		rubber=12
+	}
+
+	state_category = town
+
+
+	history= {
+		owner = HOL
+		add_core_of = BRN
+		
+		victory_points = {
+			10263 3 
+		}
+
+		buildings = {
+			infrastructure = 2
+			10263 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces={
+		1589 4349 10263
+	}
+}

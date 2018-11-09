@@ -38,8 +38,8 @@ BRA = {	color = rgb { 56 139 67 }
 		color_ui = rgb { 70 217 203 }
 }
 BRN = {
-	color = rgb { 159 164 18 }
-	color_ui = rgb { 255 120 138 }
+	color = rgb { 63 72 204 }
+	color_ui = rgb { 63 72 204 }
 }
 CMB = {
 	color = rgb { 194 198 215 }
@@ -130,8 +130,8 @@ HSP = {
 	color_ui = rgb { 83 208 217 }
 }
 HOL = {
-	color = rgb { 145 157 236 }
-	color_ui = rgb { 189 204 255 }
+	color = rgb { 244 146 66 }
+	color_ui = rgb { 244 146 66 }
 }
 HUN = {
 	color = rgb { 57 143 97 }

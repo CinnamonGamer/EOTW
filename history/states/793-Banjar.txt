@@ -1,0 +1,29 @@
+state= {
+	id=793
+	name="STATE_793"
+	manpower = 831400
+	resources={
+		rubber=34
+	}
+	
+	state_category = rural
+
+	history= {
+		owner = HOL
+		add_core_of = BRN
+		
+		victory_points = {
+			10237 1 
+		}
+
+		buildings = {
+			infrastructure = 2
+			7296 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces={
+		1225 1416 7227 7296 8221 10138 10178 10310 12110 12280 12955 
+	}
+}
