@@ -19,6 +19,28 @@ country_event = { #intro event
 	
 	 
 	option = {
-		name = portugal.1.a
+	name = portugal.1.a
+	
+	country_event = {
+    id = portugal.2
+    days = 2
+    }
+
+	
 	}
+}
+country_event = { #Democratic problem 
+	id = portugal.2
+	title = portugal.2.t
+	desc = portugal.2.d
+	picture = GFX_unknown
+
+	trigger = {
+        tag = POR
+    }
+	fire_only_once = yes
+	
+	option = {
+	name = portugal.2.a
+    }
 }
