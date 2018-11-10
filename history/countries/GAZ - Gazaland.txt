@@ -71,4 +71,13 @@ add_ideas = {
 	disarmed_nation
 	civilian_economy
 }
-
+create_country_leader = {
+	name = "Edmundo Shoshangane Nxumalo"
+	desc = "POLITICS_EDMUNDO_NXUMALO_DESC"
+	picture = "Portrait_Gaza_Edmundo_Nxumalo.tga"
+	expire = "1965.1.1"
+	ideology = paternal_conservatism_ideology
+	traits = {
+		#
+	}
+}

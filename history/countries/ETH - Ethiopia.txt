@@ -73,13 +73,23 @@ add_ideas = {
 	civilian_economy
 	strong_advisory_council
 }
+create_country_leader = {
+	name = "Zewditu"
+	desc = "POLITICS_Zawditu_DESC"
+	picture = "Portrait_Ethiopia_Zewditu.tga"
+	expire = "1965.1.1"
+	ideology = paternal_conservatism_ideology
+	traits = {
+		#
+	}
+}
 
 create_country_leader = {
-	name = "Haile Selassie"
+	name = "Tafari Makonnen"
 	desc = "POLITICS_HAILE_SELASSIE_DESC"
 	picture = "Portrait_Ethiopia_Haile_Selassie.dds"
 	expire = "1965.1.1"
-	ideology = paternal_conservatism_ideology
+	ideology = bonapartism_ideology
 	traits = {
 		#
 	}
