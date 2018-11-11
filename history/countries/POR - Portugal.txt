@@ -23,65 +23,65 @@ set_technology = {
 }
 
 
-set_convoys = 50
+set_convoys = 150
 set_politics = {
 
 	parties = {
-		strasserist = { 
-			popularity = 7
+		cromwellism = { 
+			popularity = 3
 		}
 
-		nationalist = {
-			popularity = 0
+		fundamentalism = {
+			popularity = 10 
 		}
 		
-		absolute_monarchist = {
-			popularity = 85
-			#banned = no #default is no
-		}
-
-                national_conservative = {
+		paternal_conservatism = {
 			popularity = 0
 			#banned = no #default is no
 		}
 
-                theoconservative = {
-			popularity = 0
+                bonapartism = {
+			popularity = 50
 			#banned = no #default is no
 		}
 
-                national_liberal = {
-			popularity = 3
+                conservative_liberalism = {
+			popularity = 7
 			#banned = no #default is no
 		}
 
-                americanist = {
-			popularity = 0
+                liberal_conservatism = {
+			popularity = 10
 			#banned = no #default is no
 		}
 
-                georgist = {
-			popularity = 0
-			#banned = no #default is no
-		}
-
-                democratic_socialist = {
-			popularity = 0
-			#banned = no #default is no
-		}
-
-                collectivist = {
+                classical_liberalism = {
 			popularity = 5
 			#banned = no #default is no
 		}
 
-                de_leonist = {
+                liberal_radicalism = {
+			popularity = 20
+			#banned = no #default is no
+		}
+
+                democratic_socialism = {
+			popularity = 3
+			#banned = no #default is no
+		}
+
+                engelism = {
+			popularity = 5
+			#banned = no #default is no
+		}
+
+                reasonism = {
 			popularity = 0
 			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = absolute_monarchist
+	ruling_party = bonapartism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -100,51 +100,11 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_POR_Manuel_Second.dds"
 	expire = "1965.1.1"
-	ideology = imperial
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Bento Gonçalves"
-	desc = ""
-	picture = "Portrait_POR_Goncalves.dds"
-	expire = "1965.1.1"
-	ideology = national_collectivist
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Manuel de Oliveira Gomes da Costa"
-	desc = ""
-	picture = "Portrait_POR_Da_Costa.dds"
-	expire = "1965.1.1"
-	ideology = militant_strasserist
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Antonio Maria da Silva"
-	desc = ""
-	picture = "Portrait_POR_Da_Silva.dds"
-	expire = "1965.1.1"
-	ideology = centrist
+	ideology = bonapartism_ideology
 	traits = {
 		#
 	}
 }
 
 
-create_corps_commander = {
-	name = "José Vicente de Freitas"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	traits = {  }
-	skill = 3
-
-}
 
