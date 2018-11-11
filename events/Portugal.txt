@@ -31,7 +31,8 @@ country_event = { #Democratic problem
 	title = portugal.2.t
 	desc = portugal.2.d
 	picture = GFX_unknown
-
+	
+    is_triggered_only = yes
 	fire_only_once = yes
 	
 	option = {
