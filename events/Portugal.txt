@@ -13,7 +13,6 @@ country_event = { #intro event
 	trigger = {
         tag = POR
     }
-    mean_time_to_happen = { days = 5 }
    
     fire_only_once = yes
 	
@@ -21,23 +20,18 @@ country_event = { #intro event
 	option = {
 	name = portugal.1.a
 	
-	country_event = {
-    id = portugal.2
-    days = 2
+	POR = {
+			country_event = portugal.2
+		}
     }
-
-	
-	}
 }
+
 country_event = { #Democratic problem 
 	id = portugal.2
 	title = portugal.2.t
 	desc = portugal.2.d
 	picture = GFX_unknown
 
-	trigger = {
-        tag = POR
-    }
 	fire_only_once = yes
 	
 	option = {
