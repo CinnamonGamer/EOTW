@@ -204,6 +204,11 @@ add_to_faction = ITA
 add_to_faction = LOU
 puppet = LOU
 
+set_autonomy = {
+	target = RHN
+	autonomous_state = autonomy_dominion
+}
+
 
 create_country_leader = {
 	name = "Leon Blum"

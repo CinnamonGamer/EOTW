@@ -237,3 +237,121 @@ create_country_leader = {
 	
 }
 
+create_navy_leader = {
+	name = "Wilhelm Meendsen-Bohlken"
+		picture = ""
+	traits = { superior_tactician seawolf blockade_runner spotter fly_swatter ironside air_controller }
+	skill = 1
+}
+create_navy_leader = {
+	name = "Wilhelm Canaris"
+		picture = ""
+	traits = { fly_swatter }
+	skill = 2
+}
+create_navy_leader = {
+	name = "Conrad Albrecht"
+		picture = ""
+	traits = { }
+	skill = 3
+}
+create_navy_leader = {
+	name = "Siegfried Sorge"
+		picture = ""
+	traits = { superior_tactician }
+	skill = 2
+}
+create_navy_leader = {
+	name = "Hermann Ehrhardt"
+		picture = ""
+	traits = { ironside }
+	skill = 3
+}
+
+create_field_marshal = {
+	name = "Gustav Noske"
+	picture = ""
+	traits = { inflexible_strategist politically_connected old_guard }
+	skill = 1
+	attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_field_marshal = {
+	name = "Ludwig Beck"
+	picture = ""
+	traits = { }
+	skill = 2
+	attack_skill = 1
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Paul von Hase"
+	picture = ""
+	traits = { panzer_leader }
+	skill = 3
+	attack_skill = 7
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Georg Alexander Hansen"
+	picture = ""
+	traits = { infantry_leader career_officer}
+	skill = 2
+	attack_skill = 2
+    defense_skill = 4
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Werner von Fritsch"
+	picture = ""
+	traits = { old_guard }
+	skill = 3
+	attack_skill = 1
+    defense_skill = 1
+    planning_skill = 4
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Walter Nicolai"
+	picture = ""
+	traits = { urban_assault_specialist }
+	skill = 1
+	attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Reinhard Gehlen"
+	picture = ""
+	traits = { commando }
+	skill = 2
+	attack_skill = 1
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Friedrich Wilhelm Müller"
+	picture = ""
+	traits = { cavalry_leader }
+	skill = 2
+	attack_skill = 2
+    defense_skill = 2
+    planning_skill = 1
+    logistics_skill = 2
+}
