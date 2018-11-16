@@ -92,6 +92,9 @@ add_ideas = {
 	extensive_conscription
 	civilian_economy
 	strong_advisory_council
+	POR_Rebellingyouth
+	POR_UnderDevelopedIndustries
+	POR_Democratizationofthesociety
 }
 
 
