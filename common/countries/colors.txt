@@ -279,8 +279,8 @@ TIB = {
 	color_ui = rgb { 209 247 133 }
 }
 TUR = {
-	color = rgb { 185  255  152 }
-	color_ui = rgb { 165  230  132 }
+	color = rgb { 143 33 34 }
+	color_ui = rgb { 203 53 53 }
 }
 UKR = {
 	color = rgb { 152 130 191 }
