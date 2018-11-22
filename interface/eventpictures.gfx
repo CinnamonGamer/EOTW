@@ -1180,6 +1180,10 @@ spriteTypes = {
 		name = "report_event_vienna_hall"
 		texturefile = "gfx/event_pictures/report_event_vienna_hall.dds"
 	}
+	spriteType = {
+		name = "report_event_weimar_battle"
+		texturefile = "gfx/event_pictures/report_event_PRS_weimar_battle.dds"
+	}
 	
 }
 

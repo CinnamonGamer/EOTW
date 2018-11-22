@@ -74,14 +74,6 @@ units = {
 
 	}
 	division = {
-		name = "Grenzbrigade 10"
-		location = 3612
-		division_template = "Gebirgsbrigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
-
-	}
-	division = {
 		name = "Leichte-Brigade 1"
 		location = 11590
 		division_template = "Leichte-Brigade"
@@ -204,13 +196,6 @@ units = {
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
-	}
-	division = {
-		name = "Grenzbrigade 12"
-		location = 3662
-		division_template = "Grenzbrigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
 	}
 	#division = {
 	#	name = "Leichte-Brigade 3"

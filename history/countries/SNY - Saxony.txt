@@ -1,6 +1,6 @@
 ﻿capital = 65
 
-set_stability = 0.35
+set_stability = 0.65
 set_war_support = 0.28
 
 oob = "SNY_1936"
@@ -20,61 +20,48 @@ set_convoys = 10
 set_politics = {
 
 	parties = {
-		strasserist = { 
+		cromwellism = { 
 			popularity = 0
 		}
 
-		nationalist = {
+		fundamentalism = {
 			popularity = 0
 		}
 		
-		absolute_monarchist = {
-			popularity = 90
-			#banned = no #default is no
-		}
-
-                national_conservative = {
+		paternal_conservatism = {
 			popularity = 0
-			#banned = no #default is no
 		}
 
-                theoconservative = {
+        bonapartism = {
+			popularity = 100
+		}
+
+        liberal_conservatism = {
 			popularity = 0
-			#banned = no #default is no
 		}
 
-                national_liberal = {
+        classical_liberalism = {
 			popularity = 0
-			#banned = no #default is no
 		}
 
-                americanist = {
+        liberal_radicalism = {
 			popularity = 0
-			#banned = no #default is no
 		}
 
-                georgist = {
+       democratic_socialism = {
 			popularity = 0
-			#banned = no #default is no
 		}
 
-                democratic_socialist = {
+       engelism = {
 			popularity = 0
-			#banned = no #default is no
 		}
 
-                collectivist = {
+        reasonism = {
 			popularity = 0
-			#banned = no #default is no
-		}
-
-                de_leonist = {
-			popularity = 10
-			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = absolute_monarchist
+	ruling_party = bonapartism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -84,7 +71,6 @@ add_ideas = {
 	limited_exports
 	volunteer_only
 	civilian_economy
-	weak_advisory_council
 }
 
 create_country_leader = {
@@ -92,7 +78,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_SNY_Georg_Second.dds"
 	expire = "1965.1.1"
-	ideology = oligarchist
+	ideology = bonapartism_ideology
 	traits = {
 		#
 	}

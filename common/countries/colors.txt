@@ -82,7 +82,7 @@ DAI = {
 	color_ui = rgb { 222 247 198 }
 }
 DEN = {
-	color = rgb { 255 58 58 }
+	color = rgb { 132 91 49 }
 	color_ui = rgb { 121 235 255 }
 }
 EAF = {
@@ -214,8 +214,8 @@ POR = {
 	color_ui = rgb { 198 169 248 }
 }
 PRS = {
-	color = rgb { 146 179 191 }
-	color_ui = rgb { 146 179 191 }
+	color = rgb { 73 83 87 }
+    color_ui = rgb { 255 73 121 }
 }
 RHN = {
 	color = rgb { 156 249 162 }

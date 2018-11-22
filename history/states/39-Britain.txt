@@ -11,16 +11,17 @@ state={
 	}
 
 	history={
-		owner = ITA
+		owner = BAV
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
 		}
-		add_core_of = ITA
+		add_core_of = BAV
+		add_claim_by = ITA
 		add_claim_by = AUS
 	}
 
 	provinces={
-		656 6631 6675 9598 9630 11598 11615 
+		656 6631 9598 11598 
 	}
 }

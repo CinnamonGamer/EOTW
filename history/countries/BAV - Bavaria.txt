@@ -23,52 +23,52 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		strasserist = { 
+		cromwellism = { 
 			popularity = 7
 		}
 
-		nationalist = {
-			popularity = 2
-		}
-
-		absolute_monarchist = {
-			popularity = 80
-		}
-		
-		national_conservative = {
-			popularity = 1
-		}
-
-                theoconservative = {
+		fundamentalism = {
 			popularity = 5
 		}
 
-                national_liberal = {
-			popularity = 0
-		}
-
-                americanist = {
+		paternal_conservatism = {
 			popularity = 2
 		}
 
-                georgist = {
+        bonapartism = {
+			popularity = 80
+		}
+		
+        conservative_liberalism = {
+			popularity = 1
+		}
+
+        liberal_conservatism = {
 			popularity = 0
 		}
 
-                democratic_socialist = {
+        classical_liberalism = {
+			popularity = 2
+		}
+
+        liberal_radicalism = {
 			popularity = 0
 		}
 
-                collectivist = {
+        democratic_socialism = {
 			popularity = 0
 		}
 
-                de_leonist = {
+        engelism = {
+			popularity = 0
+		}
+
+        reasonism = {
 			popularity = 3
 		}
 	}
 	
-	ruling_party = absolute_monarchist
+	ruling_party = bonapartism
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
@@ -87,7 +87,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_BAV_Ludwig_Fourth.dds"
 	expire = "1965.1.1"
-	ideology = oligarchist
+	ideology = bonapartism_ideology
 	traits = {
 		#
 	}
