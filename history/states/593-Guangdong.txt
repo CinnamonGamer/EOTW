@@ -10,8 +10,8 @@ state= {
 	}
 
 	history= {
-		owner = CHI
-		add_core_of = CHI
+		owner = GDG
+		add_core_of = GDG
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -20,18 +20,6 @@ state= {
 				coastal_bunker = 1
 				bunker = 1
 			}
-		}
-
-		1938.10.25 = {		
-			remove_core_of = GXC
-			owner = CHI
-			JAP = {
-				set_province_controller = 1202
-				set_province_controller = 4050
-				set_province_controller = 7108
-				set_province_controller = 9938
-				set_province_controller = 12095
-			} 			
 		}
 	}
 	provinces={

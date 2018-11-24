@@ -535,3 +535,15 @@ GAZ = {
 	color = rgb { 55 210 240 }
 	color_ui = rgb { 55 210 240 }
 }
+LNG = {
+	color = rgb { 102 121 153 }
+	color_ui = rgb { 76 91 117 }
+}
+GDG = {
+	color = rgb { 219 194 153 }
+	color_ui = rgb { 163 144 112 }
+}
+YUN = {
+	color = rgb { 53, 99, 49 }
+	color_ui = rgb { 31 61 29 }
+}

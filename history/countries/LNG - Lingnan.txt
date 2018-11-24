@@ -1,0 +1,93 @@
+capital = 613
+
+#oob = "LNG_1936"
+
+set_stability = 0.32
+set_war_support = 0.65
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	gwtank = 1
+	early_fighter = 1
+	early_bomber = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+}
+
+set_convoys = 40
+
+set_politics = {
+
+parties = {
+	cromwellism = {
+		popularity = 9
+	}
+
+	fundamentalism = {
+		popularity = 6
+	}
+
+	paternal_conservatism = {
+		popularity = 45
+	}
+
+	bonapartism = {
+		popularity = 14
+	}
+
+	conservative_liberalism = {
+		popularity = 9
+	}
+
+	liberal_conservatism = {
+		popularity = 10
+	}
+
+	classical_liberalism = {
+		popularity = 3
+	}
+
+	liberal_radicalism = {
+		popularity = 2
+	}
+
+	democratic_socialism = {
+		popularity = 2
+	}
+
+	engelism = {
+		popularity = 0
+	}
+
+	reasonism = {
+		popularity = 0
+	}
+	}
+
+	ruling_party = paternal_conservatism
+	last_election = "1935.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+create_country_leader = {
+	name = "Fortnite"
+	desc = "POLITICS_WU_PEIFU_DESC"
+	picture = "Portrait_CHI_Wu_Peifu.dds"
+	expire = "1965.1.1"
+	ideology = paternal_conservatism_ideology
+	traits = {
+		#
+	}
+}
+}
