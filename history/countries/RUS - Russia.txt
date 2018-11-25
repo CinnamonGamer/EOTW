@@ -1,0 +1,126 @@
+capital = 463
+
+set_stability = 0.38
+set_war_support = 0.58
+
+oob = "RUS_1936"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	paratroopers = 1
+	gw_artillery = 1
+	gwtank = 1
+	basic_light_tank = 1  # PLACEHOLDER
+	#basic_heavy_tank = 1  # PLACEHOLDER
+	#basic_medium_tank = 1 # PLACEHOLDER
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	strategic_bomber1 = 1
+	naval_bomber1 = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	transport = 1
+	mass_assault = 1
+	fleet_in_being = 1
+}
+
+add_ideas = {
+	limited_exports
+	limited_conscription
+	civilian_economy
+}
+
+set_convoys = 50
+
+set_politics = {
+
+	parties = {
+		cromwellism = { 
+			popularity = 9
+		}
+
+		fundamentalism = {
+			popularity = 8
+		}
+		
+		paternal_conservatism = {
+			popularity = 17
+		}
+
+        bonapartism = {
+			popularity = 47
+		}
+
+        conservative_liberalism = {
+			popularity = 10
+		}
+
+        liberal_conservatism = {
+			popularity = 3
+			#banned = no #default is no
+		}
+
+        classical_liberalism = {
+			popularity = 2
+			#banned = no #default is no
+		}
+
+        liberal_radicalism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+
+       democratic_socialism = {
+			popularity = 4
+			#banned = no #default is no
+		}
+
+       engelism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+
+        reasonism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+	}
+	
+	ruling_party = bonapartism
+	last_election = "1933.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_faction = holy_league
+add_to_faction = SOV
+
+create_country_leader = {
+	name = "Vsevolod I"
+	desc = ""
+	picture = "Portrait_RUS_Vsevolod_I.dds"
+	expire = "1953.3.1"
+	ideology = bonapartism_ideology
+	traits = {
+		
+	}
+}
+
+
+

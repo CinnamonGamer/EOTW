@@ -53,61 +53,58 @@ set_convoys = 50
 set_politics = {
 
 	parties = {
-		strasserist = { 
-			popularity = 0
+		cromwellism = { 
+			popularity = 3
 		}
 
-		nationalist = {
-			popularity = 0
+		fundamentalism = {
+			popularity = 4
 		}
 		
-		absolute_monarchist = {
-			popularity = 10
-			#banned = no #default is no
+		paternal_conservatism = {
+			popularity = 0
 		}
 
-                national_conservative = {
+        bonapartism = {
+			popularity = 1
+		}
+
+        conservative_liberalism = {
+			popularity = 0
+		}
+
+        liberal_conservatism = {
 			popularity = 0
 			#banned = no #default is no
 		}
 
-                theoconservative = {
-			popularity = 72
-			#banned = no #default is no
-		}
-
-                national_liberal = {
+        classical_liberalism = {
 			popularity = 0
 			#banned = no #default is no
 		}
 
-                americanist = {
-			popularity = 5
+        liberal_radicalism = {
+			popularity = 9
 			#banned = no #default is no
 		}
 
-                georgist = {
-			popularity = 0
+       democratic_socialism = {
+			popularity = 21
 			#banned = no #default is no
 		}
 
-                democratic_socialist = {
-			popularity = 5
+       engelism = {
+			popularity = 39
 			#banned = no #default is no
 		}
 
-                collectivist = {
-			popularity = 0
-			#banned = no #default is no
-		}
-
-                de_leonist = {
-			popularity = 8
+        reasonism = {
+			popularity = 23
 			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = theoconservative
+	ruling_party = engelism
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -117,121 +114,11 @@ create_faction = holy_league
 add_to_faction = SOV
 
 create_country_leader = {
-	name = "Patriarch Sergius"
+	name = "Alexey Rykov"
 	desc = ""
-	picture = "Portrait_SOV_Patriarch_Sergius.dds"
+	picture = "Portrait_SOV_Alexey_Rykov.dds"
 	expire = "1953.3.1"
-	ideology = religious_cultism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Vladimir Lenin"
-	desc = ""
-	picture = "Portrait_SOV_Vladimir_Lenin.dds"
-	expire = "1953.3.1"
-	ideology = international_de_leonist
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Alexander Fyodorovich Kerensky"
-	desc = ""
-	picture = "Portrait_SOV_Kerensky.dds"
-	expire = "1953.3.1"
-	ideology = liberal_leninist
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Alexander Guchkov"
-	desc = ""
-	picture = "Portrait_SOV_Guchkov.dds"
-	expire = "1953.3.1"
-	ideology = representative_democrat
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Michael II"
-	desc = ""
-	picture = "Portrait_SOV_Michael_Second.dds"
-	expire = "1953.3.1"
-	ideology = imperial
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Alexander Kolchak"
-	desc = ""
-	picture = "Portrait_SOV_Alexander_Kolchak.dds"
-	expire = "1953.3.1"
-	ideology = traditional_nationalist
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Viktor Chernov"
-	desc = ""
-	picture = "Portrait_SOV_Viktor_Chernov.dds"
-	expire = "1953.3.1"
-	ideology = radical_collectivism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Anastasy Vonsyatsky"
-	desc = ""
-	picture = "Portrait_SOV_Vonsyatsky.dds"
-	expire = "1953.3.1"
-	ideology = militant_strasserist
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Nikolai Trubetzkoy"
-	desc = ""
-	picture = "Portrait_SOV_Nikolai_Trubetzkoy.dds"
-	expire = "1953.3.1"
-	ideology = prussianist
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Peter Berngardovich Struve"
-	desc = ""
-	picture = "Portrait_SOV_Piotr_Struve.dds"
-	expire = "1953.3.1"
-	ideology = reformist
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Leon Trotsky"
-	desc = ""
-	picture = "Portrait_SOV_Leon_Trotsky.dds"
-	expire = "1953.3.1"
-	ideology = liberal_collectivist
+	ideology = engelism_ideology
 	traits = {
 		
 	}

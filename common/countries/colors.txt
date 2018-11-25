@@ -254,7 +254,7 @@ SCY = {
 	color_ui = rgb { 222 247 198 }
 }
 SOV = {
-	color = rgb { 80 115 45}
+	color = rgb { 171 8 22}
 	color_ui = rgb { 222 247 198 }
 }
 SPR = {
@@ -544,6 +544,11 @@ GDG = {
 	color_ui = rgb { 163 144 112 }
 }
 YUN = {
-	color = rgb { 53, 99, 49 }
+	color = rgb { 53 99 49 }
 	color_ui = rgb { 31 61 29 }
 }
+RUS = {
+	color = rgb { 84 141 77 }
+	color_ui = rgb { 84 141 77 }
+}
+
