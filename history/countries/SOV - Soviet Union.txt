@@ -44,8 +44,8 @@ add_ideas = {
 	limited_exports
 	limited_conscription
 	civilian_economy
-	undeveloped_nation_idea
-	indecisive_government_idea
+	SOV_idea_workers_republic
+	SOV_idea_political_instability
 }
 
 set_convoys = 50
