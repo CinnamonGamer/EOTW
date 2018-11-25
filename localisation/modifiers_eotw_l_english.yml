@@ -68,3 +68,20 @@
  kiev_award:0 "Kiev Award"
  reconciliation_with_russia:0 "Reconciliation With Russia"
  
+ 
+ ########################
+ ###IDEOLOGY DRIFT LOC###
+ ########################
+ 
+ cromwellism_drift:0 "Daily §CCromwellism§! Support"
+ fundamentalism_drift:0 "Daily §FFundamentalism§! Support"
+ paternal_conservatism_drift:0 "Daily §APaternal Conservatism§! Support"
+ bonapartism_drift:0 "Daily §OBonapartism§! Support"
+ conservative_liberalism_drift:0 "Daily §NConservative Liberalism§! Support"
+ liberal_conservatism_drift:0 "Daily §ILiberal Conservatism§! Support"
+ classical_liberalism_drift:0 "Daily §SClassical Liberalism§! Support"
+ liberal_radicalism_drift:0 "Daily §DLiberal Radicalism§! Support"
+ democratic_socialism_drift:0 "Daily §UDemocratic Socialism§! Support"
+ engelism_drift:0 "Daily §EEngelism§! Support"
+ reasonism_drift:0 "Daily §PReasonism§! Support"
+ 
