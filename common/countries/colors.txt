@@ -25,14 +25,14 @@ AUS = {
 	color_ui = rgb { 163 17 31 }
 }
 BTC = {
-	color = rgb { 155 168 111 }
-	color_ui = rgb { 85 228 233 }
+	color = rgb { 139 143 154 }
+	color_ui = rgb { 139 143 154 }
 }
 BAV = { color 	 = rgb { 20 133 237  }
 		color_ui = rgb { 251 222 10 }
 	  }
-BYL = {	color = rgb { 203 138 74 }
-		color_ui = rgb { 255 179 96 }
+BYL = {	color = rgb { 213 196 173 }
+		color_ui = rgb { 213 196 173 }
 }
 BRA = {	color = rgb { 56 139 67 }
 		color_ui = rgb { 70 217 203 }
@@ -283,8 +283,8 @@ TUR = {
 	color_ui = rgb { 203 53 53 }
 }
 UKR = {
-	color = rgb { 152 130 191 }
-	color_ui = rgb { 198 169 248 }
+	color = rgb { 153 61 0 }
+	color_ui = rgb { 153 61 0 }
 }
 ENG = {
 	color = rgb { 166 22 22 }
