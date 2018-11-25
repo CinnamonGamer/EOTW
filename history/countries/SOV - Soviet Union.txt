@@ -110,8 +110,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_faction = holy_league
-add_to_faction = SOV
 
 create_country_leader = {
 	name = "Alexey Rykov"
