@@ -888,10 +888,10 @@ ideas = {
 			picture = generic_communist_army
 			
 			modifier = {
-				engelism_drift = 0.01
-				reasonism_drift = 0.02
-				democratic_socialism_drift = 0.02
-				liberal_radicalism_drift = 0.02
+				engelism_drift = 0.1
+				reasonism_drift = 0.2
+				democratic_socialism_drift = 0.2
+				liberal_radicalism_drift = 0.2
 			}
 		}
 
