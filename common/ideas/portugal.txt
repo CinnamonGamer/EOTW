@@ -44,7 +44,7 @@ ideas = {
 			 line_change_production_efficiency_factor = -0.15
 			 industrial_capacity_factory = -0.5 
 			 industrial_capacity_dockyard = -0.2 
-			 research_time_factor = -0.5  
+			 research_time_factor = -0.1
 			 global_building_slots_factor = 0.20  
 			 
 				

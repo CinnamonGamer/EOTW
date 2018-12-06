@@ -39,3 +39,46 @@ country_event = { #Democratic problem
 	name = portugal.2.a
     }
 }
+
+country_event = { #Assasination of the Prime Minister
+	id = portugal.3
+	title = portugal.3.t
+	desc = portugal.3.d
+	picture = GFX_unknown
+	
+    
+	fire_only_once = yes
+	
+	trigger = {
+        tag = POR
+		date > 1936.02.04
+    }
+	
+	option = {
+	name = portugal.3.a
+	
+	add_political_power = -15
+	add_stability = -0.07
+	
+	
+	POR = {
+			country_event = portugal.4
+			days = 4
+		}
+		
+    }
+}
+
+country_event = { #Choose ur new governement
+	id = portugal.4
+	title = portugal.4.t
+	desc = portugal.4.d
+	picture = GFX_unknown
+	
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+	name = portugal.4.a
+    }
+}
