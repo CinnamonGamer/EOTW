@@ -66,7 +66,7 @@ ideas = {
 			}
 
 			modifier = {
-			 stability_weekly = -0.0008
+			 stability_weekly = -0.008
 			 classical_liberalism_drift = 0.02
 			 liberal_radicalism_drift = 0.03
 			 liberal_conservatism_drift = 0.01

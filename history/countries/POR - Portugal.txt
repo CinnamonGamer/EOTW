@@ -99,9 +99,9 @@ add_ideas = {
 
 
 create_country_leader = {
-	name = "Manuel II"
+	name = "Duarte II"
 	desc = ""
-	picture = "Portrait_POR_Manuel_Second.dds"
+	picture = "Portrait_Portugal_Duarte_II.dds"
 	expire = "1965.1.1"
 	ideology = bonapartism_ideology
 	traits = {
