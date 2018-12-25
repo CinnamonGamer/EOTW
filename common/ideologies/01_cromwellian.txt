@@ -1,24 +1,24 @@
 ideologies = {
 
-	cromwellism = {
+	Cromwellian = {
 		
 		types = {
 		
-			cromwellism_ideology = {				
+			cromwellian_ideology = {				
 			}
 			
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_CROMWELLISM_1"
-			"FACTION_NAME_CROMWELLISM_2"
-			"FACTION_NAME_CROMWELLISM_3"
-			"FACTION_NAME_CROMWELLISM_4"
-			"FACTION_NAME_CROMWELLISM_5"
-			"FACTION_NAME_CROMWELLISM_6"
+			"FACTION_NAME_CROMWELLIAN_1"
+			"FACTION_NAME_CROMWELLIAN_2"
+			"FACTION_NAME_CROMWELLIAN_3"
+			"FACTION_NAME_CROMWELLIAN_4"
+			"FACTION_NAME_CROMWELLIAN_5"
+			"FACTION_NAME_CROMWELLIAN_6"
 		}
 		
-		color = { 163 79 34 }
+		color = { 196 196 196 }
 		
 		war_impact_on_world_tension = 3
 		faction_impact_on_world_tension = 3

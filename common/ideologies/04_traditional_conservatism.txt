@@ -1,24 +1,24 @@
 ideologies = {
 
-	liberal_conservatism = {
+	traditional_conservatism = {
 		
 		types = {
 		
-			liberal_conservatism_ideology = {
+			traditional_conservatism_ideology = {
 			}
 			
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_LIBERAL_CONSERVATISM_1"
-			"FACTION_NAME_LIBERAL_CONSERVATISM_2"
-			"FACTION_NAME_LIBERAL_CONSERVATISM_3"
-			"FACTION_NAME_LIBERAL_CONSERVATISM_4"
-			"FACTION_NAME_LIBERAL_CONSERVATISM_5"
-			"FACTION_NAME_LIBERAL_CONSERVATISM_6"
+			"FACTION_NAME_TRADITIONAL_CONSERVATISM_1"
+			"FACTION_NAME_TRADITIONAL_CONSERVATISM_2"
+			"FACTION_NAME_TRADITIONAL_CONSERVATISM_3"
+			"FACTION_NAME_TRADITIONAL_CONSERVATISM_4"
+			"FACTION_NAME_TRADITIONAL_CONSERVATISM_5"
+			"FACTION_NAME_TRADITIONAL_CONSERVATISM_6"
 		}
 		
-		color = { 255 217 49 }
+		color = { 50 68 132 }
 		
 		war_impact_on_world_tension = 2
 		faction_impact_on_world_tension = 2

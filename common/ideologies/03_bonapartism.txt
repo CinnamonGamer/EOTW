@@ -1,25 +1,25 @@
 ideologies = {
 
-	paternal_conservatism = {
+	bonapartism = {
 		
 		types = {
 		
-			paternal_conservatism_ideology = {
+			bonapartism_ideology = {
 			}
 			
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_PATERNAL_CONSERVATISM_1"
-			"FACTION_NAME_PATERNAL_CONSERVATISM_2"
-			"FACTION_NAME_PATERNAL_CONSERVATISM_3"
-			"FACTION_NAME_PATERNAL_CONSERVATISM_4"
-			"FACTION_NAME_PATERNAL_CONSERVATISM_5"
-			"FACTION_NAME_PATERNAL_CONSERVATISM_6"
+			"FACTION_NAME_BONAPARTISM_1"
+			"FACTION_NAME_BONAPARTISM_2"
+			"FACTION_NAME_BONAPARTISM_3"
+			"FACTION_NAME_BONAPARTISM_4"
+			"FACTION_NAME_BONAPARTISM_5"
+			"FACTION_NAME_BONAPARTISM_6"
 		}
 		
-		color = { 24 6 31 }
-		
+		color = { 46 33 66 }
+			
 		war_impact_on_world_tension = 2
 		faction_impact_on_world_tension = 2
 		

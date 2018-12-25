@@ -1,43 +1,43 @@
-ideologies = {
-
-	conservative_liberalism = {
-		
-		types = {
-		
-			conservative_liberalism_ideology = {
-			}
-			
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_CONSERVATIVE_LIBERALISM_1"
-			"FACTION_NAME_CONSERVATIVE_LIBERALISM_2"
-			"FACTION_NAME_CONSERVATIVE_LIBERALISM_3"
-			"FACTION_NAME_CONSERVATIVE_LIBERALISM_4"
-			"FACTION_NAME_CONSERVATIVE_LIBERALISM_5"
-			"FACTION_NAME_CONSERVATIVE_LIBERALISM_6"
-		}
-		
-		color = { 46 46 255 }
-		
-		war_impact_on_world_tension = 2
-		faction_impact_on_world_tension = 2
-
-		rules = {
-			can_guarantee_other_ideologies = yes
-			can_force_government = yes
-			can_send_volunteers = no
-			can_puppet = no
-			can_lower_tension = yes
-		}
-		
-		modifiers = {
-			join_faction_tension = 0.45
-			lend_lease_tension = 0.60
-			send_volunteers_tension = 0.60
-			guarantee_tension = 0.60
-		}
-		
-	}
-
-}
+#ideologies = {
+#
+#	conservative_liberalism = {
+#		
+#		types = {
+#		
+#			conservative_liberalism_ideology = {
+#			}
+#			
+#		}
+#		
+#		dynamic_faction_names = {
+#			"FACTION_NAME_CONSERVATIVE_LIBERALISM_1"
+#			"FACTION_NAME_CONSERVATIVE_LIBERALISM_2"
+#			"FACTION_NAME_CONSERVATIVE_LIBERALISM_3"
+#			"FACTION_NAME_CONSERVATIVE_LIBERALISM_4"
+#			"FACTION_NAME_CONSERVATIVE_LIBERALISM_5"
+#			"FACTION_NAME_CONSERVATIVE_LIBERALISM_6"
+#		}
+#		
+#		color = { 46 46 255 }
+#		
+#		war_impact_on_world_tension = 2
+#		faction_impact_on_world_tension = 2
+#
+#		rules = {
+#			can_guarantee_other_ideologies = yes
+#			can_force_government = yes
+#			can_send_volunteers = no
+#			can_puppet = no
+#			can_lower_tension = yes
+#		}
+#		
+#		modifiers = {
+#			join_faction_tension = 0.45
+#			lend_lease_tension = 0.60
+#			send_volunteers_tension = 0.60
+#			guarantee_tension = 0.60
+#		}
+#		
+#	}
+#
+#}

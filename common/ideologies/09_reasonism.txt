@@ -18,7 +18,7 @@ ideologies = {
 			"FACTION_NAME_REASONISM_6"
 		}
 		
-		color = { 100 20 10 }
+		color = { 100 0 0 }
 		
 		war_impact_on_world_tension = 3
 		faction_impact_on_world_tension = 3
