@@ -40,7 +40,7 @@ country_event = { #Democratic problem
     }
 }
 
-country_event = { #Assasination of the Prime Minister
+country_event = { #Assasination of the Prime Minister Sidónio Pais 
 	id = portugal.3
 	title = portugal.3.t
 	desc = portugal.3.d
@@ -61,7 +61,7 @@ country_event = { #Assasination of the Prime Minister
 	add_stability = -0.07
 	
 	
-	POR = { country_event = { id = portugal.4 days = 3 }
+	POR = { country_event = { id = portugal.4 days = 10 }
 		
     }
 }
@@ -76,10 +76,10 @@ country_event = { #Choose ur new governement
     is_triggered_only = yes
 	fire_only_once = yes
 	
-	option = { #Merge the position of prime minister and king 
+	option = { #New Miguelist prime minister
 	name = portugal.4.a
     }
-	option = { #New Miguelist prime minister
+	option = { #Disolve the parliament and invite the integralismo Lusitanio
 	name = portugal.4.b
     }
 	option = { #Put the military in charge 
