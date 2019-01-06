@@ -38,4 +38,16 @@
  GAZ_Brazilian_paternal_conservatism_DEF:0 "The Protectorate of Gazaland"
  GAZ_Brazilian_paternal_conservatism_ADJ:0 "Gaza"
  
+ rhn_ger_federation_classical_liberalism:0 "Deutscher Bund"
+ rhn_ger_federation_classical_liberalism_DEF:0 "Deutscher Bund"
+ rhn_ger_federation_classical_liberalism_adj:0 "deutschbuendisch"
+ rhn_ger_federation_liberal_radicalism:0 "Deutscher Bund"
+ rhn_ger_federation_liberal_radicalism_DEF:0 "Deutscher Bund"
+ rhn_ger_federation_liberal_radicalism_adj:0 "deutschbuendisch"
+ rhn_ger_federation_democratic_socialism:0 "Deutscher Bund"
+ rhn_ger_federation_democratic_socialism_DEF:0 "Deutscher Bund"
+ rhn_ger_federation_democratic_socialism_adj:0 "deutschbuendisch"
+ rhn_free_state_paternal_conservatism:0 "Freistaat Deutschland"
+ rhn_free_state_paternal_conservatism_DEF:0 "Freistaat Deutschland"
+ rhn_free_state_paternal_conservatism_adj:0 "freistaat"
 

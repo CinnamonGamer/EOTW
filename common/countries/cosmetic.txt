@@ -8,3 +8,15 @@ GAZ_Brazilian = {
     color = rgb { 56 139 67 }
     color_ui = rgb { 70 217 203 }
 }
+
+rhn_ger_federation ={
+	color = rgb {255 204 0}
+	color_ui = rgb {255 204 0}
+
+}
+
+rhn_free_state = {
+	color = {00 00 00}
+	color_ui = {7 21 20}
+}
+
