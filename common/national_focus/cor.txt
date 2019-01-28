@@ -4146,313 +4146,496 @@ default = no
 		id = introducethesubsidiarityprinciple 
 		icon = GFX_goal_continuous_boost_freedom 
 		ai_will_do = { factor = 99} 
- x =1 
- y =10 
- mutually_exclusive = { } 
- prerequisite = { focus = increaseourpopularity} 
- cost = 10  
-  available_if_capitulated = yes  
- }#Focus for The Passing of Silvio Gesell 
+		 x =1 
+		 y =10 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = increaseourpopularity} 
+		 cost = 10  
+		  available_if_capitulated = yes
+		  completion_reward = {
+			production_speed_infrastructure_factor = 0.1
+			add_stability = 0.025
+			add_offsite_building = { type = industrial_complex level = 1 }
+		  }
+ }
+ #Focus for The Passing of Silvio Gesell 
 		focus = { 
 		id = thepassingofsilviogesell 
 		icon = GFX_focus_cze_german_puppet 
 		ai_will_do = { factor = 99} 
- x =7 
- y =10 
- mutually_exclusive = { } 
- prerequisite = { focus = springtimeforgermany} 
- cost = 10  
-  available_if_capitulated = yes  
- }#Focus for Iron and Blood 
+		 x =7 
+		 y =10 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = springtimeforgermany} 
+		 cost = 10  
+		  available_if_capitulated = yes
+		  completion_reward = {
+			add_stability = -0.05
+			kill_country_leader = yes
+			set_politics = {
+				ruling_party = liberal_radicalism
+			}
+		  }
+ }
+ #Focus for Iron and Blood 
 		focus = { 
 		id = ironandblood 
 		icon = GFX_goal_molotov_ribbentrop_pact 
 		ai_will_do = { factor = 99} 
- x =13 
- y =10 
- mutually_exclusive = { } 
- prerequisite = { focus = proclaimthefreestateofgermany} 
- cost = 10  
-  available_if_capitulated = yes  
- }#Focus for Expell French Citizens 
+		 x =13 
+		 y =10 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = proclaimthefreestateofgermany} 
+		 cost = 10  
+		  available_if_capitulated = yes
+		  completion_reward = {
+			add_resource = {
+				type = steel
+				amount = 35
+				state = 57
+			}
+		  }
+ }
+ #Focus for Expell French Citizens 
 		focus = { 
 		id = expellfrenchcitizens 
 		icon = GFX_focus_cze_german_puppet 
 		ai_will_do = { factor = 99} 
- x =15 
- y =10 
- mutually_exclusive = { } 
- prerequisite = { focus = theinternalconsolidation} 
- cost = 10  
-  available_if_capitulated = yes  
- }#Focus for Hunt down the Engelists 
+		 x =15 
+		 y =10 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = theinternalconsolidation} 
+		 cost = 10  
+		  available_if_capitulated = yes
+			completion_reward = {
+				manpower = -15000
+				add_stability = 0.05
+			}
+ }
+ #Focus for Hunt down the Engelists 
 		focus = { 
 		id = huntdowntheengelists 
 		icon = GFX_goal_anti_comintern_pact 
 		ai_will_do = { factor = 99} 
- x =17 
- y =10 
- mutually_exclusive = { } 
- prerequisite = { focus = theinternalconsolidation} 
- cost = 10  
-  available_if_capitulated = yes  
- }#Focus for Mobilize the Industry 
+		 x =17 
+		 y =10 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = theinternalconsolidation} 
+		 cost = 10  
+		  available_if_capitulated = yes
+		  completion_reward = {
+			remove_ideas = rhn_rote_ruhr
+			add_stability = 0.05
+		  }
+ }
+ #Focus for Mobilize the Industry 
 		focus = { 
 		id = mobilizetheindustry 
 		icon = GFX_goal_generic_construct_mil_factory 
 		ai_will_do = { factor = 99} 
- x =19 
- y =10 
- mutually_exclusive = { } 
- prerequisite = { focus = theinternalconsolidation} 
- cost = 10  
-  available_if_capitulated = yes  
- }#Focus for A tripartite Government 
+		 x =19 
+		 y =10 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = theinternalconsolidation} 
+		 cost = 10  
+		  available_if_capitulated = yes
+		  completion_reward = {
+			add_ideas = war_economy
+		  }
+ }
+ #Focus for A tripartite Government 
 		focus = { 
 		id = atripartitegovernment 
 		icon = GFX_focus_generic_join_comintern 
 		ai_will_do = { factor = 99} 
- x =23 
- y =10 
- mutually_exclusive = { } 
- prerequisite = { focus = engelismentrenched} 
- cost = 10  
-  available_if_capitulated = yes  
- }#Focus for Supported for every situation 
+		 x =23 
+		 y =10 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = engelismentrenched} 
+		 cost = 10  
+		  available_if_capitulated = yes
+			completion_reward = {
+				add_command_power = 25
+				add_political_power = 25
+				add_tech_bonus = {
+					bonus = 0.25
+					uses = 1
+					category = electronics
+				}
+			}
+ }
+ #Focus for Supported for every situation 
 		focus = { 
 		id = supportedforeverysituation 
 		icon = GFX_goal_generic_army_doctrines 
 		ai_will_do = { factor = 99} 
- x =36 
- y =10 
- mutually_exclusive = { } 
- prerequisite = { focus = uponthedecks} 
-  prerequisite = { focus =upintheskies} 
-  prerequisite = { focus =upinthemountains} 
- cost = 7  
-  available_if_capitulated = yes  
- }#Focus for Quantity is Quality 
+		 x =36 
+		 y =10 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = uponthedecks} 
+		  prerequisite = { focus =upintheskies} 
+		  prerequisite = { focus =upinthemountains} 
+		 cost = 7  
+		  available_if_capitulated = yes
+		   completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.25
+				uses = 3
+				category = support_tech
+		  }
+		  }
+ }
+ #Focus for Quantity is Quality 
 		focus = { 
 		id = quantityisquality 
 		icon = GFX_focus_generic_support_the_left_right 
 		ai_will_do = { factor = 99} 
- x =38 
- y =10 
- mutually_exclusive = { } 
- prerequisite = { focus = lightarmoredsupport} 
- cost = 7  
-  available_if_capitulated = yes  
- }#Focus for Fanatic Militarism 
+		 x =38 
+		 y =10 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = lightarmoredsupport} 
+		 cost = 7  
+		  available_if_capitulated = yes
+			completion_reward = {
+				training_time_army_factor = -0.1 
+			}
+ }
+ #Focus for Fanatic Militarism 
 		focus = { 
 		id = fanaticmilitarism 
 		icon = GFX_focus_jap_zero 
 		ai_will_do = { factor = 99} 
- x =40 
- y =10 
- mutually_exclusive = { } 
- prerequisite = { focus = studypartisanwarfare} 
- cost = 7  
-  available_if_capitulated = yes  
+		 x =40 
+		 y =10 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = studypartisanwarfare} 
+		 cost = 7  
+		  available_if_capitulated = yes
+		  completion_reward = {
+			set_rule = {
+				can_use_kamikaze_pilots = yes
+			}
+		  }
  }
  #Focus for Mass Motorisation 
 		focus = { 
 		id = massmotorisation 
 		icon = GFX_goal_generic_army_motorized 
 		ai_will_do = { factor = 99} 
- x =42 
- y =10 
- mutually_exclusive = { } 
- prerequisite = { focus = backinthefieldin80hours} 
- cost = 7  
-  available_if_capitulated = yes  
+		 x =42 
+		 y =10 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = backinthefieldin80hours} 
+		 cost = 7  
+		  available_if_capitulated = yes
+			completion_reward = {
+				add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = motorized_equipment
+			}
+			}
  }
  #Focus for Multi-FLAK 
 		focus = { 
 		id = multiflak 
 		icon = GFX_focus_generic_air_defense 
 		ai_will_do = { factor = 99} 
- x =44 
- y =10 
- mutually_exclusive = { } 
- prerequisite = { focus = antiairemplacements} 
- cost = 7  
-  available_if_capitulated = yes  
- }#Focus for Projekt Loreley 
+		 x =44 
+		 y =10 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = antiairemplacements} 
+		 cost = 7  
+		  available_if_capitulated = yes
+		  completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				technology = antiair2
+			}
+		  }
+ }
+ #Focus for Projekt Loreley 
 		focus = { 
 		id = projektloreley 
 		icon = GFX_focus_wonderweapons 
 		ai_will_do = { factor = 99} 
- x =46 
- y =10 
- mutually_exclusive = { } 
- prerequisite = { focus = motorisedheavyrain} 
- cost = 7  
-  available_if_capitulated = yes  
- }#Focus for Die Panzerstadt 
+		 x =46 
+		 y =10 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = motorisedheavyrain} 
+		 cost = 7  
+		  available_if_capitulated = yes
+		  completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.25
+				uses = 2
+				category = nuclear
+			}
+		  }
+ }
+ #Focus for Die Panzerstadt 
 		focus = { 
 		id = diepanzerstadt 
 		icon = GFX_goal_generic_army_artillery2 
 		ai_will_do = { factor = 99} 
- x =48 
- y =10 
- mutually_exclusive = { } 
- prerequisite = { focus = achtungflammpanzer} 
- cost = 7  
-  available_if_capitulated = yes  
- }#Focus for The 0 to 100 Economy 
+		 x =48 
+		 y =10 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = achtungflammpanzer} 
+		 cost = 7  
+		  available_if_capitulated = yes
+		  completion_reward = {
+			category_heavy_armor = {
+				build_cost_ic = -0.1
+			}
+		  }
+ }
+ #Focus for The 0 to 100 Economy 
 		focus = { 
 		id = the0to100economy 
 		icon = GFX_goal_continuous_non_factory_construct 
 		ai_will_do = { factor = 99} 
- x =50 
- y =10 
- mutually_exclusive = { } 
- prerequisite = { focus = reformtheprocurementsystem} 
-  prerequisite = { focus =achtungflammpanzer} 
- cost = 7  
-  available_if_capitulated = yes  
- }#Focus for Aristocratic Populism 
+		 x =50 
+		 y =10 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = reformtheprocurementsystem} 
+		  prerequisite = { focus =achtungflammpanzer} 
+		 cost = 7  
+		  available_if_capitulated = yes
+		  completion_reward = {
+			conversion_cost_civ_to_mil_factor = -0.15
+			conversion_cost_mil_to_civ_factor = -0.15
+		  }
+ }
+ #Focus for Aristocratic Populism 
 		focus = { 
 		id = aristocraticpopulism 
 		icon = GFX_focus_generic_concessions 
 		ai_will_do = { factor = 99} 
- x =0 
- y =11 
- mutually_exclusive = { } 
- prerequisite = { focus = christianunions} 
-  prerequisite = { focus =embracethehrelegacy} 
-  prerequisite = { focus =splitupstinneswerke} 
-  prerequisite = { focus =aflexibletradepolicy} 
-  prerequisite = { focus =introducethesubsidiarityprinciple} 
-  prerequisite = { focus =retirethefrenchnobles} 
- cost = 10  
-  available_if_capitulated = yes  
- }#Focus for The Coalition Crisis 
+		 x =0 
+		 y =11 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = christianunions} 
+		  prerequisite = { focus =embracethehrelegacy} 
+		  prerequisite = { focus =splitupstinneswerke} 
+		  prerequisite = { focus =aflexibletradepolicy} 
+		  prerequisite = { focus =introducethesubsidiarityprinciple} 
+		  prerequisite = { focus =retirethefrenchnobles} 
+		 cost = 10  
+		  available_if_capitulated = yes
+			completion_reward = {
+				swap_ideas = {
+					remove_idea = strong_advisory_council
+					add_idea = ruling_advisory_council
+				}
+			}
+ }
+ #Focus for The Coalition Crisis 
 		focus = { 
 		id = thecoalitioncrisis 
 		icon = GFX_focus_renounce_the_treaty_of_triannon 
 		ai_will_do = { factor = 99} 
- x =7 
- y =11 
- mutually_exclusive = { } 
- prerequisite = { focus = thepassingofsilviogesell} 
- cost = 10  
-  available_if_capitulated = yes  
- }#Focus for Render onto Stinnes 
+		 x =7 
+		 y =11 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = thepassingofsilviogesell} 
+		 cost = 10  
+		  available_if_capitulated = yes
+		  completion_reward = {
+			add_ideas = Coalition Crisis
+		  }
+ }
+ #Focus for Render onto Stinnes 
 		focus = { 
 		id = renderontostinnes 
 		icon = GFX_goal_generic_territory_or_war 
 		ai_will_do = { factor = 99} 
- x =13 
- y =11 
- mutually_exclusive = { } 
- prerequisite = { focus = ironandblood} 
- cost = 10  
-  available_if_capitulated = yes  
- }#Focus for External Preparation 
+		 x =13 
+		 y =11 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = ironandblood} 
+		 cost = 10  
+		  available_if_capitulated = yes
+		  completion_reward = {
+			add_ideas = personality_cult
+			add_popularity = {
+				ideology = paternal_conservatism
+				popularity = 0.1
+						}
+		  }
+ }
+ #Focus for External Preparation 
 		focus = { 
 		id = externalpreparation 
 		icon = GFX_goal_generic_axis_build_infantry 
 		ai_will_do = { factor = 99} 
- x =18 
- y =11 
- mutually_exclusive = { } 
- prerequisite = { focus = mobilizetheindustry} 
-  prerequisite = { focus =denouncefreiwirtschaft} 
-  prerequisite = { focus =expellfrenchcitizens} 
-  prerequisite = { focus =theinternalconsolidation} 
-  prerequisite = { focus =banthefrenchlanguage} 
-  prerequisite = { focus =huntdowntheengelists} 
- cost = 10  
-  available_if_capitulated = yes  
- }#Focus for The Citizen Guard 
+		 x =18 
+		 y =11 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = mobilizetheindustry} 
+		  prerequisite = { focus =denouncefreiwirtschaft} 
+		  prerequisite = { focus =expellfrenchcitizens} 
+		  prerequisite = { focus =theinternalconsolidation} 
+		  prerequisite = { focus =banthefrenchlanguage} 
+		  prerequisite = { focus =huntdowntheengelists} 
+		 cost = 10  
+		  available_if_capitulated = yes
+			completion_reward = {
+				subversive_activites_upkeep = -0.1
+				justify_war_goal_time = -0.1
+				foreign_subversive_activites = -0.10 
+			}
+ }
+ #Focus for The Citizen Guard 
 		focus = { 
 		id = thecitizenguard 
 		icon = GFX_goal_generic_support_communism 
 		ai_will_do = { factor = 99} 
- x =22 
- y =11 
- mutually_exclusive = { } 
- prerequisite = { focus = atripartitegovernment} 
- cost = 10  
-  available_if_capitulated = yes  
- }#Focus for The Unions 
+		 x =22 
+		 y =11 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = atripartitegovernment} 
+		 cost = 10  
+			available_if_capitulated = yes
+			completion_reward = {
+				surrender_limit = 0.25
+				max_command_power = 25
+			}
+ }
+ #Focus for The Unions 
 		focus = { 
 		id = theunions 
 		icon = GFX_focus_generic_socialist_science 
 		ai_will_do = { factor = 99} 
- x =24 
- y =11 
- mutually_exclusive = { } 
- prerequisite = { focus = atripartitegovernment} 
- cost = 10  
-  available_if_capitulated = yes  
- }#Focus for The People's Court 
+		 x =24 
+		 y =11 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = atripartitegovernment} 
+		 cost = 10  
+		  available_if_capitulated = yes
+		  completion_reward = {
+			add_stability = 0.1
+			industry_repair_factor = 0.2
+			production_factory_efficiency_gain_factor = 0.025
+		  }
+ }
+ #Focus for The People's Court 
 		focus = { 
 		id = thepeoplescourt 
 		icon = GFX_goal_tripartite_pact 
 		ai_will_do = { factor = 99} 
- x =26 
- y =11 
- mutually_exclusive = { } 
- prerequisite = { focus = atripartitegovernment} 
- cost = 10  
-  available_if_capitulated = yes  
- }#Focus for Refurbish and Retain 
+		 x =26 
+		 y =11 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = atripartitegovernment} 
+		 cost = 10  
+		  available_if_capitulated = yes
+		  completion_reward = {
+			resistance_tick_auto = -0.5
+			drift_defence_factor = 0.2
+			political_advisor_cost_factor = -0.15
+		  }
+ }
+ #Focus for Refurbish and Retain 
 		focus = { 
 		id = refurbishandretain 
 		icon = GFX_goal_continuous_non_factory_construct 
 		ai_will_do = { factor = 99} 
- x =30 
- y =11 
- mutually_exclusive = { } 
- prerequisite = { focus = supportedforeverysituation} 
- cost = 7  
-  available_if_capitulated = yes  
- }#Focus for Knowledge is Power 
+		 x =30 
+		 y =11 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = supportedforeverysituation} 
+		 cost = 7  
+		  available_if_capitulated = yes
+		  completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = maintenance_company_tech
+			}
+		  }
+ }
+ #Focus for Knowledge is Power 
 		focus = { 
 		id = knowledgeispower 
 		icon = GFX_goal_continuous_research 
 		ai_will_do = { factor = 99} 
- x =32 
- y =11 
- mutually_exclusive = { } 
- prerequisite = { focus = supportedforeverysituation} 
- cost = 7  
-  available_if_capitulated = yes  
- }#Focus for Germanic engineering 
+		 x =32 
+		 y =11 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = supportedforeverysituation} 
+		 cost = 7  
+		  available_if_capitulated = yes
+		  completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.33
+				uses = 1
+				category = encryption_tech
+			}
+			add_tech_bonus = {
+				bonus = 0.33
+				uses = 1
+				category = decryption_tech
+			}
+		  }
+ }
+ #Focus for Germanic engineering 
 		focus = { 
 		id = germanicengineering 
 		icon = GFX_goal_continuous_repairments 
 		ai_will_do = { factor = 99} 
- x =34 
- y =11 
- mutually_exclusive = { } 
- prerequisite = { focus = supportedforeverysituation} 
- cost = 7  
-  available_if_capitulated = yes  
- }#Focus for Training wins Battles, Logistics win wars 
+		 x =34 
+		 y =11 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = supportedforeverysituation} 
+		 cost = 7  
+		  available_if_capitulated = yes
+			completion_reward = {
+				add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = engineers_tech
+			}
+			}
+ }
+ #Focus for Training wins Battles, Logistics win wars 
 		focus = { 
 		id = trainingwinsbattleslogisticswinwars 
 		icon = GFX_goal_generic_construct_civilian 
 		ai_will_do = { factor = 99} 
- x =36 
- y =11 
- mutually_exclusive = { } 
- prerequisite = { focus = supportedforeverysituation} 
- cost = 7  
-  available_if_capitulated = yes  
- }#Focus for Rocket Bombardements 
+		 x =36 
+		 y =11 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = supportedforeverysituation} 
+		 cost = 7  
+		  available_if_capitulated = yes
+		  completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = logistics_tech
+			}
+		  }
+ }
+ #Focus for Rocket Bombardements 
 		focus = { 
 		id = rocketbombardements 
 		icon = GFX_focus_rocketry 
 		ai_will_do = { factor = 99} 
- x =46 
- y =11 
- mutually_exclusive = { } 
- prerequisite = { focus = projektloreley} 
- cost = 7  
-  available_if_capitulated = yes  
+		 x =46 
+		 y =11 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = projektloreley} 
+		 cost = 7  
+		  available_if_capitulated = yes
+		  completion_reward = {
+			add_tech_bonus = {
+				ahead_reduction = 0.5
+				uses = 1
+				category = rocketry
+			}
+		  }
  }
  #Focus for The Future of Armored Warfare 
 		focus = { 
@@ -4470,133 +4653,245 @@ default = no
 		  prerequisite = { focus =atankforeveryopportunity} 
 		  prerequisite = { focus =mechanisationmania} 
 		 cost = 7  
-		  available_if_capitulated = yes  
+		  available_if_capitulated = yes
+			completion_reward = {
+				add_tech_bonus = {
+				ahead_reduction = 0.25
+				uses = 4
+				category = armor
+			}
+			}
  }
  #Focus for The Confederation in the Modern age 
 		focus = { 
 		id = theconfederationinthemodernage 
 		icon = GFX_focus_generic_military_academy 
 		ai_will_do = { factor = 99} 
- x =1 
- y =12 
- mutually_exclusive = { } 
- prerequisite = { focus = aristocraticpopulism} 
- cost = 10  
-  available_if_capitulated = yes  
- }#Focus for The Liberals win! 
+		 x =1 
+		 y =12 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = aristocraticpopulism} 
+		 cost = 10  
+		  available_if_capitulated = yes
+		  completion_reward = {
+			add_research_slot = 1
+		  }
+ }
+ #Focus for The Liberals win! 
 		focus = { 
 		id = theliberalswin 
 		icon = GFX_focus_generic_the_giant_wakes 
 		ai_will_do = { factor = 99} 
- x =6 
- y =12 
- mutually_exclusive = { focus = thesocialistswin} 
- prerequisite = { focus = thecoalitioncrisis} 
- cost = 10  
-  available_if_capitulated = yes  
- }#Focus for The Socialists win! 
+		 x =6 
+		 y =12 
+		 mutually_exclusive = { focus = thesocialistswin} 
+		 prerequisite = { focus = thecoalitioncrisis} 
+		 cost = 10  
+		  available_if_capitulated = yes
+		  completion_reward = {
+				remove_ideas = coalition_crisis
+				add_popularity = {
+				ideology = classical_liberalism
+				popularity = 0.2
+						}
+				add_popularity = {
+				ideology = liberal_radicalism
+				popularity = -0.1
+						}
+				add_popularity = {
+				ideology = democratic_socialism
+				popularity = -0.1
+						}
+				add_stability = -0.05
+				add_political_power = 50
+		  }
+ }
+ #Focus for The Socialists win! 
 		focus = { 
 		id = thesocialistswin 
 		icon = GFX_goal_continuous_boost_freedom 
 		ai_will_do = { factor = 99} 
- x =8 
- y =12 
- mutually_exclusive = { focus = theliberalswin} 
- prerequisite = { focus = thecoalitioncrisis} 
- cost = 10  
-  available_if_capitulated = yes  
- }#Focus for The German Plutocracy 
+		 x =8 
+		 y =12 
+		 mutually_exclusive = { focus = theliberalswin} 
+		 prerequisite = { focus = thecoalitioncrisis} 
+		 cost = 10  
+		  available_if_capitulated = yes
+		  completion_reward = {
+			add_popularity = {
+				ideology = democratic_socialism
+				popularity = 0.2
+						}
+			add_popularity = {
+				ideology = liberal_radicalism
+				popularity = -0.1
+						}
+			add_popularity = {
+				ideology = classical_liberalism
+				popularity = -0.1
+						}
+			add_stability = 0.05
+			add_political_power -50
+	}	  
+ }
+ #Focus for The German Plutocracy 
 		focus = { 
 		id = thegermanplutocracy 
 		icon = GFX_goal_generic_alliance 
 		ai_will_do = { factor = 99} 
- x =13 
- y =12 
- mutually_exclusive = { } 
- prerequisite = { focus = renderontostinnes} 
- cost = 10  
-  available_if_capitulated = yes  
- }#Focus for Fuel the Propaganda Machine 
+		 x =13 
+		 y =12 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = renderontostinnes} 
+		 cost = 10  
+		  available_if_capitulated = yes
+			completion_reward = {
+				 	equipment_conversion_speed = 0.25
+			}
+ }
+ #Focus for Fuel the Propaganda Machine 
 		focus = { 
 		id = fuelthepropagandamachine 
 		icon = GFX_focus_generic_strike_at_democracy3 
 		ai_will_do = { factor = 99} 
- x =16 
- y =12 
- mutually_exclusive = { } 
- prerequisite = { focus = externalpreparation} 
- cost = 10  
-  available_if_capitulated = yes  
- }#Focus for Marinedivision Ehrhardt 
+		 x =16 
+		 y =12 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = externalpreparation} 
+		 cost = 10  
+		  available_if_capitulated = yes
+		  completion_reward = {
+				set_rule = {
+				can_use_kamikaze_pilots = yes
+				 
+						}
+						set_technology = {
+				suicide_craft = 1
+			}
+		  }
+ }
+ #Focus for Marinedivision Ehrhardt 
 		focus = { 
 		id = marinedivisionehrhardt 
 		icon = GFX_goal_generic_amphibious_assault 
 		ai_will_do = { factor = 99} 
- x =18 
- y =12 
- mutually_exclusive = { } 
- prerequisite = { focus = externalpreparation} 
- cost = 10  
-  available_if_capitulated = yes  
- }#Focus for Organisation Z 
+		 x =18 
+		 y =12 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = externalpreparation} 
+		 cost = 10  
+		  available_if_capitulated = yes
+		  completion_reward = {
+			division_template = {
+			name = "Marinedivision"
+			regiments = {
+				marine = { x = 0 y = 0 }
+				marine = { x = 0 y = 1 }
+				marine = { x = 0 y = 2 }
+				marine = { x = 0 y = 3 }
+				marine = { x = 0 y = 4 }
+				marine = { x = 1 y = 0 }
+				marine = { x = 1 y = 1 }
+				marine = { x = 1 y = 2 }
+				marine = { x = 1 y = 3 }
+				marine = { x = 1 y = 4 }
+			}
+			support = { 
+			military_police = { x = 0 y = 0 }
+			} 
+			}
+			
+		  }
+ }
+ #Focus for Organisation Z 
 		focus = { 
 		id = organisationz 
 		icon = GFX_focus_yug_zmaj 
 		ai_will_do = { factor = 99} 
- x =20 
- y =12 
- mutually_exclusive = { } 
- prerequisite = { focus = externalpreparation} 
- cost = 10  
-  available_if_capitulated = yes  
- }#Focus for Create Engelsstadt 
+		 x =20 
+		 y =12 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = externalpreparation} 
+		 cost = 10  
+		  available_if_capitulated = yes
+		  completion_reward = {
+			add_research_slot = 1
+		  }
+ }
+ #Focus for Create Engelsstadt 
 		focus = { 
 		id = createengelsstadt 
 		icon = GFX_goal_generic_soviet_construction 
 		ai_will_do = { factor = 99} 
- x =24 
- y =12 
- mutually_exclusive = { } 
- prerequisite = { focus = thecitizenguard  focus = theunions  focus = thepeoplescourt} 
- cost = 10  
-  available_if_capitulated = yes  
- }#Focus for Larger and Elite 
+		 x =24 
+		 y =12 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = thecitizenguard  focus = theunions  focus = thepeoplescourt} 
+		 cost = 10  
+		  available_if_capitulated = yes
+		  completion_reward = {
+			add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+			province = {
+				id = 9482
+			}
+		  }
+ }
+ #Focus for Larger and Elite 
 		focus = { 
 		id = largerandelite 
 		icon = GFX_goal_generic_axis_build_infantry 
 		ai_will_do = { factor = 99} 
- x =36 
- y =12 
- mutually_exclusive = { } 
- prerequisite = { focus = trainingwinsbattleslogisticswinwars} 
-  prerequisite = { focus =refurbishandretain} 
-  prerequisite = { focus =knowledgeispower} 
-  prerequisite = { focus =germanicengineering} 
- cost = 7  
-  available_if_capitulated = yes  
- }#Focus for Total Annihilation 
+		 x =36 
+		 y =12 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = trainingwinsbattleslogisticswinwars} 
+		  prerequisite = { focus =refurbishandretain} 
+		  prerequisite = { focus =knowledgeispower} 
+		  prerequisite = { focus =germanicengineering} 
+		 cost = 7  
+		  available_if_capitulated = yes
+		  completion_reward = {
+			mobilization_laws_cost_factor = -0.1
+			conscription = 0.01 
+		  }
+ }
+ #Focus for Total Annihilation 
 		focus = { 
 		id = totalannihilation 
 		icon = GFX_goal_generic_secret_weapon 
 		ai_will_do = { factor = 99} 
- x =46 
- y =12 
- mutually_exclusive = { } 
- prerequisite = { focus = rocketbombardements} 
- cost = 7  
-  available_if_capitulated = yes  
- }#Focus for It's the Economy Dummkopf 
+		 x =46 
+		 y =12 
+		 mutually_exclusive = { } 
+		 prerequisite = { focus = rocketbombardements} 
+		 cost = 7  
+		  available_if_capitulated = yes
+			completion_reward = {
+				add_tech_bonus = {
+				bonus = 0.40
+				uses = 4
+				category = electronics
+				category = nuclear
+				category = rocketry
+			}
+			}
+ }
+ #Focus for It's the Economy Dummkopf 
 		focus = { 
 		id = itstheeconomydummkopf 
 		icon = GFX_goal_generic_positive_trade_relations 
 		ai_will_do = { factor = 99} 
- x =2 
- y =13 
- mutually_exclusive = { } 
- prerequisite = { focus = theconfederationinthemodernage} 
- cost = 10  
+		x =2 
+		y =13 
+		mutually_exclusive = { } 
+		 prerequisite = { focus = theconfederationinthemodernage} 
+		 cost = 10  
   available_if_capitulated = yes  
- }#Focus for Cut Consumption Taxes 
+ }
+ #Focus for Cut Consumption Taxes 
 		focus = { 
 		id = cutconsumptiontaxes 
 		icon = GFX_focus_generic_self_management 
