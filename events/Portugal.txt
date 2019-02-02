@@ -61,13 +61,13 @@ country_event = { #Assasination of the Prime Minister Sidónio Pais
 	add_stability = -0.07
 	
 	
-	POR = { country_event = { id = portugal.4 days = 10 }
-		
-    }
+	POR = { country_event = { id = portugal.4 days = 4 }
+
+   }
 }
 }
 
-country_event = { #Choose ur new governement
+country_event = { #The Parliament accuses the communists 
 	id = portugal.4
 	title = portugal.4.t
 	desc = portugal.4.d
@@ -76,13 +76,112 @@ country_event = { #Choose ur new governement
     is_triggered_only = yes
 	fire_only_once = yes
 	
-	option = { #New Miguelist prime minister
+	trigger = {
+        tag = POR
+		date > 1936.02.04
+    }
+	
+	option = { #What a surprise...
 	name = portugal.4.a
-    }
-	option = { #Disolve the parliament and invite the integralismo Lusitanio
-	name = portugal.4.b
-    }
-	option = { #Put the military in charge 
-	name = portugal.4.c
-    }
+	
+	
+	POR = { country_event = { id = portugal.5 days = 2 }
+
+   } 
 }
+}
+
+country_event = { #Francisco Rolão Preto speeches 
+	id = portugal.5
+	title = portugal.5.t
+	desc = portugal.5.d
+	picture = GFX_unknown
+	
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+        tag = POR
+		date > 1936.02.04
+    }
+	
+	option = { #Always talking, never acting ! 
+	name = portugal.5.a
+	add_political_power = -15
+	
+	add_popularity = {
+    ideology = Cromwellian
+    popularity = 0.03
+}
+
+	
+	POR = { country_event = { id = portugal.6 days = 5 }
+
+   }
+}
+}
+
+country_event = { #The King disolves the cabinet 
+	id = portugal.6
+	title = portugal.6.t
+	desc = portugal.6.d
+	picture = GFX_unknown
+	
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+        tag = POR
+		date > 1936.02.04
+    }
+	
+	option = { #Well, they were dead
+	name = portugal.6.a
+
+
+	
+	POR = { country_event = { id = portugal.7 days = 3 }
+
+   }
+}
+}
+
+country_event = { #the investigation 
+	id = portugal.7
+	title = portugal.7.t
+	desc = portugal.7.d
+	picture = GFX_unknown
+	
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+        tag = POR
+		date > 1936.02.04
+    }
+	
+	option = { 
+	name = portugal.7.a
+	
+	
+
+
+   }
+
+	option = { 
+	name = portugal.7.b
+	
+	
+
+
+   }
+
+	option = { 
+	name = portugal.7.c
+	
+	
+
+
+   }
+}
+
