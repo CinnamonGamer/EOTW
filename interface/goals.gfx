@@ -816,5 +816,77 @@ spriteTypes = {
 				
 	}
 
+	SpriteType = {
+		name = "GFX_goal_arc_de_triomphe"
+		texturefile = "gfx/interface/goals/arc_de_triomphe.tga"
+				
+	}
+
+	SpriteType = {
+		name = "GFX_goal_agriculture_proffits"
+		texturefile = "gfx/interface/goals/agriculture_proffits.tga"
+				
+	}
+
+	SpriteType = {
+		name = "GFX_goal_falling_coins"
+		texturefile = "gfx/interface/goals/falling_coins.tga"
+				
+	}
+
+	SpriteType = {
+		name = "GFX_goal_fortress_oil"
+		texturefile = "gfx/interface/goals/fortress_oil.tga"
+				
+	}
+
+	SpriteType = {
+		name = "GFX_goal_LAP_congress_absolutism"
+		texturefile = "gfx/interface/goals/LAP_congress_absolutism.tga"
+				
+	}
+
+	SpriteType = {
+		name = "GFX_goal_LAP_congress_civic"
+		texturefile = "gfx/interface/goals/LAP_congress_civic.tga"
+				
+	}
+
+	SpriteType = {
+		name = "GFX_goal_LAP_congress_derechas"
+		texturefile = "gfx/interface/goals/LAP_congress_derechas.tga"
+				
+	}
+
+	SpriteType = {
+		name = "GFX_goal_martial_law"
+		texturefile = "gfx/interface/goals/martial_law.tga"
+				
+	}
+
+	SpriteType = {
+		name = "GFX_goal_protect_coast"
+		texturefile = "gfx/interface/goals/protect_coast.tga"
+				
+	}
+
+	SpriteType = {
+		name = "GFX_goal_rebel_crackdown"
+		texturefile = "gfx/interface/goals/rebel_crackdown.tga"
+				
+	}
+
+	SpriteType = {
+		name = "GFX_goal_weapons_smuggling"
+		texturefile = "gfx/interface/goals/weapons_smuggling.tga"
+				
+	}
+
+	SpriteType = {
+		name = "GFX_goal_soldier_elections"
+		texturefile = "gfx/interface/goals/soldier_elections.tga"
+				
+	}
+
 	
 }

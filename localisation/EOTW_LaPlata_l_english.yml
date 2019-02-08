@@ -1,0 +1,51 @@
+﻿l_english:
+ 
+ #country_name
+ LAP_paternal_conservatism:0 "United Provinces of La Plata"
+ LAP_paternal_conservatism_def:0 "The United Provinces of La Plata"
+ LAP_bonapartism:0 "Kingdom of La Plata"
+ LAP_bonapartism_def:0 "The Kingdom of La Plata"
+ LAP_traditional_conservatism:0 "Kingdom of La Plata"
+ LAP_traditional_conservatism_def:0 "The Kingdom of La Plata"
+ LAP_classical_liberalism:0 "Kingdom of La Plata"
+ LAP_classical_liberalism_def:0 "The Kingdom of La Plata"
+ LAP_liberal_radicalism:0 "Kingdom of La Plata"
+ LAP_liberal_radicalism_def:0 "The Kingdom of La Plata"
+ LAP_democratic_socialism:0 "United Provinces of La Plata"
+ LAP_democratic_socialism_def:0 "The United Provinces of La Plata"
+ LAP_reasonism:0 "United Provinces of La Plata"
+ LAP_reasonism_def:0 "The United Provinces of La Plata"
+ LAP_ADJ:0 "Platinean"
+
+ #parties
+ LAP_paternal_conservatism_party:0 "PF"
+ LAP_paternal_conservatism_party_long:0 "Federal Party"
+ LAP_bonapartism_party:0 "Franciscanos"
+ LAP_bonapartism_party_long:0 "Franciscanos"
+ LAP_traditional_conservatism_party:0 "CdD"
+ LAP_traditional_conservatism_party_long:0 "Coalición de las Derechas"
+ LAP_classical_liberalism_party:0 "LdS"
+ LAP_classical_liberalism_party_long:0 "Libres del Sur"
+ LAP_liberal_radicalism_party:0 "UC"
+ LAP_liberal_radicalism_party_long:0 "Unión Cívica"
+ LAP_democratic_socialism_party:0 "PS"
+ LAP_democratic_socialism_party_long:0 "Partido Socialista"
+ LAP_engelism_party:0 "LOR"
+ LAP_engelism_party_long:0 "Liga Obrera Revolucionaria"
+ LAP_reasonism_party:0 "PF"
+ LAP_reasonism_party_long:0 "Partido Federal"
+ LAP_Cromwellian_party:0 "LSP"
+ LAP_Cromwellian_party_long:0 "Liga Social Platense"
+
+ #ideas
+ LAP_idea_nationalization:0 "Nationalization of Services"
+ LAP_idea_nationalization_2:0 "Nationalization of Services"
+ LAP_idea_nationalization_3:0 "Nationalization of Services"
+
+ #modifiers
+ southam_nationalization:0 "Nationalization of Services"
+ southam_nationalization_small:0 "Nationalization of Services"
+
+ #country_flags
+ uc_has_won_the_1933_election:0 "UC has won the 1933 election"
+ cdd_has_won_the_1933_election:0 "CdD has won the 1933 election"

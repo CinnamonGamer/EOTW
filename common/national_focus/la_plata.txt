@@ -1,0 +1,336 @@
+focus_tree = {
+	id = la_plata_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = LAP
+		}
+	}
+	
+	focus = {
+	    id = LAP_uc_victory
+		icon = GFX_goal_LAP_congress_civic
+		x = 2
+		y = 0
+		cost = 5
+		available = {
+			has_country_flag = uc_has_won_the_1933_election
+		}
+		bypass = {
+			has_country_flag = uc_has_won_the_1933_election
+		}
+		mutually_exclusive = {
+			focus = LAP_cdd_victory
+		}
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+	    id = LAP_syndical_alliance
+		icon = GFX_goal_workers_rights
+		x = 2
+		y = 1
+		cost = 5
+		available = {
+			always = yes
+		}
+		prerequisite = {
+			focus = LAP_uc_victory
+		}
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+	    id = LAP_national_railway
+		icon = GFX_goal_NFA_Transsaharian_Railroad
+		x = 0
+		y = 2
+		cost = 5
+		available = {
+			always = yes
+		}
+		prerequisite = {
+			focus = LAP_syndical_alliance
+		}
+		completion_reward = {
+			add_ideas = {
+				LAP_idea_nationalization
+			}
+			ENG = {
+				add_opinion_modifier = {
+			 		target = LAP
+			 		modifier = southam_nationalization
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+	    id = LAP_national_oil
+		icon = GFX_goal_oil_derrick
+		x = 2
+		y = 2
+		cost = 5
+		available = {
+			has_completed_focus = LAP_national_railway
+		}
+		prerequisite = {
+			focus = LAP_syndical_alliance
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = LAP_idea_nationalization
+				add_idea = LAP_idea_nationalization_2
+			}
+			USA = {
+				add_opinion_modifier = {
+			 		target = LAP
+			 		modifier = southam_nationalization
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+	    id = LAP_national_telephone
+		icon = GFX_goal_radio
+		x = 4
+		y = 2
+		cost = 5
+		available = {
+			has_completed_focus = LAP_national_oil
+		}
+		prerequisite = {
+			focus = LAP_syndical_alliance
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = LAP_idea_nationalization_2
+				add_idea = LAP_idea_nationalization_3
+			}
+			USA = {
+				add_opinion_modifier = {
+			 		target = LAP
+			 		modifier = southam_nationalization_small
+				}
+			}
+			ENG = {
+				add_opinion_modifier = {
+			 		target = LAP
+			 		modifier = southam_nationalization_small
+				}
+			}
+			FRA = {
+				add_opinion_modifier = {
+			 		target = LAP
+			 		modifier = southam_nationalization_small
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+	    id = LAP_working_hours
+		icon = GFX_goal_tblra_union_agreement
+		x = 1
+		y = 3
+		cost = 5
+		available = {
+			always = yes
+		}
+		prerequisite = {
+			focus = LAP_national_railway
+		}
+		prerequisite = {
+			focus = LAP_national_oil
+		}
+		prerequisite = {
+			focus = LAP_national_telephone
+		}
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+	    id = LAP_national_bank
+		icon = GFX_goal_bag_of_money
+		x = 3
+		y = 3
+		cost = 5
+		available = {
+			always = yes
+		}
+		prerequisite = {
+			focus = LAP_national_railway
+		}
+		prerequisite = {
+			focus = LAP_national_oil
+		}
+		prerequisite = {
+			focus = LAP_national_telephone
+		}
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+	    id = LAP_cdd_victory
+		icon = GFX_goal_LAP_congress_derechas
+		x = 8
+		y = 0
+		cost = 5
+		available = {
+			has_country_flag = cdd_has_won_the_1933_election
+		}
+		bypass = {
+			has_country_flag = cdd_has_won_the_1933_election
+		}
+		mutually_exclusive = {
+			focus = LAP_uc_victory
+		}
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+	    id = LAP_repay_supporters
+		icon = GFX_goal_bag_of_money
+		x = 8
+		y = 1
+		cost = 5
+		available = {
+			always = yes
+		}
+		prerequisite = {
+			focus = LAP_cdd_victory
+		}
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+	    id = LAP_nobility_privileges
+		icon = GFX_goal_falling_coins
+		x = 6
+		y = 2
+		cost = 5
+		available = {
+			always = yes
+		}
+		prerequisite = {
+			focus = LAP_repay_supporters
+		}
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+	    id = LAP_landowner_benefits
+		icon = GFX_goal_agriculture_proffits
+		x = 8
+		y = 2
+		cost = 5
+		available = {
+			always = yes
+		}
+		prerequisite = {
+			focus = LAP_repay_supporters
+		}
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+	    id = LAP_lower_tariffs
+		icon = GFX_goal_ideology_market_liberal
+		x = 10
+		y = 2
+		cost = 5
+		available = {
+			always = yes
+		}
+		prerequisite = {
+			focus = LAP_repay_supporters
+		}
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+	    id = LAP_catholic_education
+		icon = GFX_BEL_Catholic_Education
+		x = 7
+		y = 3
+		cost = 5
+		available = {
+			always = yes
+		}
+		prerequisite = {
+			focus = LAP_nobility_privileges
+		}
+		prerequisite = {
+			focus = LAP_landowner_beneffits
+		}
+		prerequisite = {
+			focus = LAP_lower_tariffs
+		}
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+	    id = LAP_voting_reform
+		icon = GFX_goal_soldier_elections
+		x = 9
+		y = 3
+		cost = 5
+		available = {
+			always = yes
+		}
+		prerequisite = {
+			focus = LAP_nobility_privileges
+		}
+		prerequisite = {
+			focus = LAP_landowner_beneffits
+		}
+		prerequisite = {
+			focus = LAP_lower_tariffs
+		}
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+}

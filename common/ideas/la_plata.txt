@@ -1,0 +1,61 @@
+ideas = {
+		
+	country = {
+
+		LAP_idea_nationalization = {
+
+			picture = man_five_year_plan_industry
+
+			allowed = {
+				original_tag = LAP
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				production_speed_infrastructure_factor = 0.05
+				army_speed_factor = 0.02
+			}
+		}
+		LAP_idea_nationalization_2 = {
+
+			picture = man_five_year_plan_industry
+
+			allowed = {
+				original_tag = LAP
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				production_speed_infrastructure_factor = 0.05
+				army_speed_factor = 0.02
+				local_resources_factor = 0.05
+				production_speed_synthetic_refinery_factor = 0.02
+			}
+		}
+		LAP_idea_nationalization_3 = {
+
+			picture = man_five_year_plan_industry
+
+			allowed = {
+				original_tag = LAP
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				production_speed_infrastructure_factor = 0.05
+				army_speed_factor = 0.02
+				local_resources_factor = 0.05
+				production_speed_synthetic_refinery_factor = 0.02
+			}
+		}
+	}
+}
