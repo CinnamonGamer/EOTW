@@ -1,0 +1,75 @@
+focus_tree = {
+	id = portugal_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = POR
+		}
+	}
+	default = no
+	focus = {
+		id = POR_sidonio_dead
+		icon = GFX_goal_backstab
+		cost = 0,00
+		x = 9
+		y = 0
+
+	}
+	focus = {
+		id = POR_the_investigation
+		icon = GFX_goal_POR_the_tarrafal
+		cost = 0,00
+		prerequisite = {
+			focus = POR_sidonio_dead
+		}
+		x = 9
+		y = 1
+
+	}
+	focus = {
+		id = POR_the_order
+		icon = GFX_goal_POR_royal_edicts
+		cost = 0,00
+		prerequisite = {
+			focus = POR_the_investigation
+		}
+		mutually_exclusive = {
+			focus = POR_the_bullet
+			focus = POR_the_phoenix
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = POR_the_bullet
+		icon = GFX_goal_collaborate_local_elites2
+		cost = 0,00
+		prerequisite = {
+			focus = POR_the_investigation
+		}
+		mutually_exclusive = {
+			focus = POR_the_order
+			focus = POR_the_phoenix
+		}
+		x = 4
+		y = 2
+
+	}
+	focus = {
+		id = POR_the_phoenix
+		icon = GFX_goal_POR_ban_republic
+		cost = 0,00
+		prerequisite = {
+			focus = POR_the_investigation
+		}
+		mutually_exclusive = {
+			focus = POR_the_order
+			focus = POR_the_bullet
+		}
+		x = 14
+		y = 2
+
+	}
+}

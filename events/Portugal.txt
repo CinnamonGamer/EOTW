@@ -138,10 +138,6 @@ country_event = { #The King disolves the cabinet
 	option = { #Well, they were dead
 	name = portugal.6.a
 
-
-	
-	POR = { country_event = { id = portugal.7 days = 3 }
-
    }
 }
 }
