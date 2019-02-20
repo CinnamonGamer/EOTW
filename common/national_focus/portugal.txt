@@ -1,5 +1,5 @@
 focus_tree = {
-	id = portugal_focus
+	id = Portugal_focus
 	country = {
 		factor = 0
 		modifier = {
@@ -18,7 +18,7 @@ focus_tree = {
 	}
 	focus = {
 		id = POR_the_investigation
-		icon = GFX_goal_POR_the_tarrafal
+		icon = GFX_goal_shadow_government
 		cost = 0,00
 		prerequisite = {
 			focus = POR_sidonio_dead
@@ -29,7 +29,7 @@ focus_tree = {
 	}
 	focus = {
 		id = POR_the_order
-		icon = GFX_goal_POR_royal_edicts
+		icon = GFX_goal_POR_ban_republic
 		cost = 0,00
 		prerequisite = {
 			focus = POR_the_investigation
@@ -59,7 +59,7 @@ focus_tree = {
 	}
 	focus = {
 		id = POR_the_phoenix
-		icon = GFX_goal_POR_ban_republic
+		icon = GFX_goal_unknown
 		cost = 0,00
 		prerequisite = {
 			focus = POR_the_investigation
