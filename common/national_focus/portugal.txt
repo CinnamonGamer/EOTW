@@ -12,6 +12,9 @@ focus_tree = {
 		id = POR_sidonio_dead
 		icon = GFX_goal_backstab
 		cost = 0,00
+		completion_reward = {
+    		    log = "[GetDateText]: [Root.GetName]: Focus POR_sidonio_dead"
+  		}
 		x = 9
 		y = 0
 
@@ -23,6 +26,9 @@ focus_tree = {
 		prerequisite = {
 			focus = POR_sidonio_dead
 		}
+		completion_reward = {
+    		    log = "[GetDateText]: [Root.GetName]: Focus POR_the_investigation"
+  		}
 		x = 9
 		y = 1
 
@@ -38,6 +44,9 @@ focus_tree = {
 			focus = POR_the_bullet
 			focus = POR_the_phoenix
 		}
+		completion_reward = {
+    		    log = "[GetDateText]: [Root.GetName]: Focus POR_the_order"
+  		}
 		x = 9
 		y = 2
 
@@ -53,6 +62,9 @@ focus_tree = {
 			focus = POR_the_order
 			focus = POR_the_phoenix
 		}
+		completion_reward = {
+    		    log = "[GetDateText]: [Root.GetName]: Focus POR_the_bullet"
+  		}
 		x = 4
 		y = 2
 
@@ -68,6 +80,9 @@ focus_tree = {
 			focus = POR_the_order
 			focus = POR_the_bullet
 		}
+		completion_reward = {
+    		    log = "[GetDateText]: [Root.GetName]: Focus POR_the_phoenix"
+  		}
 		x = 14
 		y = 2
 
