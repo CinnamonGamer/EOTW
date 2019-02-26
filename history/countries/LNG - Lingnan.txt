@@ -81,13 +81,28 @@ parties = {
 
 
 create_country_leader = {
-	name = "Fortnite"
+	name = "Zang Zhiping"
 	desc = "POLITICS_WU_PEIFU_DESC"
-	picture = "Portrait_CHI_Wu_Peifu.dds"
+	picture = "Portrait_Fujian_Zang_Zhiping.dds"
 	expire = "1965.1.1"
 	ideology = paternal_conservatism_ideology
 	traits = {
 		#
 	}
+}
+
+### Liu Huazhao as Commander
+create_field_marshal = {
+	name = "Zang Zhiping"
+	picture = "Portrait_Fujian_Zang_Zhiping.dds"
+	traits = { offensive_doctrine defensive_doctrine }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Liu Huazhao"
+	picture = "Portrait_Fujian_Liu_Huazhao.dds"
+	traits = { trickster }
+	skill = 2
 }
 }
