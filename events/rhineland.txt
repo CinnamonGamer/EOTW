@@ -1,0 +1,161 @@
+﻿###########################
+# RHN Events
+###########################
+
+add_namespace = rhinefocus
+	news_event = {
+		id = rhinefocus.1
+		title = rhinefocus.1.t
+		desc =	rhinefocus.1.d
+		picture = GFX_news_event_french_parade
+
+		major = yes 
+
+		is_triggered_only = yes
+
+		hidden = no
+		
+		fire_only_once = yes
+
+		
+	
+	option = { 
+		name = rhinefocus_option.1.a
+	}
+       
+}
+
+country_event = {
+	id = rhinefocus.2 
+        title = rhinefocus.2.t
+        desc = rhinefocus.2.d
+		picture = GFX_report_event_stalin_meeting
+
+	is_triggered_only = yes
+
+	hidden = no
+
+	fire_only_once = yes
+	
+	option = { 
+		name = rhinefocus_option.2.a
+	}
+        
+	option = { 
+		name = rhinefocus_option.2.b           
+	}
+	
+	option = {
+		name = rhinefocus_option.2.c
+	}
+}
+
+country_event = {
+	id = rhinefocus.3
+        title = rhinefocus.3.t
+        desc = rhinefocus.3.d
+		picture = GFX_report_event_stalin_meeting
+
+	is_triggered_only = yes
+
+	hidden = no
+
+	fire_only_once = yes
+	
+	option = { 
+		name = rhinefocus_option.3.a
+	}
+        
+	option = { 
+		name = rhinefocus_option.3.b           
+	}
+	
+}
+
+country_event = {
+	id = rhinefocus.4
+        title = rhinefocus.4.t
+        desc = rhinefocus.4.d
+		picture = GFX_report_event_stalin_meeting
+
+	is_triggered_only = yes
+
+	hidden = no
+
+	fire_only_once = yes
+	
+	option = { 
+		name = rhinefocus_option.4.a
+	}
+        
+	option = { 
+		name = rhinefocus_option.4.b           
+	}
+	
+}
+
+country_event = {
+	id = rhinefocus.5
+        title = rhinefocus.5.t
+        desc = rhinefocus.5.d
+		picture = GFX_report_event_stalin_meeting
+
+	is_triggered_only = yes
+
+	hidden = no
+
+	fire_only_once = yes
+	
+	option = { 
+		name = rhinefocus_option.5.a
+	}
+        
+	option = { 
+		name = rhinefocus_option.5.b           
+	}
+	
+}
+
+country_event = {
+	id = rhinefocus.6
+        title = rhinefocus.6.t
+        desc = rhinefocus.6.d
+		picture = GFX_report_event_stalin_meeting
+
+	is_triggered_only = yes
+
+	hidden = no
+
+	fire_only_once = yes
+	
+	option = { 
+		name = rhinefocus_option.6.a
+	}
+        
+	option = { 
+		name = rhinefocus_option.6.b           
+	}
+	
+}
+
+country_event = {
+	id = rhinefocus.7
+        title = rhinefocus.7.t
+        desc = rhinefocus.7.d
+		picture = GFX_report_event_stalin_meeting
+
+	is_triggered_only = yes
+
+	hidden = no
+
+	fire_only_once = yes
+	
+	option = { 
+		name = rhinefocus_option.7.a
+	}
+        
+	option = { 
+		name = rhinefocus_option.7.a      
+	}
+	
+}
