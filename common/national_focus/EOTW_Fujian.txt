@@ -7,43 +7,43 @@ focus_tree = {
 			tag = LNG
 		}
 	}
-  focus = {
+ 	focus = {
 		id = LNG_The_Southeast_In_Our_Grasp
 		icon = GFX_focus_unknown
 		cost = 0
 		x = 8
 		y = 0
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus LNG_The_Southeast_In_Our_Grasp"
-        add_political_power = 50
-    }
+  		completion_reward = {
+        		log = "[GetDateText]: [Root.GetName]: Focus LNG_The_Southeast_In_Our_Grasp"
+        		add_political_power = 50
+    		}
 	}
-  focus = {
+  	focus = {
 		id = LNG_Cull_the_Bandits
 		icon = GFX_focus_unknown
 		cost = 0
-    relative_position_id = LNG_The_Southeast_In_Our_Grasp
+    		relative_position_id = LNG_The_Southeast_In_Our_Grasp
 		x = -2
 		y = 1
-    prerequisite = {
-        focus = LNG_The_Southeast_In_Our_Grasp
-    }
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus LNG_Cull_the_Bandits"
-    }
+    		prerequisite = {
+        		focus = LNG_The_Southeast_In_Our_Grasp
+    		}
+    		completion_reward = {
+        		log = "[GetDateText]: [Root.GetName]: Focus LNG_Cull_the_Bandits"
+    		}
 	}
-  focus = {
+  	focus = {
 		id = LNG_The_Two_Generals
 		icon = GFX_focus_unknown
 		cost = 0
-    relative_position_id = LNG_The_Southeast_In_Our_Grasp
+    		relative_position_id = LNG_The_Southeast_In_Our_Grasp
 		x = 2
 		y = 1
-    prerequisite = {
-        focus = LNG_The_Southeast_In_Our_Grasp
-    }
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus LNG_The_Two_Generals"
-    }
+    		prerequisite = {
+        		focus = LNG_The_Southeast_In_Our_Grasp
+    		}
+    		completion_reward = {
+        		log = "[GetDateText]: [Root.GetName]: Focus LNG_The_Two_Generals"
+    		}
 	}
 }
