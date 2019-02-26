@@ -1401,17 +1401,13 @@
  POR_de_leonist_party:0 "NRC"
  POR_de_leonist_party_long:0 "National Revolutionary Council"
 
- PRS_cromwellism_party:0 "BDNSAq"
- PRS_cromwellism_party_long:0 "Bund der Deutschen Nationalen Söhne und Arbeiter"
- PRS_fundamentalism_party:0 "CSV"
- PRS_fundamentalism_party_long:0 "Christlicher Sozialer Volksdienst"
+ PRS_cromwellian_party:0 "BDNSA"
+ PRS_cromwellian_party_long:0 "Bund der Deutschen Nationalen Söhne und Arbeiter"
  PRS_paternal_conservatism_party:0 "PNVP"
  PRS_paternal_conservatism_long:0 "Preußische Nationale Volkspartei"
  PRS_bonapartism_party:0 "Hohenzollern"
  PRS_bonapartism_party_long:0 "Exiled House of Hohenzollern"
 
- PRS_conservative_liberalism_party:0 "Zentrum"
- PRS_conservative_liberalism_party_long:0 "Deutsche Zentrumspartei"
  PRS_liberal_conservatism_party:0 "WP"
  PRS_liberal_conservatism_party_long:0 "Wirtschaftspartei"
 

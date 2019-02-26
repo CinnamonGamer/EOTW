@@ -29,12 +29,8 @@ set_convoys = 50
 set_politics = {
 
 	parties = {
-		cromwellism = { 
-			popularity = 31
-		}
-
-		fundamentalism = {
-			popularity = 4
+		cromwellian = { 
+			popularity = 35
 		}
 		
 		paternal_conservatism = {
@@ -43,10 +39,6 @@ set_politics = {
 
         bonapartism = {
 			popularity = 1
-		}
-
-        conservative_liberalism = {
-			popularity = 7
 		}
 
         liberal_conservatism = {
@@ -70,7 +62,7 @@ set_politics = {
 		}
 
        engelism = {
-			popularity = 26
+			popularity = 33
 			#banned = no #default is no
 		}
 

@@ -35,8 +35,7 @@ ideas = {
 			picture = great_depression
 			
 			modifier = {
-				cromwellism_drift = 0.02
-				fundamentalism_drift = 0.02
+				cromwellian_drift = 0.02
 				paternal_conservatism_drift = 0.03
 			}
 		
@@ -78,7 +77,6 @@ ideas = {
 			
 			modifier = {
 				classical_liberalism_drift = 0.03
-				radical_liberalism_drift = 0.01
 				democratic_socialism_drift = 0.03
 			}
 		
