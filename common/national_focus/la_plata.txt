@@ -15,7 +15,7 @@ focus_tree = {
 		icon = GFX_goal_LAP_congress_civic
 		x = 2
 		y = 0
-		cost = 5
+		cost = 0
 		available = {
 			has_country_flag = uc_has_won_the_1933_election
 		}
@@ -44,6 +44,11 @@ focus_tree = {
 			focus = LAP_uc_victory
 		}
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = LAP_idea_syndical_alliance
+				add_idea = LAP_idea_syndical_alliance_2
+			}
+			add_political_power = -70
 		}
 		ai_will_do = {
 			factor = 10
@@ -197,7 +202,7 @@ focus_tree = {
 		icon = GFX_goal_LAP_congress_derechas
 		x = 8
 		y = 0
-		cost = 5
+		cost = 0
 		available = {
 			has_country_flag = cdd_has_won_the_1933_election
 		}
@@ -326,6 +331,60 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = LAP_lower_tariffs
+		}
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+	    id = LAP_cordoba_earthquake
+		icon = GFX_goal_soldier_elections
+		x = 16
+		y = 0
+		cost = 5
+		available = {
+			has_country_flag = an_earthquake_has_struck_cordoba
+		}
+		bypass = {
+			has_country_flag = an_earthquake_has_struck_cordoba
+		}
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+	    id = LAP_emergency_state
+		icon = GFX_goal_soldier_elections
+		x = 14
+		y = 1
+		cost = 5
+		available = {
+			always = yes
+		}
+		prerequisite = {
+			focus = LAP_cordoba_earthquake
+		}
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+	    id = LAP_
+		icon = GFX_goal_soldier_elections
+		x = 12
+		y = 2
+		cost = 5
+		available = {
+			always = yes
+		}
+		prerequisite = {
+			focus = LAP_emergency_state
 		}
 		completion_reward = {
 		}
