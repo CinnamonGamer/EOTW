@@ -140,11 +140,7 @@ set_war_support = 0.50
 set_politics = {
 
 	parties = {
-		cromwellism = { 
-			popularity = 0
-		}
-
-		fundamentalism = {
+		cromwellian = { 
 			popularity = 0
 		}
 		

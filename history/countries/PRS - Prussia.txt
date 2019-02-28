@@ -41,34 +41,28 @@ set_politics = {
 			popularity = 1
 		}
 
-        liberal_conservatism = {
+        traditional_conservatism = {
 			popularity = 3
-			#banned = no #default is no
 		}
 
         classical_liberalism = {
 			popularity = 3
-			#banned = no #default is no
 		}
 
         liberal_radicalism = {
 			popularity = 3
-			#banned = no #default is no
 		}
 
        democratic_socialism = {
 			popularity = 2
-			#banned = no #default is no
 		}
 
        engelism = {
 			popularity = 33
-			#banned = no #default is no
 		}
 
         reasonism = {
 			popularity = 6
-			#banned = no #default is no
 		}
 	}
 	

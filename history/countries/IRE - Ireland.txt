@@ -45,53 +45,45 @@ set_convoys = 800
 set_politics = {
 
 	parties = {
-		strasserist = { 
+		cromwellian  = { 
 			popularity = 4
 		}
 
-		nationalist = {
+		paternal_conservatism = {
 			popularity = 3
 		}
 		
-		absolute_monarchist = {
+		 bonapartism  = {
 			popularity = 0
 			#banned = no #default is no
 		}
 		
-		national_conservative = { 
-			popularity = 6
+		traditional_conservatism = { 
+			popularity = 8
 		}
 
-                theoconservative = { 
-			popularity = 3
-		}
-
-                national_liberal = { 
+                classical_liberalism = { 
 			popularity = 4
 		}
 
-                americanist = { 
-			popularity = 70
+                liberal_radicalism = { 
+			popularity = 73
 		}
 
-                georgist = { 
-			popularity = 4
-		}
-
-                democratic_socialist = { 
+                democratic_socialism = { 
 			popularity = 0
 		}
 
-                collectivist = { 
+                engelism = { 
 			popularity = 0
 		}
 
-                de_leonist = { 
-			popularity = 6
+                reasonism = { 
+			popularity = 8
 		}
 	}
 	
-	ruling_party = americanist
+	ruling_party = liberal_radicalism
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = yes 
@@ -103,47 +95,3 @@ add_ideas = {
 	civilian_economy
 }
 
-
-create_country_leader = {
-	name = "Michael O'Riordan"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = international_de_leonist
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Sean T. O'Kelly"
-	desc = ""
-	picture = "Portrait_IRE_Sean_Kelly.dds"
-	expire = "1965.1.1"
-	ideology = direct_democrat
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Eoin O'Duffy"
-	desc = ""
-	picture = "Portrait_IRE_Eoin_Duffy.dds"
-	expire = "1965.1.1"
-	ideology = fascist
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "William X. O'Brien"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = environmental_georgist
-	traits = {
-		
-	}
-}

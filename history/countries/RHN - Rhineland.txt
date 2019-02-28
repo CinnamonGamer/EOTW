@@ -22,12 +22,8 @@ set_technology = {
 set_convoys = 50
 set_politics = {
 	parties = {
-		cromwellism = { 
-			popularity = 5
-		}
-
-		fundamentalism = {
-			popularity = 5
+		cromwellian = { 
+			popularity = 7
 		}
 		
 		paternal_conservatism = {
@@ -35,15 +31,11 @@ set_politics = {
 		}
 		
 		bonapartism = { 
-			popularity = 50
+			popularity = 53
 		}
 
-                conservative_liberalism = { 
-			popularity = 5
-		}
-
-                liberal_conservatism = { 
-			popularity = 5
+                traditional_conservatism = { 
+			popularity = 10
 		}
 
                 classical_liberalism = { 
@@ -56,10 +48,6 @@ set_politics = {
 
                 democratic_socialism = { 
 			popularity = 5
-		}
-
-                enragism = { 
-			popularity = 0
 		}
 
                 engelism = { 
@@ -85,7 +73,6 @@ add_ideas = {
 	limited_exports
 	disarmed_nation
 	civilian_economy	
-	strong_advisory_council
 	rhn_rote_ruhr
 	rhn_drittes_deutschland
 	rhn_fading_bonapartism
@@ -110,22 +97,12 @@ create_country_leader = {
 	desc = ""
 	picture = ""
 	expire = "1965.1.1"
-	ideology = cromwellism_ideology
+	ideology = cromwellian_ideology
 	traits = {
 		#
 	}
 }
 
-create_country_leader = {
-	name = "Ludwig Müller"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = fundamentalism_ideology
-	traits = {
-		#
-	}
-}
 
 create_country_leader = {
 	name = "Hugo Stinnes"
@@ -138,35 +115,13 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Rheinischer Bundestag"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = bonapartism_ideology
-	traits = {
-		#
-	}
-}
-
 
 create_country_leader = {
 	name = "Clemens August Graf von Galen"
 	desc = ""
 	picture = ""
 	expire = "1965.1.1"
-	ideology = conservative_liberalism_ideology	
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Eugen Gerstenmaier"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = liberal_conservatism_ideology
+	ideology = traditional_conservatism_ideology	
 	traits = {
 		#
 	}
@@ -225,22 +180,11 @@ create_country_leader = {
 		#
 	}
 }
-create_country_leader = {
-	name = "Markus Johannes Wolf"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = enragism_ideology		
-	traits = {
-		#
-	}	
-	
-}
+
 
 create_navy_leader = {
 	name = "Wilhelm Meendsen-Bohlken"
 		picture = ""
-	traits = { superior_tactician seawolf blockade_runner spotter fly_swatter ironside air_controller }
 	skill = 1
 }
 create_navy_leader = {

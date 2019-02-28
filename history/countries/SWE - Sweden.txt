@@ -29,62 +29,51 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		strasserist = { 
+        cromwellian = { 
 			popularity = 0
 		}
 
-		nationalist = {
+		paternal_conservatism = {
 			popularity = 0
 		}
 		
-		absolute_monarchist = {
+		 bonapartism = {
 			popularity = 12
-			#banned = no #default is no
+
 		}
 
-                national_conservative = {
+                traditional_conservatism = {
 			popularity = 80
-			#banned = no #default is no
 		}
 
-                theoconservative = {
+                classical_liberalism = {
+			popularity = 1
+	
+		}
+
+                liberal_radicalism = {
+			popularity = 3
+
+		}
+
+                democratic_socialism = {
 			popularity = 0
-			#banned = no #default is no
+
 		}
 
-                national_liberal = {
+                reasonism = {
 			popularity = 0
-			#banned = no #default is no
+	
 		}
 
-                americanist = {
-			popularity = 2
-			#banned = no #default is no
-		}
+                engelism = {
+			popularity = 4
 
-                georgist = {
-			popularity = 0
-			#banned = no #default is no
-		}
-
-                democratic_socialist = {
-			popularity = 0
-			#banned = no #default is no
-		}
-
-                collectivist = {
-			popularity = 0
-			#banned = no #default is no
-		}
-
-                de_leonist = {
-			popularity = 6
-			#banned = no #default is no
 		}
 		
 	}
 	
-	ruling_party = national_conservative
+	ruling_party = traditional_conservatism
 	last_election = "1932.9.18"
 	election_frequency = 48
 	elections_allowed = yes
@@ -94,62 +83,7 @@ add_ideas = {
 	export_focus
 	volunteer_only
 	civilian_economy
-	cultural_divide
-}
 
-create_country_leader = {
-	name = "Lewi Pethrus"
-	desc = ""
-	picture = "Portrait_SWE_Lewi_Pethrus.dds"
-	expire = "1965.1.1"
-	ideology = constitutional_christian
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Zeth Hoeglund"
-	desc = ""
-	picture = "Portrait_SWE_hoeglund.dds"
-	expire = "1965.1.1"
-	ideology = radical_de_leonist
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Fredrik Stroem"
-	desc = ""
-	picture = "Portrait_SWE_stroem.dds"
-	expire = "1965.1.1"
-	ideology = representative_democrat
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Gustaf V"
-	desc = ""
-	picture = "Portrait_SWE_Gustaf_V.dds"
-	expire = "1965.1.1"
-	ideology = imperial
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Sven Olov Lindholm"
-	desc = ""
-	picture = "Portrait_SWE_Lindholm.dds"
-	expire = "1965.1.1"
-	ideology = fascist
-	traits = {
-		#
-	}
 }
 
 create_corps_commander = {
