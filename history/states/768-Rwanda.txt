@@ -1,22 +1,25 @@
 state={
-	id=718
-	name="STATE_718"
+	id=768
+	name="STATE_768" # Rwanda
 	
 	state_category = pastoral
 
 	history={
 		owner = EAF
+		add_core_of = EAF
+		add_core_of = RWA
+		victory_points = {
+			9962 1
+		}
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = KON
-
 	}
 
 	provinces={
-		1181 1950 2034 2073 2154 4201 4941 6027 7161 10766 11934 12783 12808 12847 13176 
+		9962
 	}
-	manpower=6229078
+	manpower=1716564
 	buildings_max_level_factor=1.000
 }
