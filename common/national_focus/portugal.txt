@@ -71,7 +71,7 @@ focus_tree = {
 	}
 	focus = {
 		id = POR_the_phoenix
-		icon = GFX_goal_unknown
+		icon = GFX_goal_POR_christ_cross
 		cost = 0,00
 		prerequisite = {
 			focus = POR_the_investigation
