@@ -887,6 +887,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/soldier_elections.tga"
 				
 	}
-
+    
+	SpriteType = {
+		name = "GFX_goal_POR_christ_cross"
+		texturefile = "gfx/interface/goals/goal_POR_christ_cross.tga"
+				
+	}
 	
 }
