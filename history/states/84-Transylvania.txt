@@ -10,7 +10,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = HUN
+		owner = AUS
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1

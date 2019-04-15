@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = HUN
+		owner = AUS
 		buildings = {
 			infrastructure = 6
 		}
@@ -16,6 +16,6 @@ state={
 	}
 
 	provinces={
-		619 3617 3623 9608 9621 6643 11787
+		619 3617 3623 9608 9621
 	}
 }

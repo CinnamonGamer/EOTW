@@ -2,22 +2,23 @@
 state={
 	id=721
 	name="STATE_721"
-	manpower = 655604
+	manpower = 455604
 	
 	state_category = pastoral
 
 	history={
-		owner = AST
+		owner = HOL
+		add_core_of = IDS
 		buildings = {
 			infrastructure = 3
 			12190 ={
 				naval_base = 1
 			}
 		}
-		add_core_of = AST
+		add_core_of = HOL
 	}
 
 	provinces={
-		1326 1339 1355 4358 12178 12190 12206 13001 
+		1326 12178 12190 12206 13001 
 	}
 }

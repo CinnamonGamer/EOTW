@@ -1,0 +1,27 @@
+state={
+	id=791
+	name="STATE_791"
+	manpower = 150000
+	resources={
+		steel = 10
+	}
+
+	state_category = rural
+
+
+	history= {
+		owner = ENG
+		victory_points = { 11317 3 }
+		buildings = {
+			infrastructure = 6
+			11317 ={
+				naval_base = 2
+			}
+		}
+		add_core_of = ENG
+		add_claim_by = SCD
+	}
+	provinces={
+		11317
+	}
+}

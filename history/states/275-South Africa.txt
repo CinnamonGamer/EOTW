@@ -16,13 +16,13 @@ state={
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1
-			industrial_complex = 5
+			industrial_complex = 2
 			air_base = 3
 		}
 		victory_points = {
 			10400 10
 		}
-		add_core_of = HOL
+# Add cores for SAF
 	}
 
 	provinces={

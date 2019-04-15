@@ -15,7 +15,6 @@ state={
 	history={
 		owner = YUN
 		add_core_of = YUN
-		add_core_of = CHI
 		victory_points = {
 			1319 10 
 		}
@@ -26,9 +25,6 @@ state={
 			infrastructure = 3
 		}
 		
-		1938.10.25 = {
-			owner = CHI
-		}
 	}
 
 	provinces={
