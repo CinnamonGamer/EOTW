@@ -51,3 +51,5 @@ GAZ = "countries/Gazaland.txt"
 LNG = "countries/Lingnan.txt"
 GDG = "countries/Guangdong.txt"
 LAP = "countries/LaPlata.txt"
+#Added by Musketmarine#0620 on 7:14 PM of April 1th, 2019
+TEX = "countries/Texas.txt"
