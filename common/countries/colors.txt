@@ -535,4 +535,8 @@ MEK = {
 	color = rgb { 100 50 166 }
 	color_ui = rgb { 252 182 112 }
 }
+HOT = {
+	color = rgb { 222 138 43 }
+	color_ui = rgb { 252 182 112 }
+}
 

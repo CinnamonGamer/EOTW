@@ -1,0 +1,29 @@
+
+state={
+	id=798
+	name="STATE_798" # Holstein
+	manpower = 2248150 
+	
+	state_category = town
+
+	history={
+		owner = HOT
+		add_core_of = HOT
+		victory_points = {
+			6389 15 
+		}
+		victory_points = {
+			3368 5 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 3
+		}
+	}
+
+	provinces={
+		 3368 6257 6389 11331 13218
+	}
+}

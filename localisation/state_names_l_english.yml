@@ -56,7 +56,7 @@
  STATE_55:0 "Hessen"
  STATE_56:0 "Weser-Ems"
  STATE_57:0 "Westfalen"
- STATE_58:0 "Schleswig-Holstein"
+ STATE_58:0 "Südschleswig"
  STATE_59:0 "Hannover"
  STATE_60:0 "Thüringen"
  STATE_61:0 "Mecklenburg"
@@ -796,6 +796,7 @@
  STATE_795:0 "Cologne"
  STATE_796:0 "Geneva"
  STATE_797:0 "Canton of Valais"
+ STATE_798:0 "Holstein"
  
 
 

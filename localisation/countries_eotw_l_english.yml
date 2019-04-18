@@ -1164,6 +1164,11 @@
  MEK_traditional_conservatism_DEF:0 "The Free State of Mecklenburg-Schwerin"
  MEK_traditional_conservatism_ADJ:0 "Mecklenburgish"
 
+ HOT_traditional_conservatism:0 "Holstein"
+ HOT_traditional_conservatism_DEF:0 "The State of Holstein"
+ HOT_traditional_conservatism_ADJ:0 "Holsteinism"
+
+
 
  RHN_strasserist:0 "Rheinish State"
  RHN_strasserist_DEF:0 "The Rheinish State"
