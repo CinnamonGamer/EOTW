@@ -1160,6 +1160,11 @@
  PRS_collectivist_ADJ:0 "Prussian"
  PRS_de_leonist_ADJ:0 "Prussian"
 
+ MEK_traditional_conservatism:0 "Mecklenburg-Schwerin"
+ MEK_traditional_conservatism_DEF:0 "The Free State of Mecklenburg-Schwerin"
+ MEK_traditional_conservatism_ADJ:0 "Mecklenburgish"
+
+
  RHN_strasserist:0 "Rheinish State"
  RHN_strasserist_DEF:0 "The Rheinish State"
  RHN_nationalist:0 "Rheinish State"
