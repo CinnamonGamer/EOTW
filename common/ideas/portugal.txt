@@ -42,9 +42,8 @@ ideas = {
 			modifier = {
 			 production_factory_max_efficiency_factor = -0.25
 			 line_change_production_efficiency_factor = -0.15
-			 industrial_capacity_factory = -0.5 
+			 industrial_capacity_factory = -0.2 
 			 industrial_capacity_dockyard = -0.2 
-			 research_time_factor = -0.1
 			 global_building_slots_factor = 0.20  
 			 
 				
@@ -53,7 +52,7 @@ ideas = {
 	}
 	    country = {
 		 
-		 POR_Democratizationofthesociety = {
+		 POR_PoliticalMiracle = {
 
 			picture = FRA_matignon_agreements
 
@@ -66,13 +65,57 @@ ideas = {
 			}
 
 			modifier = {
-			 stability_weekly = -0.002
-			 classical_liberalism_drift = 0.02
-			 liberal_radicalism_drift = 0.03
-			 liberal_conservatism_drift = 0.01
-			 
+			 political_power_gain = 0.25 
+			 bonapartism_drift = 0.02
+			 stability_factor = 0.10
 				
 			}
+		}
+	}
+	    country = {
+		 
+		 POR_MilitaristicInfluence = {
+
+			picture = FRA_matignon_agreements
+
+			allowed = {
+				original_tag = POR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+			 stability_factor = -0.05
+			 war_support_factor = 0.15
+			 paternal_conservatism_drift = 0.01
+			 army_morale_factor = 0.05
+			 max_planning = 0.30
+			 planning_speed = 0.10
+				
+			}
+		}
+	}
+	    country = {
+		 
+		 POR_TheyAreWatchingUs = {
+
+			picture = FRA_matignon_agreements
+
+			allowed = {
+				original_tag = POR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+			war_support_factor = 0.20
+			}
+			targeted_modifier = { tag = BRA defense_bonus_against = 0.2 } 
+			targeted_modifier = { tag = BRA encryption_factor = 0.2 } 
 		}
 	}
 }

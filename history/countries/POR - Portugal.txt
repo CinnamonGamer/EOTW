@@ -32,16 +32,16 @@ set_politics = {
 		}
 
 		fundamentalism = {
-			popularity = 10 
+			popularity = 5
 		}
 		
 		paternal_conservatism = {
-			popularity = 0
+			popularity = 5
 			#banned = no #default is no
 		}
 
                 bonapartism = {
-			popularity = 50
+			popularity = 52
 			#banned = no #default is no
 		}
 
@@ -51,7 +51,7 @@ set_politics = {
 		}
 
                 liberal_conservatism = {
-			popularity = 10
+			popularity = 5
 			#banned = no #default is no
 		}
 
@@ -61,7 +61,7 @@ set_politics = {
 		}
 
                 liberal_radicalism = {
-			popularity = 20
+			popularity = 10
 			#banned = no #default is no
 		}
 
@@ -94,7 +94,9 @@ add_ideas = {
 	strong_advisory_council
 	POR_Rebellingyouth
 	POR_UnderDevelopedIndustries
-	POR_Democratizationofthesociety
+	POR_PoliticalMiracle
+	POR_MilitaristicInfluence
+	POR_TheyAreWatchingUs
 }
 
 
