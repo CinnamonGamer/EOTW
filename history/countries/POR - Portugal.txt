@@ -92,11 +92,11 @@ add_ideas = {
 	extensive_conscription
 	civilian_economy
 	strong_advisory_council
-	POR_Rebellingyouth
-	POR_UnderDevelopedIndustries
-	POR_PoliticalMiracle
-	POR_MilitaristicInfluence
-	POR_TheyAreWatchingUs
+	POR_Rebellingyouthidea
+	POR_UnderDevelopedIndustriesidea
+	POR_PoliticalMiracleidea
+	POR_MilitaristicInfluenceidea
+	POR_TheyAreWatchingUsidea
 }
 
 

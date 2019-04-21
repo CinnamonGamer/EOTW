@@ -2,7 +2,7 @@ ideas = {
 
         country = {
 		 
-		 POR_Rebellingyouth = {
+		 POR_Rebellingyouthidea = {
 
 			picture = FRA_matignon_agreements
 
@@ -27,7 +27,7 @@ ideas = {
 	}
 	    country = {
 		 
-		 POR_UnderDevelopedIndustries = {
+		 POR_UnderDevelopedIndustriesidea = {
 
 			picture = FRA_matignon_agreements
 
@@ -40,10 +40,10 @@ ideas = {
 			}
 
 			modifier = {
-			 production_factory_max_efficiency_factor = -0.25
-			 line_change_production_efficiency_factor = -0.15
+			 production_factory_max_efficiency_factor = -0.15
+			 line_change_production_efficiency_factor = -0.5
 			 industrial_capacity_factory = -0.2 
-			 industrial_capacity_dockyard = -0.2 
+			 industrial_capacity_dockyard = -0.1
 			 global_building_slots_factor = 0.20  
 			 
 				
@@ -52,7 +52,7 @@ ideas = {
 	}
 	    country = {
 		 
-		 POR_PoliticalMiracle = {
+		 POR_PoliticalMiracleidea = {
 
 			picture = FRA_matignon_agreements
 
@@ -74,7 +74,7 @@ ideas = {
 	}
 	    country = {
 		 
-		 POR_MilitaristicInfluence = {
+		 POR_MilitaristicInfluenceidea = {
 
 			picture = FRA_matignon_agreements
 
@@ -99,7 +99,7 @@ ideas = {
 	}
 	    country = {
 		 
-		 POR_TheyAreWatchingUs = {
+		 POR_TheyAreWatchingUsidea = {
 
 			picture = FRA_matignon_agreements
 
