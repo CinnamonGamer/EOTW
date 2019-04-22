@@ -84,7 +84,9 @@ add_ideas = {
 	partial_economic_mobilisation
 }
 
-set_convoys = 40
+puppet = HOT
+
+set_convoys = 269
 
 create_country_leader = {
 	name = "Marie-Sophie Nielson"
