@@ -33,55 +33,20 @@ set_technology = {
 
 set_convoys = 100
 
-set_politics = {
-
-	parties = {
-		strasserist = { 
-			popularity = 4
-		}
-
-		nationalist = {
-			popularity = 6
-		}
-		
-		absolute_monarchist = {
-			popularity = 0
-		}
-		
-		national_conservative = { 
-			popularity = 0
-		}
-
-                theoconservative = { 
-			popularity = 0
-		}
-
-                national_liberal = { 
-			popularity = 5
-		}
-
-                americanist = { 
-			popularity = 70
-		}
-
-                georgist = { 
-			popularity = 2
-		}
-
-                democratic_socialist = { 
-			popularity = 6
-		}
-
-                collectivist = { 
-			popularity = 0
-		}
-
-                de_leonist = { 
-			popularity = 7
-		}
-	}
+set_popularities = {
+    social_democrat = 11
+    radical_liberal = 11
+    libertarian_socialist = 11
+    state_socialist = 11
+    liberal_conservative = 11
+	traditional_conservative = 11
+    bonapartist = 12
+    paternal_autocrat = 11
+    cromwellian = 11
+}
+set_politics ={
 	
-	ruling_party = americanist
+	ruling_party = liberal_conservative
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes

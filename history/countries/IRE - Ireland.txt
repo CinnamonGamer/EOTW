@@ -42,46 +42,18 @@ add_ideas = {
 set_convoys = 800
 
 
-set_politics = {
-
-	parties = {
-		cromwellian  = { 
-			popularity = 4
-		}
-
-		paternal_conservatism = {
-			popularity = 3
-		}
-		
-		 bonapartism  = {
-			popularity = 0
-			#banned = no #default is no
-		}
-		
-		traditional_conservatism = { 
-			popularity = 8
-		}
-
-                classical_liberalism = { 
-			popularity = 4
-		}
-
-                liberal_radicalism = { 
-			popularity = 73
-		}
-
-                democratic_socialism = { 
-			popularity = 0
-		}
-
-                engelism = { 
-			popularity = 0
-		}
-
-                reasonism = { 
-			popularity = 8
-		}
-	}
+set_popularities = {
+    social_democrat = 11
+    radical_liberal = 11
+    libertarian_socialist = 11
+    state_socialist = 11
+    liberal_conservative = 11
+	traditional_conservative = 11
+    bonapartist = 12
+    paternal_autocrat = 11
+    cromwellian = 11
+}
+set_politics ={
 	
 	ruling_party = liberal_radicalism
 	last_election = "1935.11.14"

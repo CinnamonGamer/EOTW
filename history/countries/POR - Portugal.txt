@@ -24,62 +24,18 @@ set_technology = {
 
 
 set_convoys = 150
-set_politics = {
-
-	parties = {
-		cromwellism = { 
-			popularity = 3
-		}
-
-		fundamentalism = {
-			popularity = 5
-		}
-		
-		paternal_conservatism = {
-			popularity = 5
-			#banned = no #default is no
-		}
-
-                bonapartism = {
-			popularity = 52
-			#banned = no #default is no
-		}
-
-                conservative_liberalism = {
-			popularity = 7
-			#banned = no #default is no
-		}
-
-                liberal_conservatism = {
-			popularity = 5
-			#banned = no #default is no
-		}
-
-                classical_liberalism = {
-			popularity = 5
-			#banned = no #default is no
-		}
-
-                liberal_radicalism = {
-			popularity = 10
-			#banned = no #default is no
-		}
-
-                democratic_socialism = {
-			popularity = 3
-			#banned = no #default is no
-		}
-
-                engelism = {
-			popularity = 5
-			#banned = no #default is no
-		}
-
-                reasonism = {
-			popularity = 0
-			#banned = no #default is no
-		}
-	}
+set_popularities = {
+    social_democrat = 11
+    radical_liberal = 11
+    libertarian_socialist = 11
+    state_socialist = 11
+    liberal_conservative = 11
+	traditional_conservative = 11
+    bonapartist = 12
+    paternal_autocrat = 11
+    cromwellian = 11
+}
+set_politics ={
 	
 	ruling_party = bonapartism
 	last_election = "1933.3.5"

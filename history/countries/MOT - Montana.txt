@@ -15,62 +15,20 @@ set_technology = {
 
 set_politics = {
 
-	parties = {
-		strasserist = { 
-			popularity = 0
-		}
-
-		nationalist = {
-			popularity = 0
-		}
-		
-		absolute_monarchist = {
-			popularity = 0
-			#banned = no #default is no
-		}
-
-                national_conservative = {
-			popularity = 0
-			#banned = no #default is no
-		}
-
-                theoconservative = {
-			popularity = 0
-			#banned = no #default is no
-		}
-
-                national_liberal = {
-			popularity = 0
-			#banned = no #default is no
-		}
-
-                americanist = {
-			popularity = 11
-			#banned = no #default is no
-		}
-
-                georgist = {
-			popularity = 0
-			#banned = no #default is no
-		}
-
-                democratic_socialist = {
-			popularity = 0
-			#banned = no #default is no
-		}
-
-                collectivist = {
-			popularity = 0
-			#banned = no #default is no
-		}
-
-                de_leonist = {
-			popularity = 89
-			#banned = no #default is no
-		}
-	}
+	set_popularities = {
+    social_democrat = 11
+    radical_liberal = 11
+    libertarian_socialist = 11
+    state_socialist = 11
+    liberal_conservative = 11
+	traditional_conservative = 11
+    bonapartist = 12
+    paternal_autocrat = 11
+    cromwellian = 11
+}
+set_politics ={
 	
-	ruling_party = de_leonist
+	ruling_party = libertarian_socialist
 	last_election = "1935.10.14"
 	election_frequency = 60
 	elections_allowed = no

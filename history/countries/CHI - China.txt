@@ -25,53 +25,18 @@ set_technology = {
 
 set_convoys = 40
 
-set_politics = {
-
-parties = {
-	cromwellism = {
-		popularity = 0
-	}
-
-	fundamentalism = {
-		popularity = 6
-	}
-
-	paternal_conservatism = {
-		popularity = 5
-	}
-
-	bonapartism = {
-		popularity = 0
-	}
-
-	conservative_liberalism = {
-		popularity = 40
-	}
-
-	liberal_conservatism = {
-		popularity = 10
-	}
-
-	classical_liberalism = {
-		popularity = 7
-	}
-
-	liberal_radicalism = {
-		popularity = 15
-	}
-
-	democratic_socialism = {
-		popularity = 2
-	}
-
-	engelism = {
-		popularity = 0
-	}
-
-	reasonism = {
-		popularity = 15
-	}
-	}
+set_popularities = {
+    social_democrat = 11
+    radical_liberal = 11
+    libertarian_socialist = 11
+    state_socialist = 11
+    liberal_conservative = 11
+	traditional_conservative = 11
+    bonapartist = 12
+    paternal_autocrat = 11
+    cromwellian = 11
+}
+set_politics ={
 
 	ruling_party = conservative_liberalism
 	last_election = "1935.1.1"

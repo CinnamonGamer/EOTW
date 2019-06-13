@@ -24,64 +24,20 @@ set_technology = {
 set_convoys = 20
 
 set_convoys = 5
-set_politics = {
-
-	parties = {
-		strasserist = { 
-			popularity = 1
-		}
-
-		nationalist = {
-			popularity = 5
-		}
-		
-		absolute_monarchist = {
-			popularity = 0
-			#banned = no #default is no
-		}
-
-                national_conservative = {
-			popularity = 4
-			#banned = no #default is no
-		}
-
-                theoconservative = {
-			popularity = 0
-			#banned = no #default is no
-		}
-
-                national_liberal = {
-			popularity = 0
-			#banned = no #default is no
-		}
-
-                americanist = {
-			popularity = 9
-			#banned = no #default is no
-		}
-
-                georgist = {
-			popularity = 0
-			#banned = no #default is no
-		}
-
-                democratic_socialist = {
-			popularity = 6
-			#banned = no #default is no
-		}
-
-                collectivist = {
-			popularity = 74
-			#banned = no #default is no
-		}
- 
-                de_leonist = {
-			popularity = 1
-			#banned = no #default is no
-		}
-	}
+set_popularities = {
+    social_democrat = 11
+    radical_liberal = 11
+    libertarian_socialist = 11
+    state_socialist = 11
+    liberal_conservative = 11
+	traditional_conservative = 11
+    bonapartist = 12
+    paternal_autocrat = 11
+    cromwellian = 11
+}
+set_politics ={
 	
-	ruling_party = collectivist
+	ruling_party = state_socialist
 	last_election = "1932.10.30"
 	election_frequency = 72  #but 4 years after this one in 1938.
 	elections_allowed = yes

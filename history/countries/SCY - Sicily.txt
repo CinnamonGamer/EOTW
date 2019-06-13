@@ -61,7 +61,7 @@ set_politics = {
 
                 democratic_socialist = {
 			popularity = 0
-			#banned = no #default is no
+			#banned = no #default#
 		}
 
                 collectivist = {
@@ -75,7 +75,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = americanist
+	ruling_party = liberal_conservative
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes

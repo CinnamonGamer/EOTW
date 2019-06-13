@@ -20,53 +20,18 @@ set_technology = {
 	basic_light_tank = 1
 }
 
-set_politics = {
-
-	parties = {
-		cromwellism = { 
-			popularity = 7
-		}
-
-		fundamentalism = {
-			popularity = 5
-		}
-
-		paternal_conservatism = {
-			popularity = 2
-		}
-
-        bonapartism = {
-			popularity = 80
-		}
-		
-        conservative_liberalism = {
-			popularity = 1
-		}
-
-        liberal_conservatism = {
-			popularity = 0
-		}
-
-        classical_liberalism = {
-			popularity = 2
-		}
-
-        liberal_radicalism = {
-			popularity = 0
-		}
-
-        democratic_socialism = {
-			popularity = 0
-		}
-
-        engelism = {
-			popularity = 0
-		}
-
-        reasonism = {
-			popularity = 3
-		}
-	}
+set_popularities = {
+    social_democrat = 11
+    radical_liberal = 11
+    libertarian_socialist = 11
+    state_socialist = 11
+    liberal_conservative = 11
+	traditional_conservative = 11
+    bonapartist = 12
+    paternal_autocrat = 11
+    cromwellian = 11
+}
+set_politics ={
 	
 	ruling_party = bonapartism
 	last_election = "1930.11.9"

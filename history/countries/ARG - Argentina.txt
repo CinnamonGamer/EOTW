@@ -22,111 +22,20 @@ set_technology = {
 	transport = 1
 }
 
-1939.1.1 = {
-
-	add_political_power = 1198
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	oob = "ARG_1939"
-	set_technology = {
-		early_bomber = 1
-		naval_bomber1 = 1
-		interwar_artillery = 1
-		interwar_antiair = 1
-		infantry_weapons1 = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-		basic_destroyer = 1
-		basic_light_cruiser = 1
-
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		convoy_sailing = 1
-
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
+set_popularities = {
+    social_democrat = 11
+    radical_liberal = 11
+    libertarian_socialist = 11
+    state_socialist = 11
+    liberal_conservative = 11
+	traditional_conservative = 11
+    bonapartist = 12
+    paternal_autocrat = 11
+    cromwellian = 11
 }
-
-set_convoys = 120
-set_politics = {
-
-	parties = {
-		strasserist = { 
-			popularity = 3
-		}
-
-		nationalist = {
-			popularity = 4
-		}
-		
-		absolute_monarchist = {
-			popularity = 10
-		}
-		
-		national_conservative = { 
-			popularity = 63
-		}
-
-                theoconservative = { 
-			popularity = 11
-		}
-
-                national_liberal = { 
-			popularity = 2
-		}
-
-                americanist = { 
-			popularity = 5
-		}
-
-                georgist = { 
-			popularity = 1
-		}
-
-                democratic_socialist = { 
-			popularity = 1
-		}
-
-                collectivist = { 
-			popularity = 0
-		}
-
-                de_leonist = { 
-			popularity = 0
-		}
-	}
+set_politics ={
 	
-	ruling_party = national_conservative
+	ruling_party = traditional_conservative
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
