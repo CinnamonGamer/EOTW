@@ -25,19 +25,19 @@ set_technology = {
 
 set_convoys = 150
 set_popularities = {
-    social_democrat = 11
-    radical_liberal = 11
-    libertarian_socialist = 11
-    state_socialist = 11
-    liberal_conservative = 11
-	traditional_conservative = 11
-    bonapartist = 12
-    paternal_autocrat = 11
-    cromwellian = 11
+    social_democrat = 2
+    radical_liberal = 3
+    libertarian_socialist = 0
+    state_socialist = 8
+    liberal_conservative = 8
+	traditional_conservative = 10
+    bonapartist = 54
+    paternal_autocrat = 10
+    cromwellian = 5
 }
 set_politics ={
 	
-	ruling_party = bonapartism
+	ruling_party = bonapartist
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -61,7 +61,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Portugal_Duarte_II.dds"
 	expire = "1965.1.1"
-	ideology = bonapartism_ideology
+	ideology = bonapartist_subtype
 	traits = {
 		#
 	}
@@ -72,7 +72,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Portugal_Duarte_II.dds"
 	expire = "1965.1.1"
-	ideology = paternal_conservatism_ideology
+	ideology = paternal_autocrat_subtype
 	traits = {
 		#
 	}
