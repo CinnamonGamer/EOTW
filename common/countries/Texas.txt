@@ -3,7 +3,7 @@
 graphical_culture = commonwealth_gfx
 graphical_culture_2d = commonwealth_2d
 
-color = { 216 100 40 }
-color = rgb { 0 40 104 }
+color = { 210 100 50 }
+color = rgb { 0 64 128 }
 #This is the way I do it back at Operation Sunset. - Musketmarine#0620
 #"It just works" - Todd Howard
